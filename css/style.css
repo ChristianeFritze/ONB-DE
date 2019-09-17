@@ -1,0 +1,23 @@
+tei-head {color: red}
+tei-ab[type="blotius-number"] {color:blue}
+
+tei-head:before {
+   content: attr(n)". "
+   
+}
+
+tei-head:after {
+  content: ']'
+}
+
+tei-seg[rend="dropInit"] {
+   font-size: 300%;
+   float: left;
+   line-height: 1em;
+   padding-right: 10px;
+}
+
+/* geht noch nicht */
+tei-div[type="entry"]:before {
+  content: attr(xml:id)". "
+}

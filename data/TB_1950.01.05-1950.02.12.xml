@@ -1,0 +1,1782 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml-model href="Schema/Schema_Okopenko.rng"> type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aok_TB_1950-01-05_1950-02-12">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tagebuch von Andreas Okopenko, 05.01.1950-12.02.1950 - Digitale Edition</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118589733">
+                        <surname>Okopenko</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                </author>            
+                <editor>
+                    <persName xml:id="LT" ref="https://orcid.org/0000-0002-0407-8812"><surname>Tezarek</surname><forename>Laura</forename></persName>
+                </editor>
+                <editor>
+                    <persName xml:id="AH" ref="https://orcid.org/0000-0001-5336-2919"><surname>Herberth</surname><forename>Arno</forename></persName>
+                </editor>
+                <editor>
+                    <persName xml:id="DH" ref="https://orcid.org/0000-0001-6293-216X"><surname>Hebenstreit</surname><forename>Desiree</forename></persName>
+                </editor>
+                <editor>
+                    <persName xml:id="HE" ref="https://orcid.org/0000-0001-9115-634X"><surname>Englerth</surname><forename>Holger</forename></persName>
+                </editor>
+                <respStmt>
+                    <resp>Digitalisierung</resp>
+                    <persName sameAs="#DH" ref="https://orcid.org/0000-0001-6293-216X"><surname>Hebenstreit</surname><forename>Desiree</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transkription</resp>
+                    <persName sameAs="#LT" ref="https://orcid.org/0000-0002-0407-8812"><surname>Tezarek</surname><forename>Laura</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Formale Codierung</resp>
+                    <persName sameAs="#LT" ref="https://orcid.org/0000-0002-0407-8812"><surname>Tezarek</surname><forename>Laura</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Semantische Codierung</resp>
+                    <persName sameAs="#HE" ref="https://orcid.org/0000-0001-9115-634X"><surname>Englerth</surname><forename>Holger</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Stellenkommentar</resp>
+                    <persName sameAs="#HE" ref="https://orcid.org/0000-0001-9115-634X"><surname>Englerth</surname><forename>Holger</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Korrektur</resp>
+                    <persName sameAs="#DH" ref="https://orcid.org/0000-0001-6293-216X"><surname>Hebenstreit</surname><forename>Desiree</forename></persName>
+                    </respStmt>
+                <funder xml:id="FWF" ref="http://d-nb.info/gnd/2054142-9"><name type="org">Fonds zur Förderung der wissenschaftlichen
+                    Forschung</name>
+                    <abbr>FWF</abbr>
+                    <idno xml:id="p28344">P 28344 Einzelprojekte</idno>
+                </funder>
+                <principal>
+                    <persName ref="https://orcid.org/0000-0003-2197-1706"><surname>Innerhofer</surname><forename>Roland</forename></persName>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>version 1.0</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>
+                        <ref target="http://www.onb.ac.at">Austrian National Library</ref>
+                    </orgName>
+                    <address>
+                        <street>Josefsplatz 1</street>
+                        <postCode>1015</postCode>
+                        <name type="city">Vienna</name>
+                        <country>Austria</country>
+                    </address>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2761369/">Vienna</pubPlace>
+                <date type="last-changed">2018-12-12</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <idno type="PID">o:oko.tb-19500105-19500212</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement ref="http://www.geonames.org/2761369/">Vienna</settlement>
+                        <institution ref="http://d-nb.info/gnd/2020893-5">Austrian National Library</institution>
+                        <repository>Literary Archive</repository>
+                        <idno type="shelfmark">399/W149</idno>
+                        <altIdentifier>    
+                            <idno xml:base="http://data.onb.ac.at/rec/" type="record">AC14414006</idno>                     
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno type="barcode">Z148512502</idno>                    
+                        </altIdentifier>
+                    </msIdentifier>             
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <material>Papier</material>
+                                    <measure unit="pages" quantity="94">94 Blatt</measure>
+                                    <note>Tagebuchheft mit Beilagen</note>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="handwritten" scribeRef="#Okopenko_Andreas">
+                                <seg>Von Andreas Okopenko mit der Hand geschriebener Text.</seg>
+                            </handNote>
+                            <handNote xml:id="typewritten" scribeRef="#Okopenko_Andreas">
+                                <seg>Von Andreas Okopenko mit Schreibmaschine geschriebener Text.</seg>
+                            </handNote>
+                            <handNote xml:id="Polakovics_Friedrich_handwritten" scribeRef="#Polakovics_Friedrich">
+                                <seg>Von Friedrich Polakovics mit der Hand geschriebener Text.</seg>
+                            </handNote>
+                            <handNote xml:id="Artmann_Hans_Carl_handwritten" scribeRef="#Artmann_Hans_Carl">
+                                <seg>Von H. C. Artmann mit der Hand geschriebener Text.</seg>
+                            </handNote>
+                            <handNote xml:id="unknown_handwritten">
+                                <seg>Von unbekannter Hand handschriftlich geschriebener Text.</seg>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Register/Bibliography.xml" xpointer="okopenko_bibliography" xml:id="import_bibliography">
+                   <xi:fallback>
+                   </xi:fallback>
+                </xi:include><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Register/Organisations.xml" xpointer="okopenko_organisations" xml:id="import_organisations">
+                   <xi:fallback>
+                   </xi:fallback>
+                </xi:include><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Register/Persons.xml" xpointer="okopenko_persons" xml:id="import_persons">
+                   <xi:fallback>
+                   </xi:fallback>
+                </xi:include><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Register/Places.xml" xpointer="okopenko_places" xml:id="import_places">
+                   <xi:fallback>
+                   </xi:fallback>
+                </xi:include></sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+
+        <pb n="1" facs="Z148512502/00000001.jpg"/>
+
+        <pb n="2" facs="Z148512502/00000002.jpg"/>
+
+        <pb n="3" facs="Z148512502/00000003.jpg"/>
+
+        <front>
+            <head><handShift new="#handwritten"/>Tagebuch:</head>
+            <p rend="align(center)">vom ..... Donnerstag, <date from="1950-01-05" next="#d2" xml:id="d1">5. Jänner</date></p>
+            <p rend="align(center)">bis .... Sonntag, <date to="1950-02-12" prev="#d1" xml:id="d2">12. Feber</date></p>
+            <p rend="align(center)"><hi rend="large"><date when-iso="1950">1950</date></hi></p>
+        </front>
+
+        <pb n="4" facs="Z148512502/00000004.jpg"/>
+
+        <pb n="5" facs="Z148512502/00000005.jpg"/>
+
+        <pb n="6" facs="Z148512502/00000006.jpg"/>
+
+        <pb n="7" facs="Z148512502/00000007.jpg"/>
+
+        <body>
+
+            <div type="entry" xml:id="e1950-01-05">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-01-05">5. Jänner 1950</date>:</hi></dateline>
+                <p>Prachtvoller Sonnenaufgang.</p>
+                <p>Eine dünne Schichte festen Schnee<hi rend="superscript">s</hi>
+                <lb/>liegt auf glattem Boden, schwache
+                <lb/>Nachahmung eines Winters. -3°.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Heute stand ich etwas später auf.
+                <lb/>Las die weitere Fortsetzung des <rs ref="#Sauter_Ferdinand" type="person">Sauter</rs>-<lb break="no"/><rs ref="#Danszky-Trabant_der_großen_Sterne-1948" type="work" subtype="read" cert="medium">Romans</rs>, der deutlich moderne psycho-<lb break="no"/>logische Farbe trägt! Es macht sich
+                <lb/>aber ausgezeichnet.</p>
+                <p>Weg auf die <rs ref="#Wien_Linzerstraße" type="place" subtype="visited">Linzerstraße</rs> (<rs ref="#Okopenko_Vilma" type="person">M.</rs>).
+                <lb/>Zeitig wieder <rs ref="#Wien_Wohnung" type="place" subtype="visited">daheim</rs>.</p>
+                <p>Ich schone mich überraschend,
+                <lb/>bemerkte ich spaßhaft: denn das
+                <lb/>ganze neue Jahr noch nichts
+                <lb/>gedichtet. Einzig die Chemie gelernt.
+                <lb/>Im ganz geheimen schiele ich zum
+
+                <pb n="8" facs="Z148512502/00000008.jpg"/>
+
+                <lb/>Lustspiel hin, das aber ganz anders
+                <lb/>gemacht werden muß als bisher,
+                <lb/>d.h. überhaupt nicht "gemacht"!
+                <lb/>So werde ich warten, und wenn
+                <lb/>es noch Jahre dauert, denn diesen
+                <lb/>Trumpf gebe ich diesmal nicht
+                <lb/>aus der Hand. Der "Dichter" in
+                <lb/>meinem Innern liefert sich nicht
+                <lb/>- wie es gelegentlich <add place="above">sonst</add> seine Art ist -
+                <lb/>an den Stümper in meinen
+                <lb/>Exekutivorganen aus.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p><choice><abbr>T</abbr><expan>Tagebuch></expan></choice>.</p>
+                <p>Einige Reparaturen.</p>
+                <p><hi rend="underline">Nm.</hi> Weitere acht Seiten gelernt.</p>
+                <p>Den Christbaum abgeräumt und zerlegt.
+                <lb/>Nette Lieder im Radio. <rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>.</p>
+                <p>Schneefall! <rs type="work" subtype="read">Lyrik</rs> gelesen. Gedichtet.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="9" facs="Z148512502/00000009.jpg"/>
+
+            <div>
+                <anchor xml:id="Z148512502_t02a"/><floatingText corresp="#note_Z148512502_001" type="literary-draft">
+                <body>
+                    <div>
+                        <note place="upper-right-corner" hand="#unknown_handwritten">2978</note>
+                        <delSpan spanTo="#Z148512502_delend001" hand="#unknown_handwritten"/>
+                        <head><handShift new="#typewritten"/><hi rend="underline"><rs ref="#Okopenko-Kindertag-0000" type="work" subtype="written">Kindertag</rs>.</hi></head>
+                            <lg>
+                                <l>Die matten schwarzen zerbrechlichen Ranken</l>
+                                <figure place="margin-left"><figDesc>Ornamenthaftes Zeichen ungeklärter Bedeutung.</figDesc></figure>
+                                <l>An weisser Mauer</l>
+                                <l>Eine Sonne scheint grell darauf</l>
+                                <l>Und das ist Fläche.</l>
+                                <l>Und von allem anderen war ich weit entfernt</l>
+                                <l>Und es war mitten im Tag</l>
+                                <l>Weit von jedem Aufbruch, weit weit vom Morgen oder vom Abend</l>
+                                <l>Am nächsten noch vielleicht dem Mittagessen.</l>
+                                <l>Und die Fläche war so reizvoll langweilig,</l>
+                                <l>Sie war eben Spiel.</l>
+                                <l>Und wenn du ganz weit in die Unendlichkeit damals schautest,</l>
+                                <l>Aber das tat<subst><del rend="overwritten"><gap unit="chars" quantity="1" reason="illegible"/><add place="across">e</add></del></subst>st du nicht, nur in unmusikalisch fremdländisch
+                                    <lb/>aneinandergereihten Tönen,</l>
+                                <l>Dann roch es und klang es</l>
+                                <l>In Kalkgeruch und grüne stille Sommerwärme verflochten</l>
+                                <l>Nach einem unbezeichneten Ziel - - -</l>
+                            </lg>
+                            <p rend="align(right)"><rs ref="#Okopenko_Andreas" type="person">Andreas <hi rend="wide-spaced">Okopenko</hi></rs>
+                            <lb/>abends <date when-iso="1950-01-05">5.1.50</date></p>
+                        <anchor xml:id="Z148512502_delend001"/>
+                        <note place="lower-right-corner" hand="#Polakovics_Friedrich_handwritten">Ausgezeichnet,
+                        <lb/>unbedingt veröffentlichen!
+                        <lb/>Ist <rs ref="#Okopenko_Andreas" type="person">Okopenko</rs> <hi rend="underline">doch</hi> Lyriker?
+                        <lb/>(<rs ref="#Polakovics_Friedrich" type="person">Pol</rs>)</note>
+
+                <pb n="10" facs="Z148512502/00000010.jpg"/>
+
+                        </div>
+                    </body>
+                </floatingText><anchor xml:id="Z148512502_t02e"/>
+            </div>
+
+            <pb n="11" facs="Z148512502/00000011.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-06">
+                <dateline><hi rend="underline">Freitag, <date when-iso="1950-01-06">6. Jänner</date>:</hi></dateline>
+                <p>Anerkannter Feiertag zum ersten Mal.
+                <lb/>(Dreikönigstag).</p>
+                <p>Früh zerrann der über Nacht gefallene
+                <lb/>Schneezauber. +3°! Wechselnd wolkig.
+                <lb/>Ein zum Teil stierer Märztag.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs>. <rs ref="#Okopenko_Andreas" type="work" subtype="written">Reinschriften</rs>.</p>
+                <p>Interessante <rs ref="#Unknown-Literarische_Rundschau-0000" type="work" subtype="read">literarische Rundschau</rs>
+                <lb/>im Radio.</p>
+                <p>Sch. Fl.</p>
+                <p><hi rend="underline">Nm.</hi> <rs type="work" subtype="read">Lyrik</rs> und über ausländische
+                <lb/><rs type="work" subtype="read">Literaturen</rs> gelesen. <choice><abbr>T</abbr><expan>Tagebuch</expan></choice>.</p>
+                <p>Es sind diese Tage eigentlich nur
+                <lb/>die Vortage der großen Chemieprüfung.
+                <lb/>Trotzdem - ob sie es sollen oder nicht -
+                <lb/>haben sie einen gewissen auch eigenen
+                <lb/>Sinn.</p>
+                <p>Das weiß ich: wenn ich einmal
+                <lb/>schon meine konkrete Pflicht im chemischen
+
+            <pb n="12" facs="Z148512502/00000012.jpg"/>
+
+                Beruf ausübe, wird es ein Paradies
+                <lb/>für mein Inneres sein, das jetzt
+                <lb/><hi rend="underline">zumindest</hi> das Fegefeuer mitmachen
+                <lb/>muß in der haarspaltenden
+                <lb/>Theorie. Freilich erkenne ich die
+                <lb/>Wichtigkeit der theoretischen <hi rend="underline">Kenntnisse</hi>
+                <lb/>an, aber die <hi rend="underline">reine</hi> Theorie als
+                <lb/>Lebensgewässer werde ich niemals
+                <lb/>akzeptieren können. Vielleicht muß
+                <lb/>man um Chemiker zu sein ein
+                <lb/>Evangelium des Massenwirkungs-<lb break="no"/>gesetzes (u.s.f.) in sich tragen,
+                <lb/>aber ich kann das nicht. Ich werde
+                <lb/>solange ich in einer Aufgabe stehe
+                <lb/>voll meine Aufmerksamkeit ihr
+                <lb/>schenken, nicht aber mein Leben
+                <lb/>einem Prinzip der Materie und
+                <lb/>Ratio.</p>
+                <p>8 S. gelernt (viel gerechnet). Anschließend
+                <lb/>gemütlichen Abend verbracht.</p>
+            </div>
+
+            <pb n="13" facs="Z148512502/00000013.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-07">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-01-07">7. Jänner</date>:</hi></dateline>
+                <p>Wetter wie gestern.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>S. Verr.</p>
+                <p>Lang im <rs ref="#Konsum" type="org" subtype="visited">Konsum</rs> angestellt ums Fleisch.</p>
+                <p><anchor xml:id="Z148512502_y01a"/><hi rend="underline">Vm.</hi> die neue "<rs ref="#Okopenko-N2O_8-1950" type="work" subtype="edited">N<hi rend="subscript">2</hi>O</rs>" geschrieben, diesmal
+                <lb/>nichts Gedichtetes drin. <rs ref="#Okopenko-N2O_8-1950" type="work" subtype="edited">Faschingsnummer
+                    <lb/>(8)</rs> im Zeichen des Vogels.<anchor xml:id="Z148512502_y01e"/></p>
+                <p>Noch ein <rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>weg.</p>
+                <p><hi rend="underline">Nm.</hi> <choice><abbr>T</abbr><expan>Tagebuch</expan></choice>.<space unit="chars" quantity="4"/>Noch gelesen.</p>
+                <p>Sechs Seiten Chemie gelernt.</p>
+                <p>Wieder ein gemütlicher Abend.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="14" facs="Z148512502/00000014.jpg"/>
+
+            <pb n="15" facs="Z148512502/00000015.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-08">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-01-08">8. Jänner</date>:</hi></dateline>
+                <p>Ziemlich warm.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs>.</p>
+                <p><rs type="work" subtype="read">Radiosendungen</rs> äußerst geistlos (ich meine
+                <lb/>die Kabaretts).</p>
+                <p><rs ref="#Resl_Franz" type="person">Resl</rs>-<rs ref="#Resl_Franz" type="work" subtype="read">Vortragsbuch</rs> und <rs type="work" subtype="read">Psychologie</rs> gelesen,
+                <lb/>Radio <rs ref="#Unknown-Literarische_Rundschau-0000" type="work" subtype="read">Literarische Rundschau</rs> gehört.</p>
+                <p><hi rend="underline">Nm.</hi> das <rs ref="#Galinovsky_Friedrich" type="person">Gali</rs>-Material zu Ende gelernt,
+                <lb/>noch gerechnet.</p>
+                <p><rs ref="#Blaszer_Luise" type="person">Tante</rs> kam, geplaudert, psych. Tricks
+                <lb/>ausprobiert. Recht gemütlich.</p>
+                <p><anchor xml:id="Z148512502_y02a"/>"<rs ref="#Unknown-Fideles_Brettl-0000" type="work" subtype="read">Fideles Brettl</rs>" (wie geistlos!) gehört,
+                <lb/>Statistik über die dortigen Witzlosigkeiten
+                <lb/>geführt. An 1. Stelle steht der
+                <lb/>"Weiberhaß" mit 5 Nennungen, an 2. Stelle (3 N.)
+                <lb/>Suff, Jodler, Leck mich im Arsch; an 3. Stelle
+                    <lb/>endlich Staatsvertrag, Fensterln.<anchor xml:id="Z148512502_y02e"/></p>
+
+            <pb n="16" facs="Z148512502/00000016.jpg"/>
+
+            <p>Im Toto nichts gewonnen. (5/4).
+            <lb/>Obwohl ich sehr sicher diesmal war.</p>
+                <p><rs type="work" subtype="read">Lyrik</rs> gelesen. Ziemlich zeitig
+                <lb/>niedergelegt.</p>
+                <p><anchor xml:id="Z148512502_q01a"/>Morgen beginnt die <rs ref="#Universität" type="org" subtype="mentioned">Uni</rs> wieder.
+                <lb/>Nun, soll's sein. Moloch, sollst
+                <lb/>mich haben.<anchor xml:id="Z148512502_q01e"/></p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Es ist vor allem eine
+                <lb/>gute Bereitschaft in mir: es kann
+                <lb/>d'r nix g'schehn -</p>
+            </div>
+
+            <pb n="17" facs="Z148512502/00000017.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-09">
+                <dateline><hi rend="underline">Montag, <date when-iso="1950-01-09">9. Jänner</date>:</hi></dateline>
+                <p>Wieder warm. Lauer windiger
+                <lb/>Morgen, die Krähen schreien,
+                <lb/>als ob's ein Föhntag im März
+                <lb/>wäre.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><hi rend="print-writing">1. <rs ref="#Universität" type="org" subtype="visited">Uni</rs>-Tag.</hi></p>
+                <p>Wohl ausgeglichen aufgestanden. Nach den
+                <lb/>Frühverrichtungen und dem Lesen der
+                    <lb/>stets interessanten "<rs ref="Unknown-Welt_am_Montag-0000" type="work" subtype="read">Welt am Montag</rs>" fand
+                <lb/>ich noch Zeit fürs Tagebuch.</p>
+                <p>Ich will mich bei <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Galinovsky_Friedrich" type="person">Gali</rs></rs> anmelden,
+                <lb/><rs ref="#Okopenko_Vilma" type="person">Mama</rs> weiß noch nichts davon!</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Schwungvoll ging ich den ersten Tag
+                <lb/>im <rs ref="#Universität_Institut" type="org" subtype="visited">Institut</rs> an. Die zwei langen
+                <lb/>Vorlesungen, in die <rs ref="#Wien_Rahlgasse" type="place" subtype="visited">Rahlgasse</rs>
+                <lb/>um die Streckenkarte (Marke drauf)
+                <lb/>gefahren, <rs ref="#Ehrenhaft_Felix" type="person">Ehrenhaft</rs> auf der <rs ref="#Universität" type="org" subtype="visited">Asiatenstiege</rs>
+                    
+                <pb n="18" facs="Z148512502/00000018.jpg"/>
+
+                erwartet, umsonst, er liest
+                    <lb/>erst Mittwoch wieder. <anchor xml:id="Z148512502_p01a"/><rs ref="#Okopenko-Stellungnahme_zum_SchundSchmutz_Ge-0000" type="work" subtype="written">Sch. Schm.-Konzept</rs>.<anchor xml:id="Z148512502_p01e"/></p>
+                <p><rs ref="#Hutterer" type="person">Hutterer</rs> die <rs ref="#Galinovsky_Friedrich" type="person">Gali</rs>skripten
+                <lb/>zurückgegeben, sie brachte meinen
+                    <lb/><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs> zurück.<space unit="chars" quantity="4"/><rs ref="#Okopenko-N2O_7-1950" type="work" subtype="edited">N<hi rend="subscript">2</hi>O VII</rs> der <rs ref="#Zuber" type="person">Zuber</rs>,
+                <lb/><rs ref="#Okopenko-N2O_8-1950" type="work" subtype="edited">N<hi rend="subscript">2</hi>O VIII</rs> dem <rs ref="#Universität_Hörsaal" type="org" subtype="visited">Saal</rs> übergeben.
+                <lb/><rs ref="#Zuber" type="person">Zuber</rs> ließ die Arbeit stehen und
+                <lb/>lief sofort zu den Quantitativen,
+                <lb/>um die neue <rs ref="#Okopenko-N2O_8-1950" type="work" subtype="edited">Nummer</rs> zu sehen.</p>
+                <p>Beim überaus freundlichen
+                <lb/><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Galinovsky_Friedrich" type="person">Gali</rs></rs> zur Prüfung wieder angemeldet.
+                <lb/>Nächste Woche. Ich bin sorglos.</p>
+                <p><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs>, <rs ref="#Wien_Wohnung" type="place" subtype="visited">heim</rs>gefahren.</p>
+                <p><hi rend="underline">Nm.</hi> gemütlich. Bald wieder
+                <lb/>in die <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs>vorlesung</rs> gefahren.
+                <lb/>Der Himmel war blau, die Sonne
+                <lb/>schien warm herunter, hinten der
+                <lb/><rs ref="#Wien_Kahlenberg" type="place" subtype="mentioned">Kahlenberg</rs> in der Ferne -</p>
+                <lg><l><rs ref="#Okopenko-Bin_vergnüglich_wie_ein_Reh_-0000" type="work" subtype="written">Bin vergnüglich wie ein Reh</rs>,</l>
+                    <l>Fühle mich zu Haus,</l>
+                    <l>Lache <rs ref="#St-Germain-des-Prés_fiktiv" type="place" subtype="mentioned"><choice><sic>St. Germain de Prés</sic><corr type="correction">St-Germain-des-Prés</corr></choice></rs>,</l>
+                    <l>Lache <rs ref="#Sartre_Jean-Paul_fiktiv" type="person">Sartre</rs> aus -</l>
+                </lg>
+            </div>
+
+            <pb n="19" facs="Z148512502/00000019.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-10">
+                <dateline><hi rend="underline">Dienstag, <date when-iso="1950-01-10">10. Jänner</date>:</hi></dateline>
+                <p>Eine <rs ref="#Universität" type="org" subtype="visited">Frühvorlesung</rs>,</p>
+                <p><anchor xml:id="Z148512502_p02a"/><rs ref="#Wien_Wohnung" type="place" subtype="visited">heim</rs>gekommen über das <rs ref="#Bundesgesetzblatt-Gesetz_über_die_Bekämpfung_-1950" type="work" subtype="referred">Schund- und
+                    <lb/>Schmutzgesetz</rs> zu schreiben versucht.<anchor xml:id="Z148512502_p02e"/></p>
+                <p>Mittagsvorlesung, auch nur eine.
+                    <lb/>(<rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs>).</p>
+                <p><anchor xml:id="Z148512502_p03a"/><hi rend="underline">Nm.</hi> verschob ich die <rs ref="#Okopenko-Stellungnahme_zum_SchundSchmutz_Ge-0000" type="work" subtype="written">Stellung-<lb break="no"/>nahme zum Sch./Schm.</rs> auf die
+                    <lb/>nächste Woche.<anchor xml:id="Z148512502_p03e"/></p>
+                <p>Abendvorlesung (<rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs>), die fast
+                <lb/>lustig geriet.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Die Stimmung war immer noch
+                <lb/>genug erfreulich.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="20" facs="Z148512502/00000020.jpg"/>
+
+            <pb n="21" facs="Z148512502/00000021.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-11">
+                <dateline><hi rend="underline">Mittwoch, <date when-iso="1950-01-11">11. Jänner</date>:</hi></dateline>
+                <p>Über Nacht liegt hoher Schnee.
+                <lb/>Zum ersten Mal in diesem Winter
+                <lb/>ein "echtes" Landschaftsbild.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Nur die zwei <rs ref="#Universität_Institut" type="org" subtype="visited">Mittagsvorlesungen</rs>.
+                <lb/>Bei <rs ref="#Galinovsky_Friedrich" type="person">Gali</rs> fällt alles durch!</p>
+                <p><hi rend="underline">Nm.</hi> versuchte ich, die
+                <lb/>"<rs ref="#Himbeerrote" type="person">Himbeerrote</rs>", die mir immer vor Augen
+                <lb/>schwebt, auf Papier zu bringen.
+                    <lb/><anchor xml:id="Z148512502_c01a"/>Weiters zeichnerische Experimente
+                    <lb/>surrealer Art.<anchor xml:id="Z148512502_c01e"/></p>
+                <p><hi rend="underline">Ab.</hi> "<rs ref="#Weiss-Das_Geheimnis_der_roten_Katze-1949" type="work" subtype="read">Das Geheimnis der roten
+                <lb/>Katze</rs>", einen deutschen Lustspielfilm
+                <lb/>angesehen. Die Pinguinszene reizend,
+                <lb/><rs ref="#Rühmann_Heinz" type="person">Rühmann</rs> und <rs ref="#Hauff_Angelika" type="person">Hauff</rs> routiniert
+                <lb/>und wenig aufregend, die Pülcher
+
+            <pb n="22" facs="Z148512502/00000022.jpg"/>
+
+                belustigten mich in ihren Szenen.
+                <lb/>Die Idee in deutscher Brettlmanier
+                <lb/>(freilich schwacher Abglanz der
+                <lb/>tatsächlichen Möglichkeiten).</p>
+                <p>Ich wünschte so sehr, das
+                <lb/>Lustspiel um "<rs ref="#Okopenko-Goldringels-Au-0000" type="work" subtype="written">Goldringels au</rs>"
+                <lb/>so gestalten zu können, wie es
+                <lb/>seine innere Ahnung in mir
+                <lb/>erwarten läßt.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="23" facs="Z148512502/00000023.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-12">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-01-12">12. Jänner</date>:</hi></dateline>
+                <p>Schnee wie gestern, auch neuer.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Früh und auf der Straßenbahn
+                <lb/>viele Ideen, auch wieder eine
+                <lb/>E-Analyse.</p>
+                <p>Zu <rs ref="#Blaszer_Luise" type="person">Tante</rs> ins <rs ref="#PHG" type="org" subtype="visited">Büro</rs>. <anchor xml:id="Z148512502_q02a"/><rs ref="#Okopenko_Andrij_Fedorowitsch" type="person">Papa</rs>-Briefe!<anchor xml:id="Z148512502_q02e"/></p>
+                <p>Später <rs ref="#Wien_Wohnung" type="place" subtype="visited">heim</rs>gekommen. Nur
+                <lb/>wenig Zeit zu eigener Verfügung.</p>
+                <p><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs> Vorlesung</rs>. Gab <rs ref="#Pallas" type="person">Pallas</rs>
+                <lb/>das <rs ref="#Okopenko-Bändchen-0000" type="work" subtype="written">BM</rs>. zum lesen, er lobte
+                <lb/><rs ref="#Frankl_Viktor" type="person">Frankl</rs>.</p>
+                <p>Lange Straßenbahnstörung wegen
+                <lb/>des Schneefalls.</p>
+                <p>Es ist eine Klarheit - draußen
+                <lb/>und in mir.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+                <pb n="24" facs="Z148512502/00000024.jpg"/>
+
+                <pb n="25" facs="Z148512502/00000025.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-13_a">
+                <note><handShift new="#typewritten"/>Abschrift der auf der <rs ref="#Universität" type="org" subtype="visited">Asiatenstiege</rs> gemachten
+                <lb/>Notizen:</note>
+                <head>Do 11,00
+                <lb/><hi rend="underline"><hi rend="wide-spaced"><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Galinovsky_Friedrich" type="person">Gali</rs></rs> Prüfung</hi></hi></head>
+                <p>Fr <date when-iso="1950-01-13">13 1 50</date> erfuhr ich das. Wenn ich nicht bestehe,
+                <lb/>wird die Prüfung sofort bei <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Wessely_Friedrich" type="person">Wessely</rs></rs> fortgesetzt.
+                <lb/>Ich sehe mich schon jetzt auf diesem schweren
+                <lb/>Gang. Man kann kaum mehr glauben, dass man bei
+                <lb/><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Galinovsky_Friedrich" type="person">Gali</rs></rs> durchkommen kann, vor allem, wo erst gestern
+                <lb/>wieder eine ganze Reihe geflogen sind. Den Lebens-<lb break="no"/>mut habe ich nicht verloren, gibt es doch noch
+                <lb/>andere Möglichkeiten zu leben denn als Chemiker.
+                <lb/>Nur der Uebergang sollte schon vollzogen sein.
+                <lb/>Und mir die Möglichkeit gegeben, in einen Beruf
+                <lb/>einzutreten, wo man redlich vorwärtskommen kann,
+                <lb/>zu einem Verdie<subst><del rend="overwritten">s</del><add place="across">n</add></subst>st, mit dem ich meine <rs ref="#Okopenko_Vilma #Okopenko_Andrij_Fedorowitsch" type="person">Eltern</rs> und
+                <lb/>später eine Familie erhalten kann. Einen höheren
+                <lb/>Sinn hätte ich ja dann noch immer in der Schrift-<lb break="no"/>stellerei. Ich denke an <rs ref="#Villon_François" type="person">Villon</rs> und all die
+                <lb/>unzähligen <add place="below">anderen</add> Vagabunden unter den Dichtern, die
+                <lb/>trotzdem gelebt und geschaffen haben.</p>
+                <p>Was gäbe ich um eine Chance, irgendwo als
+                <lb/>Journalist angenommen zu werden! Das soll nicht
+                <lb/>heissen, ich gäbe die chemische Forscherlust
+                <lb/>verloren, aber bis man dorthin gelangt, wird soviel
+                <lb/>Nebensächliches von mir verlangt, dass ich sogar
+                <lb/>bereit wäre, nur einer meiner Berufungen einstweilen
+                <lb/>nachzukommen: der kulturellen. Vielleicht dass ich
+                <lb/>später einmal irgendwie doch zu meiner wissen-<lb break="no"/>schaftlichen Betätigung finden könnte? Oder dass
+                <lb/>ich derart viel zu tun bekäme kulturell, dass mir
+                <lb/>die Chemie später gar nicht mehr abginge. Aber bis
+                <lb/>dahin! Was gäbe ich um eine gesicherte noch so
+                <lb/>kleine Position, die aber <hi rend="wide-spaced">mir</hi> noch <subst><del rend="overwritten">m</del><add place="across">M</add></subst>öglichkeiten
+                <lb/>böte! - - -</p>
+                <p>Ich werde alles daransetzen, dass ich diese Prüfung
+                <lb/>bestehe. Vor der nächstfolgenden /<rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs></rs>-/ Prüfung
+                <lb/>hätte ich dann nicht die geringste Angst. Organische
+                <lb/>Chemie ist mir noch immer gelegen. - - - - - - - -</p>
+            </div>
+
+            <pb n="26" facs="Z148512502/00000026.jpg"/>
+
+            <pb n="27" facs="Z148512502/00000027.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-13_b">
+                <dateline><handShift new="#handwritten"/><hi rend="underline">Freitag, <date when-iso="1950-01-13">13. Jänner</date>:</hi></dateline>
+                <p>Das Wetter hält sich.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><rs ref="#Universität_Institut" type="org" subtype="visited">Frühvorlesungen</rs>.</p>
+                <p>Anschließend bei <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Galinovsky_Friedrich" type="person">Gali</rs></rs> endgültig
+                <lb/>zur Prüfung gemeldet. Er war immer
+                <lb/>noch - nicht unfreundlich.</p>
+                <p>Gewartet und die Zeit bei den
+                <lb/>Kollegen verbracht. <rs ref="#Springer" type="person">Springer</rs>.</p>
+                <p>Mittagsvorlesung (<rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs>).
+                <lb/><rs ref="#Wien_Wohnung" type="place" subtype="visited">Heim</rs>gefahren.</p>
+                <p><rs ref="#Wien_Wohnung" type="place" subtype="visited">Daheim</rs> lag die Einladung zur
+                <lb/>Tagung vor.</p>
+                <p><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs>vorlesung</rs> leb mac
+                <lb/>gik kaul riz mip nupf raf
+                <lb/>tex lik. (Die "sinnlosen Silben"
+                <lb/><rs ref="#Ebbinghaus_Hermann" type="person">Ebbinghaus'</rs>). Wieder Störung.
+                    <lb/><anchor xml:id="Z148512502_c02a"/>Rohscheiben<anchor xml:id="Z148512502_c02e"/>.<space unit="chars" quantity="8"/><figure><figDesc>Stimmungskurve</figDesc></figure></p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="28" facs="Z148512502/00000028.jpg"/>
+
+            <pb n="29" facs="Z148512502/00000029.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-14">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-01-14">14. Jänner</date>:</hi></dateline>
+                <p>Kalt. Gegen abends Erwärmung.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><rs ref="#Universität_Institut" type="org" subtype="visited">Rad. Praktikum</rs>. Es beglückt
+                <lb/>mich, ins Räderwerk der äußersten
+                <lb/>Forschung zu sehen. Wenn ich
+                <lb/>doch - sprechen wir von
+                <lb/>etwas anderem; ich bin ja
+                <lb/>mit allem zufrieden, und die
+                <lb/>gelegentlichen Sorgen sind rein
+                <lb/>kurzfristiger Natur. Nie daß
+                <lb/>ich lebensunlustig oder auch
+                <lb/>nur persönlich hoffnungslos
+                <lb/>wäre.</p>
+                <p><hi rend="underline">Nm.</hi> versuchte uns <rs ref="#Blaszer_Luise" type="person">Tante</rs> traurig
+                <lb/>zu stimmen. Ich erklärte ihr
+                <lb/>primitivste Absätze der Chemie.
+                <lb/>Sie findet selbst diese an der Grenze
+
+                <pb n="30" facs="Z148512502/00000030.jpg"/>
+
+                des Verständlichen.</p>
+                <p><rs ref="#Flötzersteigkino" type="org" subtype="visited">Fl.-Kino</rs> "<rs ref="#Thimig-Wien_ein_Dieb_in_der_Nacht-1944" type="work" subtype="read">Wie ein Dieb in der Nacht</rs>"
+                <lb/>ein recht netter Durchschnitts<subst><del rend="overwritten">f</del><add place="across">l</add></subst>achfilm
+                <lb/>aus einer besseren Filmzeit.</p>
+                <p><figure><figDesc>Stimmungskurve</figDesc></figure>.</p>
+                <p>Drei von vier Tototips in beiden
+                <lb/>Kolonnen erraten. Ob's so weiter-<lb break="no"/>geht? Vielleicht doch mal ein
+                <lb/>Gewinn?</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="31" facs="Z148512502/00000031.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-15">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-01-15">15. Jänner</date>:</hi></dateline>
+                <p>Tauwetter, trüb, +3° früh.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Später auf.<space unit="chars" quantity="4"/>SVerr.</p>
+                <p><rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs> 9<hi rend="superscript">h</hi>.</p>
+                <p>Ordnungen. Viel, auch mit
+                <lb/>Kohle, gezeichnet.</p>
+                <p>Nette, wenn auch uns
+                <lb/>unbetreffende, Radiosendungen.</p>
+                <p><hi rend="underline">Nm.</hi> Unterhalten. <choice><abbr>T</abbr><expan>Tagebuch</expan></choice>.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Film und Radio sind zu sehr
+                <lb/>technisiert. Inhalt, Ausdrucksmethode
+                <lb/>(= Form). Letztere verlockend freilich.
+                <lb/>Dennoch darf sich die nicht
+                <lb/>vom Inhalt selbständig machen.
+                <lb/>Genugtuung für die <rs ref="#Hollywood" type="place" subtype="mentioned">Hollywooder</rs>
+
+                <pb n="32" facs="Z148512502/00000032.jpg"/>
+
+                ratio-stupid-Kunst: Publikum
+                <lb/>sagt meist "so a Bleedsinn".
+                <lb/>Ganzer Erfolg. Ein Stab von
+                <lb/>Gleichgesinnten müßte sich des
+                <lb/>Films bemächtigen. Das Publikum
+                <lb/>frißt, freilich!, auch Stroh, aber
+                <lb/>weil nichts besseres da ist -
+                <lb/>nein: da ist es, aber es wird
+                <lb/>nicht vorgelassen.</p>
+                <p>Wann kommt die Möglichkeit?
+                <lb/>Erst im Sowjetstaat?</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p><choice><abbr>T</abbr><expan>Tagebuch</expan></choice>.<space unit="chars" quantity="4"/>Toto erwartet. Die saudumme
+                <lb/>Sendung vom "<rs ref="#Unknown-Kabinett_der_kleinen_Dinge-0000" type="work" subtype="read">Kabinett der kleinen
+                <lb/>Dinge</rs>" angehört.</p>
+                <p><rs ref="#Goldscheider-Die_schönsten_Gedichte_der_Weltl-0000" type="work" subtype="read">Lyrik der Weltliteratur</rs> selbst
+                <lb/>und vorgelesen mit diesmal
+                <lb/>beträchtlichem Gefallen. - Toto: nichts.
+                <lb/>(7 u. 8).</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="33" facs="Z148512502/00000033.jpg"/>
+
+            <anchor xml:id="Z148512502_t03a"/><div type="entry" xml:id="e1950-01-16" subtype="print">
+                <dateline><hi rend="underline">Montag, <date when-iso="1950-01-16">16. Jänner</date>:</hi></dateline>
+                <note place="upper-right-corner" style="transform:rotateZ(+45deg)"><hi rend="underline">BEGINN d. AUTORENTAGUNG</hi></note>
+                <p><hi rend="underline">Vm.</hi> auf der <rs ref="#Universität" type="org" subtype="visited">Uni</rs>.</p>
+                <p>Mittag schon <rs ref="#Wien_Wohnung" type="place" subtype="visited">heim</rs>. Ich werde heute und
+                <lb/>morgen nicht zu <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs> gehen.</p>
+                <p>Schriften für die Tagung hergerichtet.
+                <lb/>Um 17<hi rend="superscript">h</hi> in die <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Redaktion</rs> gekommen.
+                <lb/>Dort war noch niemand. Im beleuchteten
+                <lb/>Vorraum gewartet. Dann kam ein
+                <lb/>Mädchen: ruhig, sonnig, lustig - und
+                <lb/>in ihrer Art fest, etwas fraulich wie
+                <lb/>manche jungen Mädchen aus der Provinz.
+                <lb/>(<rs ref="#Kaipr_Sieglinde" type="person">Sieglinde Kaipr</rs>, eine relativ neue Mit-<lb break="no"/>arbeiterin der "<rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Neuen Wege</rs>"). Ihr hat
+                <lb/>mein "<rs ref="#Okopenko-Prolog_zum_Weihnachtsfest-1949" type="work" subtype="written">Prolog</rs>" sehr gefallen.</p>
+                <p>Dann kamen weitere Autoren: ein
+                <lb/>Mädchen, klein, weich und ruhig (weiß
+                <lb/>nicht, welche das ist). Ein hochgewachsener
+                <lb/>ernster Mann mit geistigen Zügen und
+                <lb/>unerhörter Energie, ein Rebell
+                <lb/>(<rs ref="#Polakovics_Friedrich" type="person">Fr. Polakovics</rs>). <rs ref="#Toman_Walter" type="person">Toman</rs>, die <rs ref="#Müller_Angela" type="person">Müller</rs>, <rs ref="#Danneberg_Erika" type="person">Danneberg</rs>
+                <lb/>kamen nicht. Ich war einer der wenigen
+                <lb/>die auf <rs ref="#Polakovics_Friedrich" type="person">Polakovics'</rs> Liste standen.</p>
+                <p>Nun gingen wir ins Redaktionszimmer.
+                <lb/>Dr. <rs ref="#Häußler_Franz" type="person">Häußler</rs> war zu uns sehr liebenswürdig.
+                <lb/>Geheizt war es auch.</p>
+                <p>Dr. <rs ref="#Häußler_Franz" type="person">Häußler</rs> eröffnete die Tagung.</p>
+                <p>Die selbst war höchst anregend.</p>
+                <p><rs ref="#Polakovics_Friedrich" type="person">Polakovics</rs> schlug auf den morschen Tisch,
+
+            <pb n="34" facs="Z148512502/00000034.jpg"/>
+
+                daß sich die Holzwürmer verkrochen
+                <lb/>und die Geister der Hofräte erbleichten.</p>
+                <p><rs ref="#Falkinger_Brigitte" type="person">Briggi</rs> erschien auch, in ihrem
+                <lb/>abendlichen Make up.</p>
+                <p><rs ref="#Altmann_René" type="person">Altmann</rs> erhob sich und forderte
+                <lb/>die Gleichberechtigung der surrealistischen
+                <lb/>Kunst.</p>
+                <p><rs ref="#Kaipr_Sieglinde" type="person">Kaipr</rs> und <rs ref="#Weißenborn_Hanns" type="person">Weißenborn</rs> riefen, als
+                <lb/><rs ref="#Altmann_René" type="person">Altmann</rs> von der "führenden Kunst-<lb break="no"/>richtung des Surrealismus" sprach,
+                <lb/>im Chor "Ho ...! Ho ...!"</p>
+                <p>Ein kerniger kleingewachsener Bursch
+                <lb/>(<subst><del rend="strikethrough"><unclear cert="medium" reason="illegible">O</unclear>. <rs ref="#Scherz_Rudolf" type="person">Scherz</rs></del><add place="margin-left"><rs ref="#Ernstbrunner_Roland" type="person">Ernstbrunner</rs></add></subst>) forderte die Einbeziehung
+                    <lb/>des ländlichen sowie des Arbeiter-<lb break="no" rend="keep-hyphen"/>Kreises!</p>
+                <p>Jeder soll bis morgen fünf Gedichte
+                <lb/>nennen, die ihm am meisten
+                <lb/>zugesagt haben (<rs ref="#Theater_der_Jugend-neue_wege_4901-1949 #Theater_der_Jugend-neue_wege_4902-1949 #Theater_der_Jugend-neue_wege_4903-1949 #Theater_der_Jugend-neue_wege_4904-1949 #Theater_der_Jugend-neue_wege_4905-1949 #Theater_der_Jugend-neue_wege_4906-1949 #Theater_der_Jugend-neue_wege_4909-1949 #Theater_der_Jugend-neue_wege_4910-1949 #Theater_der_Jugend-neue_wege_4911-1949 #Theater_der_Jugend-neue_wege_4912-1949" type="work" subtype="referred">Jänner- bis Dez.-Heft 1949</rs>).
+                <lb/>Ferner Themen.</p>
+                <p>Ich werde Genaueres über diese Tagung
+                <lb/>später aufschreiben. Auch werden die
+                <lb/>"<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred"><rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Neuen Wege</rs></rs>" umfangreiche <rs type="work" subtype="referred">Berichte</rs>
+                <lb/>bringen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div><anchor xml:id="Z148512502_t03e"/>
+
+            <pb n="35" facs="Z148512502/00000035.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-17" subtype="print">
+                <dateline><hi rend="underline">Dienstag, <date when-iso="1950-01-17">17. Jänner</date>:</hi></dateline>
+                <note place="upper-right-corner" style="transform:rotateZ(+45deg)"><hi rend="underline">2. TAG d. AUTORENTAGG.</hi></note>
+                <p>Tauwetter.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><hi rend="underline">Vm.</hi> auf der <rs ref="#Universität" type="org" subtype="visited">Uni</rs>. angenehme Stimmung,
+                <lb/>ganz zuversichtlich der Prüfung übermorgen
+                <lb/>entgegensehend. Prof. <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ehrenhaft_Felix" type="person">Ehrenhaft</rs></rs>, der
+                <lb/>Unübertreffliche, hält eine Fest"vorlesung"
+                <lb/>zum 100-jähr. Bestand des <rs ref="#Universität_Institut_Physikalisch" type="org" subtype="mentioned">phys. Inst</rs>.</p>
+                <anchor xml:id="Z148512502_t04a"/><p><hi rend="underline">Nm.</hi> mich auf den zweiten Tag der
+                <lb/>Autorentagung vor<del rend="strikethrough">zu</del>bereitet.</p>
+                <p>17<hi rend="superscript">h</hi> bis 21<hi rend="superscript">h</hi> wie gestern die Tagung.
+                    <lb/>Neue gestern nicht Dagewesene kamen
+                    <lb/>heute dazu. Eine Stimmung ganz
+                    <lb/>vom Aufgehen in unsere Aufgaben
+                    <lb/>bestimmt. Dr. <rs ref="#Häußler_Franz" type="person">Häußler</rs>, unersetzlich
+                    <lb/>für unser Gedeihen, hält uns zusammen.</p>
+                <p>Ich wurde ins <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Komitee</rs> gewählt,
+                    <lb/>mein "<rs ref="#Okopenko-Prolog_zum_Weihnachtsfest-1949" type="work" subtype="written">Prolog</rs>" u.a. waren unter den
+
+                <pb n="36" facs="Z148512502/00000036.jpg"/>
+
+                Meistgenannten.</p>
+                <p>Lernte interessante Menschen kennen.
+                <lb/><rs ref="#Wimmer_Paul" type="person">Wimmer</rs>, <rs ref="#Stenzl_Otto" type="person">Stenzl</rs> ...</p>
+                <p>Das lustigste Erlebnis dieser Tage
+                <lb/>war <rs ref="#Falkinger_Brigitte" type="person">Briggi<hi rend="superscript">s</hi></rs> Äußerung, ich gehe zu
+                <lb/>sehr dem Düsteren aus dem Wege
+                <lb/>und damit den Problemen. Ich
+                <lb/>stehe gleichsam am anderen Ufer,
+                <lb/>und mir fehle das Zusammenerleben
+                <lb/>mit denen, die innerlich gefährdet
+                <lb/>zu ringen haben. (Vergleich mit
+                <lb/><rs ref="#Merinsky_Hans" type="person">Merinsky<hi rend="superscript">s</hi></rs> Kritik vom vorigen Sommer,
+                <lb/>die mir Arges aufzulösen gab: ich
+                <lb/>müsse das Düstere überwinden,
+                <lb/>aus dem Schlamm der Zeit herausfinden
+                <lb/>und das zweifellos immer noch bestehen-<lb break="no"/>de <hi rend="underline">Schöne</hi> beschreiben).</p>
+                <p>Der Witz ist fertig, diesmal ohne
+                <lb/>mein Zutun.</p><anchor xml:id="Z148512502_t04e"/>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="37" facs="Z148512502/00000037.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-18" subtype="print">
+                <dateline><hi rend="underline">Mittwoch, <date when-iso="1950-01-18">18. Jänner</date>:</hi></dateline>
+                <note place="upper-right-corner" style="transform:rotateZ(+45deg)"><hi rend="underline">ABSCHLUSZ d. AUTORENTAGUNG</hi></note>
+                <p>Wegen der fehlenden <rs ref="#Universität_Institut" type="org" subtype="mentioned">Frühvorlesungen</rs>
+                <lb/>konnte ich später aufstehen.
+                <lb/><rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>, Ordnungen, Z.</p>
+                <p>Mittags <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ehrenhaft_Felix" type="person">Ehrenhaft</rs></rs> und <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs>.</p>
+                <anchor xml:id="Z148512502_t05a"/><p><hi rend="underline">Nm.</hi> vorbereitet auf die Generaldebatte.
+                <lb/>17 Uhr Vorbesprechung im <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Redaktionszimmer</rs>.
+                <lb/>Ich schlug vor, den Untertitel der
+                <lb/>"<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred">Neuen Wege</rs>" zu ändern: Statt
+                <lb/>"Kulturzeitschrift für junge Menschen"
+                <lb/>"Kulturzeitschrift junger Menschen".
+                <lb/>Der Vorschlag wurde begeistert angenommen.</p>
+                <p>Auch von der (um 18 Uhr beginnenden)
+                <lb/>Vollversammlung.</p>
+                <p><anchor xml:id="Z148512502_f01a"/>Heute lernte ich die enttäuschende
+                <lb/>Hülle inniger Inhalte kennen:
+                <lb/><rs ref="#Sokol_Gertrud" type="person">Gertrud Sokol</rs>, <rs ref="#Müller_Angela" type="person">Angela Müller</rs> -
+                <lb/>innen Dichter außen Stars, als ob
+                <lb/>Kunst eine Art Luderei wäre und
+
+            <pb n="38" facs="Z148512502/00000038.jpg"/>
+
+                keine Stimme des Gemüts als die aus
+                <lb/>parfumierten verdrehten Gesichtern.<anchor xml:id="Z148512502_f01e"/>
+                <lb/><rs ref="#Sokol_Gertrud" type="person">Sokol</rs> nahm neben mir Platz, ich trat
+                <lb/>den Platz aber bald an ihre Freundin
+                <lb/>ab, die mit ihr plauderte, und
+                <lb/>setzte mich lieber neben <rs ref="#Kaipr_Sieglinde" type="person">Sieglinde Kaipr</rs>.</p>
+                <p>Alle Vorschläge, darunter auch der von
+                <lb/>mir gleich zu Beginn vorgetragene,
+                <lb/>wurden einstimmig angenommen.</p>
+                <p>Donnerstag, <date when-iso="1950-01-26">26. d.</date>, halten <rs ref="#Polakovics_Friedrich" type="person">Polakovics</rs>
+                <lb/>und ich eine Vorbesprechung für die
+                <lb/>Arbeit unseres <rs ref="#Redaktion_Neue_Wege" type="org" subtype="mentioned">Komitees</rs> ab.</p>
+                <p>Die Tagung war sehr fruchtbar. Weiteres
+                <lb/>wo anders und in den kommenden Heften
+                <lb/>der <rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred">Zeitschrift</rs>.</p><anchor xml:id="Z148512502_t05e"/>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="39" facs="Z148512502/00000039.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-19">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-01-19">19. Jänner</date>:</hi></dateline>
+                <note place="upper-right-corner" style="transform:rotateZ(+45deg)"><hi rend="underline"><rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Galinovsky_Friedrich" type="person">GALI</rs></rs> PRÜFUNG!</hi></note>
+                <p>Die Prüfung bei <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Galinovsky_Friedrich" type="person">Galinowski</rs></rs>
+                <lb/>bestanden! Moralpredigt seinerseits,
+                <lb/>rührende Schlußrede meinerseits und
+                <lb/>ein Händedruck beendeten das
+                <lb/>quantitative Martyrium, das
+                <lb/>- gestehen wir's offen - eine schöne
+                <lb/>Zeit war.</p>
+                <p>Freilich nach all dem und
+                <lb/>der Gratulation anteilnehmender
+                <lb/>ebenso hysterischer Jungfrauen
+                <lb/>(<rs ref="#Milan" type="person">Milan</rs>) war ich etwas lädiert.
+                <lb/>Gott sei Dank, daß es vorüber
+                <lb/>ist. Diesmal trat ich regelrecht
+                <lb/>sicher an. Jetzt kann ich's ja
+                <lb/>sagen.</p>
+                <p>Morgen melde ich mich gleich
+                <lb/>bei Doz. <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs></rs> (Organische) an.</p>
+
+            <pb n="40" facs="Z148512502/00000040.jpg"/>
+
+                <p>Gedanken über den miserablen
+                <lb/>Formalismus gemacht.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>"<rs ref="#Okopenko-Ach_ich_grüße_den_Sack-0000" type="work" subtype="written">Ach, ich grüße den Sack ...</rs>"</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="41" facs="Z148512502/00000041.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-20">
+                <dateline><hi rend="underline">Freitag, <date when-iso="1950-01-20">20. Jänner</date>:</hi></dateline>
+                <p><figure><figDesc>Stimmungskurve</figDesc></figure>.</p>
+                <p><hi rend="underline">Vm.</hi> für <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs></rs> angemeldet. <figure><figDesc>Stimmungskurve</figDesc></figure>.</p>
+                <p><hi rend="underline">Nm.</hi> las ich verschiedene meiner
+                <lb/><rs ref="#Okopenko_Andreas" type="work" subtype="written">Gedichte</rs> vor.</p>
+                <p>Letzte <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs>vorlesung</rs>.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <anchor xml:id="Z148512502_t06a"/><p>Alles mögliche zusammengeschrieben
+                <lb/>im Kampf gegen den Formalismus.</p><anchor xml:id="Z148512502_t06e"/>
+                <p><hi rend="underline">Vm.:</hi> <rs ref="#Okopenko-Entgegnung_1-0000" type="work" subtype="written">Entgegnung 1.</rs>, <rs ref="#Okopenko-Entgegnung_2-0000" type="work" subtype="written">2.</rs></p>
+                <p><hi rend="underline">Ab.:</hi> <rs ref="#Okopenko-Ach_ich_grüße_den_Sack-0000" type="work" subtype="written">Sack</rs> fertig. "<rs ref="#Okopenko-Einem_Wortschleifer-0000" type="work" subtype="written">Einem Wortschleifer</rs>".
+                <lb/>u.a.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Ein Wiederaufstieg meines Ausdrucks
+                <lb/>ist nach der Krise des letzten Halbjahres
+                <lb/>glaube ich angebrochen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="42" facs="Z148512502/00000042.jpg"/>
+
+            <pb n="43" facs="Z148512502/00000043.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-21">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-01-21">21. Jänner</date>:</hi></dateline>
+                <p><hi rend="underline">Vm.</hi> Radioaktives <rs ref="#Universität_Institut" type="org" subtype="visited">Praktikum</rs>.</p>
+                <p><hi rend="underline">Nm.</hi> für organ. Chemie gelernt,
+                <lb/>ziemlich diffus. <rs ref="#Blaszer_Luise" type="person">Tante</rs> kam, wir
+                <lb/>freuten uns alle miteinander,
+                <lb/>nicht zuletzt über <rs ref="#Galinovsky_Friedrich" type="person">Gali</rs>.</p>
+                <p>Als ich aufhörte zu lernen
+                <lb/>und "<rs ref="#Goldscheider-Die_schönsten_Gedichte_der_Weltl-0000" type="work" subtype="read">Lyrik d. WL</rs>" auspackte
+                <lb/>wurde es sogar richtig gemütlich.</p>
+                <milestone type="separator" unit="none" rend="cross"/>
+                <p>Im <rs ref="#Unknown-Das_Kleine_Volksblatt-0000" type="work" subtype="referred">Volksblatt</rs> ein bürgerlicher
+                <lb/><rs ref="#Unknown-Es_geht_um_die_Jugend-1950" type="work" subtype="read">Artikel</rs>, der nach einer weniger
+                <lb/>bürgerlichen Entgegnung schreit.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="44" facs="Z148512502/00000044.jpg"/>
+
+            <pb n="45" facs="Z148512502/00000045.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-22">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-01-22">22. Jänner</date>:</hi></dateline>
+                <note place="upper-right-corner">blau, schöne Winter-<lb break="no"/>landschaft.<space unit="chars" quantity="4"/>-5°. <lb/><milestone type="separator" unit="none" rend="horizontal-rule"/></note>
+                <p>Später aufgestanden.</p>
+                <p>Sonntagsverrichtungen, <rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs>.</p>
+                <p>Ordnungen.</p>
+                <anchor xml:id="Z148512502_t07a"/><p>Aus einer Kontrast-Stimmung heraus
+                <lb/>schrieb ich ein mir notwendiges <rs ref="#Okopenko-Sommergedicht-0000" type="work" subtype="written">Sommer-<lb break="no"/>gedicht</rs>. Es darf nicht stören, daß
+                <lb/>Linden vorkommen, bei uns gibt's
+                <lb/>im Sommer wirklich welche.</p>
+                <p>(Das heißt, im Winter sicherlich auch,
+                <lb/>aber riechen tun sie erst im Sommer.
+                <lb/>Das ein Realist den Realisten.)</p><anchor xml:id="Z148512502_t07e"/>
+                <p>Beim Winterspaziergang sah ich
+                <lb/>unter vielen Schifahrern um die
+                <lb/><rs ref="#Wien_Steinhofer_Mauer" type="place" subtype="visited">Steinhofer Mauer</rs> die wasserstoffblonde
+                <lb/>"<rs ref="#Edith" type="person">Edith</rs>", wie ich sie im phant. nenne.
+                <lb/>Gleich zweimal. Freilich ihre "Gosche"
+                <lb/>ist rot bemalt, daß der Wintertag
+                <lb/>nicht gar zu natürlich wird.</p>
+
+            <pb n="46" facs="Z148512502/00000046.jpg"/>
+
+                <p>Gelernt, dabei die <rs ref="#Unknown-Kinderbühne-0000" type="work" subtype="read">Kindersendung</rs>
+                <lb/>im Radio angehört. 'S gibt Inter-<lb break="no"/>essanteres auf der Welt. Auch
+                <lb/>als das anschließende <hi rend="underline" n="2">"<rs ref="#Unknown-Fideles_Brettl-0000" type="work" subtype="read">Fidele Brettl</rs>"</hi>,
+                <lb/>dessen Struktur hier gegeben sei:</p>
+                <table>
+                    <row>
+                        <cell>"Weiberhaß"</cell>
+                        <cell>3 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>2 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>1 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell>"Männerhaß"</cell>
+                        <cell>2 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell>Weinseligkeit</cell>
+                        <cell>2 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>1 + Serie</cell>
+                    </row>
+                    <row>
+                        <cell>Staatsvertrag</cell>
+                        <cell>2</cell>
+                    </row>
+                </table>
+                <p><rs ref="#Götz_von_Berlichingen_fiktiv" type="person">Götz</rs>zitat wie immer 1 mal</p>
+                <p>Jodel, Fensterln und "Stier" fielen heute
+                <lb/>aus.</p>
+                <p>Sonst ganz schönes Radio.</p>
+                <p>Toto wieder nichts.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="47" facs="Z148512502/00000047.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-23">
+                <dateline><hi rend="underline">Montag, <date when-iso="1950-01-23">23. Jänner</date>:</hi></dateline>
+                <p>-13°.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Sehr angenehmer Tag.</p>
+                <p>Morgen <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs></rs>. Letzte volle Uni-Woche.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <div type="entry" xml:id="e1950-01-24">
+                <dateline><hi rend="underline">Dienstag, <date when-iso="1950-01-24">24. Jänner</date>:</hi></dateline>
+                <note place="margin-right"><hi rend="underline"><rs ref="#Kuffner_Friedrich" type="person">KUFFNER</rs></hi></note>
+                <p>Zur <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs></rs>prüfung früh gefahren.
+                <lb/><rs ref="#Kuffner_Friedrich" type="person">Kuffner</rs> hat keine Komplexe und ist
+                <lb/>ruhig, nett und freundlich.
+                <lb/>Ohne weiters bestanden!</p>
+                <p>Viel im Organischen geschnüffelt.
+                    <lb/>Nächste Prüfung ist dann <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs>.</p>
+                <p><hi rend="underline">Nm.</hi> begeistert alles Lernmaterial
+                <lb/>fortgeräumt.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="48" facs="Z148512502/00000048.jpg"/>
+
+            <pb n="49" facs="Z148512502/00000049.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-25">
+                <dateline><hi rend="underline">Mittwoch, <date when-iso="1950-01-25">25. Jänner</date>:</hi></dateline>
+                <p>Später aufgestanden.</p>
+                <p><rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>.</p>
+                <p><anchor xml:id="Z148512502_p04a"/>Zwei Artikel zum Jugendproblem
+                <lb/>geschrieben: endlich den <rs ref="#Okopenko-Stellungnahme_zum_SchundSchmutz_Ge-0000" type="work" subtype="written">Schund u.
+                <lb/>Schmutz-Artikel</rs> sowie <hi rend="underline"><rs ref="#Okopenko-Artikel_gegen_das_Volksblatt-0000" type="work" subtype="written">den</rs></hi>
+                <lb/>gegen das <rs ref="#Unknown-Das_Kleine_Volksblatt-0000" type="work" subtype="read">Volksblatt</rs>. Gleich
+                    <lb/><hi rend="underline">nm.</hi> aufgegeben.<anchor xml:id="Z148512502_p04e"/></p>
+                <p>Nur die <rs ref="#Universität_Institut" type="org" subtype="visited">Mittagsvorlesungen</rs>.</p>
+                <p>Abends die gefangene u.
+                <lb/>getötete Maus aus unserm Backrohr
+                <lb/>in einem verrückten Gedicht
+                <lb/>verewigt ("<rs ref="#Okopenko-Zehn_Sekunden_Unterbewußtsein-0000" type="work" subtype="written">Zehn Sekunden
+                <lb/>Unterbewußtsein</rs>"). Der Traum
+                <lb/>vom Fabrikshof mit der eisen-<lb break="no"/>schmelze-führenden Röhre unter
+                <lb/>einem Hügel, auf dem nicht gut
+                <lb/>zu sitzen ist, stammt aus dem Jahre
+
+            <pb n="50" facs="Z148512502/00000050.jpg"/>
+
+                    <date when-iso="1944">1944</date> <anchor xml:id="Z148512503_c03a"/>(<rs ref="#Kinderlandverschickungslager" type="org" subtype="mentioned">Kämmchen, KLV-Lager</rs>),
+                <lb/>als ich Masern hatte und allein
+                    <lb/>in einem kleinen Zimmer lag.<anchor xml:id="Z148512503_c03e"/></p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="51" facs="Z148512502/00000051.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-26_a">
+                <dateline><hi rend="underline"><date when-iso="1950-01-26">26 1 50</date> abends:</hi></dateline>
+                <list>
+                    <head>Im Dunkeln notiert:</head>
+                    <label>1)</label><item>Erinnerungen</item>
+                    <label>2)</label><item>Fluida im engsten Sinn:
+                    <lb/>Schönbrunner Einsatz,
+                    <lb/>Luftlagetabelle, Raketenver-<lb break="no"/>suche, Park <date from="1945-06-21" to="1945-09-22">Sommer 1945</date> <figure><figDesc>Kreuz</figDesc></figure>.
+                    <lb/>Engeland Retorte u. Kolben.</item>
+                    <label>3)</label><item><p>Assoziationen:</p>
+                    <p>"Beim Kegelspiel, <unclear cert="medium" reason="illegible">Kekomika</unclear>,
+                    <lb/>dann möchte ..."</p></item>
+                    <label>4)</label><item>Feststellung: Im Bett
+                    <lb/>vor dem Einschlafen<del rend="strikethrough">,</del> gut
+                    <lb/>fremde <subst><del rend="overwritten"><gap unit="chars" quantity="1" reason="illegible"/></del><add place="across">R</add></subst>edeweisen
+                    <lb/>nachbildbar; sie kommen
+                    <lb/>einem leicht, Hemmungen
+                    <lb/>der Vorstellung zum
+                    <lb/>größten Teil weggehoben.
+                    <lb/>Günstiges Gebiet für
+                    <lb/>echte Schriftstellerei und
+                    <lb/>psychologische Beobachtungen
+                    <lb/>Wiedergabe (Heraufholung)
+                    <lb/>von Erinnerungen,
+                    <lb/>Gesichtern ...</item>
+                </list>
+            </div>
+
+            <pb n="52" facs="Z148512502/00000052.jpg"/>
+            
+            <note type="editorial">Rückseite des Notizzettels</note>
+
+            <pb n="53" facs="Z148512502/00000053.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-26_b">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-01-26">26. Jänner</date>:</hi></dateline>
+                <anchor xml:id="Z148512502_t09a"/><p><hi rend="underline">Vm.</hi> von der <rs ref="#Universität" type="org" subtype="visited">Uni</rs> weg direkt in
+                <lb/>die Komiteesitzung auf Zimmer 13
+                <lb/>der <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">"NW"</rs> gefahren. Siehe Bericht.
+                <lb/><rs ref="#Eisenreich_Herbert" type="person">Eisenreich</rs> meint, uns fehlen
+                <lb/>Essayisten. Ich wurde als Lektor
+                <lb/>für Kulturpolitik im <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Komitee</rs>
+                <lb/>eingesetzt.</p>
+                <p>Kein <rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs></rs> mehr.</p>
+                <p>Ich begann die <rs ref="#Okopenko-N2O_9-1950" type="work" subtype="edited">N<hi rend="subscript">2</hi>O IX</rs>.
+                <lb/>zu machen. <del><lb/></del>Sie soll wie geplant den Titel
+                <lb/>"Entartete Kunst" führen.</p><anchor xml:id="Z148512502_t09e"/>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="54" facs="Z148512502/00000054.jpg"/>
+
+            <pb n="55" facs="Z148512502/00000055.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-27">
+                <dateline><hi rend="underline">Freitag, <date when-iso="1950-01-27">27. Jänner</date>:</hi></dateline>
+                <p>Im <rs ref="#Universität_Institut_Physikalisch" type="org" subtype="visited">Phys. Institut</rs>, wo ich meine
+                <lb/>Freizeit verbrachte, hielt ich scharfe
+                <lb/>Abrechnung mit der formalist. Kunst
+                <lb/>und der bürgerlichen Moral.</p>
+                <p>Nach <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs></rs> in die <rs ref="#PHG" type="org" subtype="visited">PHG</rs>.</p>
+                <p><hi rend="underline">Nm.</hi> fleißig die <rs ref="#Okopenko-N2O_9-1950" type="work" subtype="edited">Juxzeitung</rs>
+                <lb/>weitergemacht.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <div type="entry" xml:id="e1950-01-28">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-01-28">28. Jänner</date>:</hi></dateline>
+                <p>Wie immer eisiges Wetter.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Letztes <rs ref="#Universität_Institut" type="org" subtype="visited">Rad.-Praktikum</rs>.</p>
+                <p><rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>weg.</p>
+                <p><hi rend="underline">Nm.</hi>, während <rs ref="#Blaszer_Luise" type="person">Tante</rs> da war,
+                <lb/>stellte ich die <rs ref="#Okopenko-N2O_9-1950" type="work" subtype="edited">N<hi rend="subscript">2</hi>O IX</rs>. f<subst><del rend="overwritten"><gap unit="chars" quantity="2" reason="illegible"/></del><add place="across">er</add></subst>tig.</p>
+                <p>Las <rs ref="#Blaszer_Luise" type="person">Tante</rs> neben dieser noch
+                <lb/>andere meiner <rs ref="#Okopenko_Andreas" type="work" subtype="written">Sachen</rs> vor.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="56" facs="Z148512502/00000056.jpg"/>
+
+            <pb n="57" facs="Z148512502/00000057.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-29">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-01-29">29. Jänner</date>:</hi></dateline>
+                <p>Unter -10°.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p><choice><abbr>SVerr.</abbr><expan>Sonntagsverrichtungen</expan></choice></p>
+                <p>Es ist angenehm. Ich fühle mich
+                <lb/>so frei!</p>
+                <p><rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs>.</p>
+                <p>Radio interessant wie um die Zeit
+                <lb/>immer.</p>
+                <p>Nichts Wesentliches geleistet.</p>
+                <p><hi rend="underline">Ab.</hi> <rs type="work" subtype="read">Lyrik</rs> gelesen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <div type="entry" xml:id="e1950-01-30">
+                <dateline><hi rend="underline">Montag, <date when-iso="1950-01-30">30. Jänner</date>:</hi></dateline>
+                <p>Ein angenehmer Tag!</p>
+                <p>Abends letzter <rs ref="#Universität_Institut" type="org" subtype="visited"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs>.</p>
+                <p>Spät kam noch ein Rohrpostbrief
+                <lb/>aus dem <rs ref="#PHG" type="org" subtype="mentioned">Büro</rs> von <rs ref="#Blaszer_Luise" type="person">Tante</rs>. Mein
+                <lb/><rs ref="#Okopenko-Beitrag_zu_Meister_der_Oberfläche-1950" type="work" subtype="written">W. a. M.-Artikel</rs> fand wieder Anklang
+                <lb/>(Dr. <rs ref="#Machwitz" type="person">Machwitz</rs> ...)</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="58" facs="Z148512502/00000058.jpg"/>
+
+            <pb n="59" facs="Z148512502/00000059.jpg"/>
+
+            <div type="entry" xml:id="e1950-01-31">
+                <dateline><hi rend="underline">Dienstag, <date when-iso="1950-01-31">31. Jänner</date>:</hi></dateline>
+                <p>In der <rs ref="#Wien_Wohnung" type="place" subtype="visited">Wohnung</rs> ist es naßkalt.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Letzte <rs ref="#Universität" type="org" subtype="visited">Uni</rs>.</p>
+                <p>Auch die Kälte macht mir nix.
+                <lb/>Wie immer reizend gelaunt.</p>
+                <p>Ich schrieb zwei <rs ref="#Okopenko_Andreas" type="work" subtype="written">Aphorismen</rs>.</p>
+                <p><hi rend="underline">Nm.</hi> gleich wieder in die <rs ref="#Wien" type="place" subtype="visited">Stadt</rs>.
+                <lb/>Im <rs ref="#Deuticke_Verlag" type="org" subtype="mentioned">Deuticke-Verlag</rs> brachte ich doch
+                <lb/>einiges um 26.- an. Dann in
+                <lb/>die <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Red. NW.</rs>: Die neue <rs ref="#Theater_der_Jugend-neue_wege_5001-1950" type="work" subtype="referred">Nummer</rs>
+                <lb/>der "<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred">Neuen Wege</rs>" geholt, Abonnement
+                <lb/>gezahlt, Altes herausgenommen,
+                <lb/><rs ref="#Okopenko_Andreas" type="work" subtype="written">Neues</rs> eingereicht.<space unit="chars" quantity="7"/><choice><abbr>HP</abbr><expan>Höhepunkt</expan></choice> <figure><figDesc>Stimmungskurve</figDesc></figure>.</p>
+                <p><rs ref="#Gattermann_Ludwig" type="person">Gattermann</rs> <rs ref="#Wieland_Heinrich" type="person">Wieland</rs>: "<rs ref="#Gattermann-Die_Praxis_des_organischen_Chemike-0000" type="work" subtype="read">Org. Chem.</rs>"
+                <lb/>besorgt. Gott sei Dank, daß der
+                <lb/>im Haus ist.</p>
+                <p>Den Rest des Abends gelesen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="60" facs="Z148512502/00000060.jpg"/>
+
+            <pb n="61" facs="Z148512502/00000061.jpg"/>
+
+            <div>
+                <floatingText corresp="#note_Z148512502_002">
+                <body>
+                    <div>
+                        <table>
+                            <row>
+                                <cell/>
+                                <cell/>
+                                <cell><handShift new="#handwritten"/>8-9</cell>
+                                <cell>9-10</cell>
+                                <cell>10-11</cell>
+                                <cell>11-12</cell>
+                                <cell/>
+                                <cell>12-13</cell>
+                                <cell/>
+                                <cell/>
+                                <cell>16<hi rend="superscript">30</hi></cell>
+                                <cell/>
+                                <cell/>
+                                <cell>18</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Mo</cell>
+                                <cell>|</cell>
+                                <cell>Kin</cell>
+                                <cell>Aliph</cell>
+                                <cell>-</cell>
+                                <cell>Phy</cell>
+                                <cell/>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Eb</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell>|</cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Di</cell>
+                                <cell>|</cell>
+                                <cell>Het</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                                <cell>Phy</cell>
+                                <cell/>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Eb</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell>|</cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Nowotny_Hans" type="person">Nowotný</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Mi</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell>Phy</cell>
+                                <cell/>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Eb</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Do</cell>
+                                <cell>|</cell>
+                                <cell>Alkal</cell>
+                                <cell>Kin</cell>
+                                <cell>-</cell>
+                                <cell>Phy</cell>
+                                <cell/>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Eb</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell/>
+                                <cell>|</cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs></rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs></rs></cell>
+                                <cell>|</cell>
+                            </row>
+                            <row>
+                                <cell>Fr</cell>
+                                <cell>|</cell>
+                                <cell>Het</cell>
+                                <cell>Aliph</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                                <cell/>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Ebert_Johannes_Ludwig" type="person">Eb</rs></rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell/>
+                                <cell>|</cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs></rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned"><rs ref="#Rohracher_Hubert" type="person">Rohracher</rs></rs></cell>
+                                <cell>|</cell>
+                            </row>
+                            <row>
+                                <cell>Sa</cell>
+                                <cell>|</cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned">Radiumprakt.</rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned">Radiumprakt.</rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned">Radiumprakt.</rs></cell>
+                                <cell><rs ref="#Universität_Institut" type="org" subtype="mentioned">Radiumprakt.</rs></cell>
+                                <cell>|</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell>17</cell>
+                                <cell/>
+                                <cell/>
+                                <cell>19</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>früh auf</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell>Mittag
+                                    <lb/>n. <rs ref="#Wien_Wohnung" type="place" subtype="mentioned">Hause</rs></cell>
+                                <cell/>
+                                <cell/>
+                                <cell>Nm.
+                                <lb/>fort</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell>Ab.
+                                <lb/><rs ref="#Wien_Wohnung" type="place" subtype="mentioned">heim</rs></cell>
+                            </row>
+                        </table>
+
+            <pb n="62" facs="Z148512502/00000062.jpg"/>
+
+                    </div>
+                </body>
+            </floatingText>
+            </div>
+
+            <pb n="63" facs="Z148512502/00000063.jpg"/>
+
+            <div><floatingText corresp="#n_Z148512502_001">
+                <body>
+                    <div>
+                        <head><rs ref="#Jannings_Emil" type="person">Emil Jannings</rs> gestorben</head>
+                        <note place="upper-right-corner" hand="#handwritten"><date when-iso="1950-01-03">3/1/50</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_002">
+                <body>
+                    <div>
+                        <head type="sub"><supplied reason="folded">Aner</supplied>kennung des kommunistischen Regimes durch <rs ref="#Vereinigtes_Königreich" type="place" subtype="mentioned">Großbritannien</rs></head>
+                        <head type="main"><rs ref="#Vereinigtes_Königreich" type="place" subtype="mentioned">England</rs> nimmt Beziehungen zu <rs ref="#Peking" type="place" subtype="mentioned">Peking</rs> auf</head>
+                        <note place="lower-left-corner" hand="#handwritten"><date when-iso="1950-01"><gap unit="chars" quantity="4" reason="paper-missing"/>50</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_003">
+                <body>
+                    <div>
+                        <head>Rücktritt des Kabinetts <rs ref="#Degasperi_Alcide" type="person">Degasperi</rs></head>
+                        <note place="margin-left" hand="#handwritten"><date when-iso="1950-01-13">13.</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_004">
+                <body>
+                    <div>
+                        <head>Wiedereinführung der Todesstrafe in
+                        <lb/>der <rs ref="#Sowjetunion" type="place" subtype="mentioned">Sowjetunion</rs></head>
+                        <gap unit="lines" quantity="7" reason="sampling"/>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_005">
+                <body>
+                    <div>
+                        <head type="sub"><supplied reason="folded">S</supplied>ensationelle Erklärung des amerikanischen Botschafters in <rs ref="#Belgrad" type="place" subtype="mentioned">Belgrad</rs>:</head>
+                        <head type="main"><rs ref="#USA" type="place" subtype="mentioned">USA</rs> schützen Souveränität <rs ref="#Jugoslawien" type="place" subtype="mentioned">Jugoslawiens</rs></head>
+                        <head type="sub">Angriff, Bürgerkrieg oder Infiltration würden Maßnahmen auslösen</head>
+                        <note place="lower-right-corner" hand="#handwritten"><date when-iso="1950-01-06">6.1.50</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_006">
+                <body>
+                    <div>
+                        <head type="sub">Die Wahrheit über den Pariser Operettenskandal</head>
+                        <head type="main"><rs ref="#Mayerhofer_Elfie" type="person">Elfi Mayerhofer</rs> mit "Hände hoch!" eskortiert</head>
+                        <note place="upper-right-corner" hand="#handwritten"><date when-iso="1950-01-13">13/1/50</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <floatingText corresp="#n_Z148512502_007">
+                <body>
+                    <div>
+                        <head type="sub">Schiffsunglück an der <rs ref="#Themsemündung" type="place" subtype="mentioned">Themsemündung</rs> fordert insgesamt 66 Menschenleben</head>
+                        <head type="main">52 Mann in einem U-Boot erstickt</head>
+                        <note place="upper-right-corner" hand="#handwritten"><date when-iso="1950-01-14">14.1.50</date></note>
+                    </div>
+                </body>
+            </floatingText>
+            <note hand="#handwritten">Fohnsdorfer
+            <lb/>Katastrophe
+            <lb/><date when-iso="1950-01-04">4.1.50</date>!</note>
+            <note hand="#handwritten"><hi rend="underline"><date when-iso="1950-01"><hi rend="print-writing">Jänner</hi> 1950</date></hi></note>
+            <floatingText corresp="#n_Z148512502_008">
+                <body>
+                    <div>
+                        <head type="sub">Weil der nationalchinesische Delegierte nicht ausgeschlossen wurde:</head>
+                        <head type="main"><rs ref="#Sowjetunion" type="place" subtype="mentioned">Sowjetunion</rs> verläßt den Sicherheitsrat</head>
+                        <note place="upper-right-corner" hand="#handwritten"><date when-iso="1950-01-15">15 <hi rend="subscript">1</hi> <subst><del rend="overwritten"><gap unit="chars" quantity="1" reason="illegible"/></del><add place="across">5</add></subst>0</date></note>
+                    </div>
+                </body>
+            </floatingText></div>
+
+            <pb n="64" facs="Z148512502/00000064.jpg"/>
+
+            <div style="transform:rotateZ(+45deg)"><floatingText corresp="#n_Z148512502_009">
+                <body>
+                    <div>
+                        <note place="upper-right-corner" hand="#handwritten"><date when-iso="1950-01-16">16.1.50</date></note>
+                        <head type="main">Eine Super-Atombombe erfunden</head>
+                        <head type="sub">deren Wirkung Kriege praktisch unmöglich machen dürfte</head>
+                    </div>
+                </body>
+            </floatingText></div>
+
+            <pb n="65" facs="Z148512502/00000065.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-01">
+            <floatingText corresp="#note_Z148512502_003" type="literary-draft">
+                <body>
+                    <div>
+                        <head><handShift new="#typewritten"/><rs ref="Okopenko-Zeitkrankheit-0000" type="work" subtype="written">Die Zeitkrankheit</rs>.</head>
+                        <lg>
+                            <l>Sie verlangte von ihm zu sehen</l>
+                            <l>Ein in de<subst><del rend="overwritten">e</del><add place="across">r</add></subst> Eprouvette erhitztes Eidechsenkind,
+                                <lb/>das nicht schreien kann,</l>
+                            <l>Und bot ihm dafür</l>
+                            <l>Ein Lecken an ihrem verfärbten Mund.</l>
+                        </lg>
+                        <lg>
+                            <l>Die Leute aber mit dem nicht mehr schlanken
+                                <lb/>Gang</l>
+                            <l>Und den Erinnerungsfältchen im fleckig roten
+                                <lb/>Gesicht</l>
+                            <l>Flüsterten sich schmunzelnd zu:</l>
+                            <l>"Ein Liebespaar, gönnen wir's den Jungen."</l>
+                        </lg>
+                        <note place="lower-right-corner"><date when-iso="1950-01-02">1 2 50</date> <rs ref="#Okopenko_Andreas" type="person">A. Ok</rs>.</note>
+
+            <pb n="66" facs="Z148512502/00000066.jpg"/>
+
+                    </div>
+                </body>
+            </floatingText>
+
+            <pb n="67" facs="Z148512502/00000067.jpg"/>
+
+
+                <div>
+                <dateline><handShift new="#handwritten"/><hi rend="underline">Mittwoch, <date when-iso="1950-02-01">1. Feber</date>:</hi></dateline>
+                <p>Frost, Schnee. Naßkalt i. d. <rs ref="#Wien_Wohnung" type="place" subtype="visited">Wohnung</rs>.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Zeitig in die <rs ref="#Wien_Blaszer" type="place" subtype="visited">Adamsgasse</rs> gefahren.</p>
+                    <p>Ein Gedicht "<rs ref="Okopenko-Zeitkrankheit-0000" type="work" subtype="written">Zeitkrankheit</rs>"
+                <lb/>(Eidechse) geschrieben.</p>
+                <p><hi rend="underline">Nm.</hi> die Beiträge des <rs ref="#Theater_der_Jugend-neue_wege_5001-1950" type="work" subtype="read">Jännerheftes</rs>
+                <lb/>kritisiert.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+                </div>
+            </div>
+
+
+            <div type="entry" xml:id="e1950-02-02">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-02-02">2. Feber</date>:</hi></dateline>
+                <p>Draußen wärmer, Schnee.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Spät auf. Totoschein gemacht.</p>
+                <p>Mit <rs ref="#Okopenko_Vilma" type="person">Mama</rs> auf die <rs ref="#Wien_Linzerstraße" type="place" subtype="visited">Linzerstraße</rs>
+                <lb/>gegangen.</p>
+                <anchor xml:id="Z148512502_y03a"/><p><anchor xml:id="Z148512502_p05a"/><rs ref="#Wien_Wohnung" type="place" subtype="visited">Daheim</rs> war eine Nummer
+                <lb/>des "<rs ref="#Unknown-Der_jugendliche_Arbeiter-0000" type="work" subtype="referred">Jugendlichen Arbeiters</rs>". Mein
+                <lb/>Artikel "<rs ref="#Okopenko-Aktuelles_zum_Schmutz-_und_Schundges-1950" type="work" subtype="written">Aktuelles (!!) zum Sch. Schm. Gesetz</rs>",
+                <lb/>den ich vor zwei Jahren schrieb,
+                <lb/>ist in diesem <rs ref="#Unknown-Der_jugendliche_Arbeiter-0000" type="work" subtype="referred">Feberheft</rs> endlich
+                    <lb/>drin.</p><anchor xml:id="Z148512502_y03e"/>
+
+            <pb n="68" facs="Z148512502/00000068.jpg"/>
+
+                <p>Ich schrieb einen Brief dorthin
+                <lb/>und sandte mein <rs ref="#Okopenko_Andreas" type="work" subtype="written">Proletengedicht</rs>
+                <lb/>ein.<anchor xml:id="Z148512502_p05e"/></p>
+                <p><hi rend="underline">Nm.</hi> Ordnungen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="69" facs="Z148512502/00000069.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-03" subtype="print">
+                <dateline><hi rend="underline">Freitag, <date when-iso="1950-02-03">3. Feber</date>:</hi></dateline>
+                <p>Herrliche Schneelandschaft!</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Ich dichtete meinem Wunsch
+                <lb/>folgend eine <rs ref="#Okopenko-Seine_Antwort-0000" type="work" subtype="written">Erwiderung</rs> an <rs ref="#Sokol_Gertrud" type="person">Gertrud
+                <lb/>Sokol</rs> in der gleichen Form wie ihr
+                <lb/>Gedicht "<rs ref="#Sokol-Bitte-1950" type="work" subtype="referred">Bitte</rs>" im <rs ref="#Theater_der_Jugend-neue_wege_5001-1950" type="work" subtype="referred">Jännerheft</rs>.
+                <lb/>Nannte es "<rs ref="#Okopenko-Seine_Antwort-0000" type="work" subtype="written">Seine Antwort</rs>", am
+                <lb/>Schluß aber: "ausgesprochen <hi rend="underline">durch</hi>
+                <lb/><rs ref="#Okopenko_Andreas" type="person">Andreas Okopenko</rs>" - zuerst wollte
+                <lb/>ich schon schreiben "mittels".</p>
+                <p><hi rend="underline">Vm.</hi> Spaziergang (<rs ref="#Okopenko_Vilma" type="person">M.</rs>) <rs ref="#Wien_Steinhofer_Mauer" type="place" subtype="visited">Steinhofer
+                <lb/>Mauer</rs>.</p>
+                <anchor xml:id="Z148512502_t10a"/><p>15<hi rend="superscript">h</hi> <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Komitee</rs>. Dort ärgerte ich
+                <lb/>mich <del rend="strikethrough">o</del> über <rs ref="#Danneberg_Erika" type="person">Erika Danneberg</rs>, die
+                <lb/>lieber <rs ref="#Goethe_Johann_Wolfgang_von" type="person">Goethe</rs> als <rs ref="#Eluard_Paul" type="person">Eluard</rs> auf den
+                <lb/>Weltliteraturseiten der "<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred">Neuen Wege</rs>"
+                <lb/>stehen hätte, weil "jeder von uns
+                <lb/>an ihm ersehen solle, wie man
+                <lb/>formschön schreibe". Weiters zählt
+
+            <pb n="70" facs="Z148512502/00000070.jpg"/>
+
+                sie sich dank ihrer Verheiratung
+                <lb/>mit einem gewissen Schriftsteller
+                <lb/><rs ref="#Hakel_Hermann" type="person">Hakel</rs> nicht zu uns Jungen
+                <lb/>und findet es wichtiger, uns
+                <lb/>unter erfahrener Leitung zusammen-<lb break="no"/>zustecken, als eine fruchtbare
+                <lb/>Wechselwirkung durch freien
+                <lb/>Gedankenaustausch junger Kräfte
+                <lb/>zu erstreben. Sie ist auch im
+                <lb/>Übrigen akademisch und
+                <lb/>irgend lieblos. Selbst ihre
+                <lb/>kosmet. Präparation wirkt kalt
+                <lb/>nicht einmal schwül. Jene
+                <lb/>gräßliche Mischung.</p>
+                <p>Wir gingen fuchswild
+                <lb/>auseinander.</p><anchor xml:id="Z148512502_t10e"/>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="71" facs="Z148512502/00000071.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-04">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-02-04">4. Feber</date>:</hi></dateline>
+                <p>Kalt wie immer!</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Ein Nachspiel zur <rs ref="#Universität" type="org" subtype="visited">Uni.</rs>:</p>
+                <p><rs ref="#Universität_Institut_Radium" type="org" subtype="visited">Radiuminstitut</rs> besichtigt
+                <lb/>unter Doz. <rs ref="#Broda_Engelbert" type="person">Broda</rs>.</p>
+                <p>Draußen frostet es barbarisch.</p>
+                <anchor xml:id="Z148512502_t11a"/><p>Nach <del rend="strikethrough">einer</del> den gestrigen
+                <lb/>bösen Eindrücken schrieb ich
+                <lb/>das <rs ref="Okopenko-Wolfslieder-0000" type="work" subtype="written"><hi rend="large">W</hi>olfslied</rs>, das in d<subst><del rend="overwritten">e</del><add place="across">a</add></subst>s
+                <lb/>Bekenntnis gegen die Formalisten
+                <lb/>auslief:</p>
+                <p><hi rend="large">I</hi>ch will mich wie ein <hi rend="large">W</hi>olf
+                <lb/>mit euch zerwerfen!</p><anchor xml:id="Z148512502_t11e"/>
+                <p><rs ref="#Blaszer_Luise" type="person">Tante</rs> war da.</p>
+                <p>Im Toto wieder nichts gewonnen ...</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="72" facs="Z148512502/00000072.jpg"/>
+
+            <pb n="73" facs="Z148512502/00000073.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-05">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-02-05">5. Feber</date>:</hi></dateline>
+                <p>Wegen des Schlechtwetters bin ich
+                <lb/>verschnupft wie eine Schnecke.</p>
+                <p><choice><abbr>SVerr.</abbr><expan>Sonntagsverrichtungen</expan></choice> Keine <rs ref="#Kirche_am_Steinhof" type="org" subtype="mentioned">Kirche</rs>.</p>
+                <p>Es ließ mir keine Ruhe: ich mußte
+                <lb/>noch ein zweites <rs ref="Okopenko-Wolfslieder-0000" type="work" subtype="written">Wolfslied</rs>
+                <lb/>niederschreiben. ("Gib deinen Lorbeer
+                <lb/>für die Hasenbeize"). <del rend="strikethrough">gib</del></p>
+                <p><hi rend="underline">Nm.</hi> <rs type="work" subtype="read">Lyrik</rs> gelesen.</p>
+                <p>Nachts aus einer ganz seltsamen
+                <lb/>Stimmung heraus zwei innere
+                <lb/><rs ref="#Okopenko_Andreas" type="work" subtype="written">Impressionen</rs> geschrieben.</p>
+                <p>Wie ich es sah, <del rend="strikethrough">Wo</del> und auf die
+                <lb/>intensivste Weise niedergeschrieben.
+                <lb/>Der <hi rend="underline">Raum</hi> aus dem Gedicht
+                <lb/>"<rs ref="#Okopenko-Mädchen-0000" type="work" subtype="written">Mädchen</rs>" hat aus mir
+                <lb/>heraus<hi rend="underline">müssen</hi>.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="74" facs="Z148512502/00000074.jpg"/>
+
+            <pb n="75" facs="Z148512502/00000075.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-06">
+                <dateline><hi rend="underline">Montag, <date when-iso="1950-02-06">6. Feber</date>:</hi></dateline>
+                <p>Draußen etwas wärmer.</p>
+                <p>Auch Erwärmung angekündigt.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Zeitiger auf.</p>
+                <p>Interessante <rs ref="Unknown-Welt_am_Montag-0000" type="work" subtype="read">W. a. M.</rs></p>
+                <p><rs ref="#Wendl" type="person">Wendl</rs> angerufen. <rs ref="#Liesl" type="person">Liesl</rs> war sehr freundlich.</p>
+                <p>Gut gelaunt. <rs ref="#Wien_Linzerstraße" type="place" subtype="visited">Linzerstraße</rs> (<rs ref="#Okopenko_Vilma" type="person">M.</rs>)</p>
+                <p><hi rend="underline">Nm.</hi> in der <rs ref="#Goldscheider-Die_schönsten_Gedichte_der_Weltl-0000" type="work" subtype="read">Lyrik d. WLit.</rs> und
+                <lb/>eigenen <rs ref="#Okopenko_Andreas" type="work" subtype="written">Sachen</rs> gelesen.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <div type="entry" xml:id="e1950-02-07">
+                <dateline><hi rend="underline">Dienstag, <date when-iso="1950-02-07">7. Feber</date>:</hi></dateline>
+                <p>0°!</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Früh ein anspruchsloses, nur warm
+                <lb/>empfundenes Gedichtchen unter
+                <lb/>dem rein innerlich bedingten
+                <lb/>Titel "<rs ref="#Okopenko-Motala_Melodie-0000" type="work" subtype="written">Motala Melodie</rs>" geschrieben.</p>
+                <p><rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>. Überschreibungen.
+                <lb/>Spaziergang (<rs ref="#Okopenko_Vilma" type="person">M.</rs>) <rs ref="#Wien_Steinhofer_Mauer" type="place" subtype="visited">Mauer</rs>.</p>
+
+            <pb n="76" facs="Z148512502/00000076.jpg"/>
+
+                <p>Ein rememoriertes <rs ref="#Okopenko-Protokoll_der_Autorentagung-0000" type="work" subtype="written">Protokoll der
+                <lb/>Autorentagung</rs> geschrieben.</p>
+                <p><hi rend="underline">Nm.</hi> Friseur.</p>
+                <p>Tante <rs ref="#Pobisch_Fini" type="person">Fini</rs> kam.</p>
+                <p>Weitere Arbeiten f. d. "<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="referred">Neuen Wege</rs>".</p>
+                <p><rs type="work" subtype="read">Lyrik</rs> gelesen.</p>
+                <p>Es wird immer wärmer. +5°.
+                <lb/>Die Straße schon schneefrei!</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="77" facs="Z148512502/00000077.jpg"/>
+
+            <div>
+                <floatingText corresp="#note_Z148512502_004" type="literary-draft">
+                <body>
+                    <div>
+                        <note hand="#unknown_handwritten"><rs ref="#Okopenko_Andreas" type="person">ANDREAS OKOPENKO</rs></note>
+                        <note place="upper-right-corner" hand="#unknown_handwritten">3013</note>
+                        <head><handShift new="#typewritten"/><rs ref="#Okopenko-Maja_Nueva-0000" type="work" subtype="written">Maja Nueva</rs></head>
+                        <lg>
+                            <l>Dein Leib ist schön. Was will das sagen?</l>
+                            <l>Ich will dir einen Frühlingstag beschreiben:</l>
+                            <l><space unit="chars" quantity="1"/>Vom Wasserhahn strömt es in breitem Flusse</l>
+                            <l><space unit="chars" quantity="1"/>Der dunklen Muschel und somit der Erde zu.</l>
+                            <l>Ist aber deshalb Fr<choice><sic>u</sic><corr>ü</corr></choice>hling? wirst du fragen.</l>
+                            <l>Du bist wie immer schön. Was will das sagen ...</l>
+                        </lg>
+                        <p><rs ref="#Okopenko_Andreas" type="person">Andreas <hi rend="wide-spaced">Okopenko</hi></rs></p>
+                        <p><note hand="#Artmann_Hans_Carl_handwritten">so <hi rend="underline">weitermachen</hi>!!
+                        <lb/><rs ref="#Artmann_Hans_Carl" type="person">Artmann</rs></note> <note hand="#Polakovics_Friedrich_handwritten"><rs ref="#Polakovics_Friedrich" type="person">Pol.</rs></note></p>
+
+            <pb n="78" facs="Z148512502/00000078.jpg"/>
+
+                        </div>
+                    </body>
+                </floatingText>
+            </div>
+
+            <pb n="79" facs="Z148512502/00000079.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-08" subtype="print">
+                <dateline><handShift new="#handwritten"/><hi rend="underline">Mittwoch, <date when-iso="1950-02-08">8. Feber</date>:</hi></dateline>
+                <p>Sonniger Morgen.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Früh gedichtet. Die "<rs ref="#Okopenko-Maja_Nueva-0000" type="work" subtype="written">Maja Nueva</rs>"
+                <lb/>fiel mir ein auf Grund meiner
+                <lb/>recht skeptischen Betrachtung <restore><del rend="strikethrough">der</del></restore><del rend="erasure"><add place="above">von</add></del>
+                <lb/>(Reproduktionen der) <rs ref="#Goya_Francisco_de" type="person">Goya<hi rend="superscript">schen</hi></rs>
+                <lb/><rs ref="#Goya-Die_bekleidete_Maja_La_maja_vestida-0000 #Goya-Die_nackte_Maja_La_maja_desnuda-0000" type="work" subtype="read">Majabilder</rs>. Ich übertrug diese
+                <lb/>kalte Schönheit in die heutige Zeit.</p>
+                <p>Spät aufgestanden.</p>
+                <p>Frühlingsnachmittag! Ich fuhr
+                <lb/>zum Zahnarzt. Unterwegs eine
+                <lb/>Begegnung auf der Plattform:
+                <lb/>ein Paar, tragikomisch in seiner
+                <lb/>halb gepflogenheitlichen Liebens-<lb break="no"/>würdigkeit od. Zärtlichkeit (?),
+                <lb/>halb Nüchternheit. Dieser Eindruck
+                <lb/>hämmerte in <subst><del rend="strikethrough">vier</del><add place="below">drei</add></subst> Versen - - - - -</p>
+
+            <pb n="80" facs="Z148512502/00000080.jpg"/>
+
+                <p>Bei <rs ref="#Wien_Wendl" type="place" subtype="visited"><rs ref="#Wendl" type="person">Wendl</rs></rs> wurde ich gleich
+                <lb/>erledigt. Äußerst angenehme
+                <lb/>Stimmung. <rs ref="#Wien_Wohnung" type="place" subtype="visited">Heim</rs>gefahren.</p>
+                <p>Aber gleich wieder in die <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Redaktion</rs>
+                <lb/>gefahren. Dort war die Sitzung
+                <lb/>abgesagt worden. Aber dennoch
+                <lb/>wurde es ein angeregter Abend
+                <lb/>im Vorraum. <anchor xml:id="Z148512502_t12a"/>Jeder las seine
+                <lb/><rs type="work" subtype="read">Gedichte</rs>, verschiedene, vor.
+                <lb/>Ich hörte erstmals surrealistische.<anchor xml:id="Z148512502_t12e"/>
+                <lb/>Von mir las ich den "<rs ref="#Okopenko-Chemischer_Abend-0000" type="work" subtype="written">Chem. Abend</rs>"
+                <lb/>und die <rs ref="#Okopenko-Wolfslieder-0000" type="work" subtype="written">Wolfslieder</rs> vor. Er fand,
+                <lb/>der <rs ref="#Redaktion_Neue_Wege" type="org" subtype="visited">Kreis</rs> und <rs ref="#Polakovics_Friedrich" type="person">Polakovics</rs>, daß
+                <lb/>dies viel besser sei als was bisher
+                <lb/>von mir vorliege. <rs ref="#Sokol_Gertrud" type="person">Sokol</rs> gab
+                <lb/>das Zeichen zum Abbrechen.</p>
+                <p><figure><figDesc>Stimmungskurve</figDesc></figure> <choice><abbr>H.P.</abbr><expan>Höhepunkt</expan></choice></p>
+                <p><rs ref="#Sokol_Gertrud" type="person">Sokol</rs> übernahm mein <rs ref="#Okopenko-Seine_Antwort-0000" type="work" subtype="written">Gedicht</rs> an sie
+                <lb/>und versprach eine Antwort, (die
+                <lb/>ich nicht forderte).</p>
+            </div>
+
+            <pb n="81" facs="Z148512502/00000081.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-09">
+                <dateline><hi rend="underline">Donnerstag, <date when-iso="1950-02-09">9. Feber</date>:</hi></dateline>
+                <note place="upper-right-corner"><rs ref="#Okopenko_Vilma" type="person">Mama<hi rend="superscript">s</hi></rs> Geburtstag.</note>
+                <p>Frühling, doch etwas trüber; vor allem nm.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Spaziergang (<rs ref="#Okopenko_Vilma" type="person">M.</rs>) <rs ref="#Wien_Linzerstraße" type="place" subtype="visited">Linzerstraße</rs>.</p>
+                <p>Ein wenig Ordnungen angestellt.</p>
+                <p><hi rend="underline">Nm.</hi> Bücherordnungen.</p>
+                <p>Zu <rs ref="#Wien_Wendl" type="place" subtype="visited"><rs ref="#Wendl" type="person">Wendl</rs></rs> zahlen gefahren.</p>
+                <p>Weniger <subst><del rend="overwritten">S</del><add place="across">s</add></subst>chöner Tag als gestern.</p>
+                <p>Ich fuhr an der <rs ref="#Sezession" type="org" subtype="visited">Sezession</rs> vorüber.
+                <lb/>Eine geschminkte Chemikerin sprach
+                <lb/>zu ihrer einfachen Kollegin von
+                <lb/>Siliciumoxyd. Die war aber
+                <lb/>abwesend an solch einem Tag.
+                <lb/>Die dachte woran<space unit="chars" quantity="3"/>wohl?</p>
+                <p>Ich machte über diesen Eindruck,
+                <lb/>der mir so nahe verständlich
+                <lb/>ist, <add place="inline">|</add> über das Thema <add place="inline">(:)</add> derer, die
+                <lb/>"in der Sache sind", <add place="inline">|</add> ein
+                <lb/><rs ref="#Okopenko_Andreas" type="work" subtype="written">Gedicht</rs>.</p>
+                <anchor xml:id="Z148512502_t13a"/><p>Noch über Surrealismus geplaudert,
+                <lb/><rs type="work" subtype="read">Lyrik</rs> vorgelesen.</p><anchor xml:id="Z148512502_t13e"/>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="82" facs="Z148512502/00000082.jpg"/>
+
+            <pb n="83" facs="Z148512502/00000083.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-10" subtype="print">
+                <dateline><hi rend="underline">Freitag, <date when-iso="1950-02-10">10. Februar</date>:</hi></dateline>
+                <p>Schneefall, -2°, aber ganz schön.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <anchor xml:id="Z148512502_t14a"/><p>N<subst><del rend="overwritten"><gap unit="chars" quantity="1" reason="illegible"/></del><add place="across">o</add></subst>ch im Bett kam es nach dem
+                <lb/>vorgestrigen Eindruck zum erwarteten
+                <lb/>Gedicht. Ich nannte es das
+                <lb/>"<rs ref="#Okopenko-Frühlingslied_für_Infinita_Vera-0000" type="work" subtype="written">Frühlingslied für Infinita Vera</rs>",
+                <lb/>wie <rs ref="#Eliot_Thomas_Stearns" type="person">Eliot</rs> von einem "<rs ref="#Eliot-Liebeslied_von_J_Alfred_Prufrock-0000" type="work" subtype="referred">Liebeslied
+                <lb/><rs ref="#Prufrock_Alfred_fiktiv" type="person">J. Alfred Prufrocks</rs></rs>" sprach, dessen
+                <lb/>Anfangszeilen ich seinerzeit in
+                <lb/>der "<rs ref="#Church-T_S_Eliot-1948" type="work" subtype="referred">Neuen Auslese</rs>" las. <rs ref="#Eliot_Thomas_Stearns" type="person">Eliot</rs>
+                <lb/>dürfte ähnliche Anliegen gehabt
+                <lb/>haben wie ich damit.</p><anchor xml:id="Z148512502_t14e"/>
+                <p><rs ref="#Konsum" type="org" subtype="visited">Konsum</rs>.</p>
+                <p>Rauchfangkehrer kam zu uns.
+                <lb/>Ich schrieb meine <rs ref="#Okopenko_Andreas" type="work" subtype="written">Gedichte</rs> rein.</p>
+                <p>Spaziergang (<rs ref="#Okopenko_Vilma" type="person">M.</rs>) <rs ref="#Wien_Steinhofer_Mauer" type="place" subtype="visited">Mauer</rs>.</p>
+                <p><hi rend="underline">Nm.</hi> weitere Ordnungen,
+                <lb/>Überschreibungen.</p>
+                <p>Die "<rs ref="#Goldscheider-Die_schönsten_Gedichte_der_Weltl-0000" type="work" subtype="read">Lyrik</rs>" weggeräumt. Vielleicht
+                <lb/>wurde es etwas fader.</p>
+
+                <pb n="84" facs="Z148512502/00000084.jpg"/>
+
+                <p>Ich las noch im lustigen <rs ref="#Resl_Franz" type="work" subtype="read">Vortragsbuch</rs>
+                <lb/><figure><figDesc>Stimmungskurve</figDesc></figure>.</p>
+                <p>Jedenfalls habe ich brennenden Wunsch
+                <lb/>nach einem geliebten Mädchen
+                <lb/>immer.</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="85" facs="Z148512502/00000085.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-11">
+                <dateline><hi rend="underline">Samstag, <date when-iso="1950-02-11">11. Feber</date>:</hi></dateline>
+                <p>+4° früh. Der Ofen raucht furchtbar.
+                <lb/>Trüb, aber warm.</p>
+                <p>Mittag +11°!! Aber trüb, feucht.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Heute wieder zeitiger auf.</p>
+                <p>P-Überschreibungen und -Ordnung.</p>
+                <p><rs ref="#Blaszer_Luise" type="person">Tante</rs> ist krank, <rs ref="#Blaszer_Paul" type="person">Onkel</rs> kam,
+                <lb/>brachte einen Dauerbrandofen
+                <lb/>und einen Schreibtischstuhl.
+                <lb/>Den alten im Anschluß zusammen-<lb break="no"/>gehaut.</p>
+                <p><rs type="work" subtype="read">Psychiatrisches Buch</rs> gelesen.</p>
+                <p><rs type="work" subtype="read">Radio-Kabarett</rs> - so dumm -
+                <lb/>angehört.</p>
+                <p>Erst spät Licht gemacht, wie
+                <lb/>jetzt meist ...</p>
+                <p>Auch noch Zeichenversuche.
+                <lb/>Sonst aber nichts. - - -</p>
+            </div>
+
+            <pb n="86" facs="Z148512502/00000086.jpg"/>
+
+            <pb n="87" facs="Z148512502/00000087.jpg"/>
+
+            <div type="entry" xml:id="e1950-02-12">
+                <dateline><hi rend="underline">Sonntag, <date when-iso="1950-02-12">12. Feber</date>:</hi></dateline>
+                <p>Etwas kälter als gestern.</p>
+                <p>Nachmittag kam Schönwetter auf, später
+                <lb/>aber wieder finster, regnerisch. Im
+                <lb/>allgemeinen wärmer.</p>
+                <milestone type="separator" unit="none" rend="horizontal-rule"/>
+                <p>Zeitiger auf.</p>
+                <p>Schon an <rs ref="#Ebert_Johannes_Ludwig" type="person">Ebert</rs> gedacht.</p>
+                <p><choice><abbr>SV.</abbr><expan>Sonntagsverrichtungen</expan></choice> <rs ref="#Kirche_am_Steinhof" type="org" subtype="visited">Kirche</rs>.</p>
+                <p><choice><abbr>T</abbr><expan>Tagebuch</expan></choice>, wenig.</p>
+                <p>Ältere Nummern der "<rs ref="#Theater_der_Jugend-neue_wege-0000" type="work" subtype="read">NW</rs>" gelesen.</p>
+                <p><rs ref="#Bazata_Werner" type="person">WB</rs> kam.</p>
+                <p>Im Toto nichts gewonnen.</p>
+                <p>Im Bett abends schrieb ich
+                <lb/>mehrere <rs ref="#Okopenko_Andreas" type="work" subtype="written">Gedichte, Vierzeiler</rs>
+                <lb/>bissigster Art aus dem Stegreif.
+                <lb/>"<rs ref="#Okopenko-Aus_des_Teufels_biederem_Wörterbuch_-0000" type="work" subtype="written">Aus des Teufels biederem
+                <lb/>Wörterbuch</rs> (meinen "Freunden",
+                <lb/>den Bürgern, gewidmet)".</p>
+                <milestone type="separator" unit="entry" rend="cross"/>
+            </div>
+
+            <pb n="88" facs="Z148512502/00000088.jpg"/>
+
+            <delSpan rend="cut-out" spanTo="#Z148512502_delend002"/><gap unit="pages" quantity="6" reason="paper-missing"/><anchor xml:id="Z148512502_delend002"/>
+
+            <pb n="89" facs="Z148512502/00000089.jpg"/>
+
+            <pb n="90" facs="Z148512502/00000090.jpg"/>
+
+            <pb n="91" facs="Z148512502/00000091.jpg"/>
+
+            <pb n="92" facs="Z148512502/00000092.jpg"/>
+
+            <pb n="93" facs="Z148512502/00000093.jpg"/>
+
+            <pb n="94" facs="Z148512502/00000094.jpg"/>
+
+        </body>
+    <back><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Stellenkommentar/COM_1950.01.05-1950.02.12.xml" xpointer="inline_comment" xml:id="import_inline_comment">
+                <xi:fallback>
+                </xi:fallback>
+            </xi:include></back></text>
+</TEI>

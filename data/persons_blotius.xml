@@ -1,0 +1,2364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/tei_blotius.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="blo_REG_Persons">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liste der Personennamen für die digitale Edition des Blotius Inventars</title>
+            <author>
+               <persName xml:id="MK" ref="https://orcid.org/0000-0002-8569-0340">
+                  <surname>Krickl</surname><forename>Martin</forename>
+               </persName>
+               <persName xml:id="KK" ref="https://orcid.org/0000-0002-2993-5075">
+                  <surname>Kaska</surname><forename>Katharina</forename>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>version 0.1</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref target="http://www.onb.ac.at">Austrian National Library</ref>
+               </orgName>
+               <address>
+                  <street>Josefsplatz 1</street>
+                  <postCode>1015</postCode>
+                  <settlement>Vienna</settlement>
+                  <country>Austria</country>
+               </address>
+            </publisher>
+            <pubPlace ref="http://www.geonames.org/2761369/">Vienna</pubPlace>
+            <date type="lastChanged">2019-04-24</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno type="PID">o:blo.reg-persons</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Personenregister</head>
+            <p>Im Personenregister werden sämtliche ermittelten Personen und Körperschaften
+               ausgegeben. Diese umfassen sowohl sämtliche in der Transkription ausgezeichnete
+               Personen (Verfasser, Beteiligte Personen, erwähnte Personen, Drucker), als auch
+               sämtliche Personen und Körperschaften der Bibliographie (enthält auch Vorbesitzer).
+               Personen und Körperschaften sind über einen Identifikator der <ref
+                  target="#http://swb.bsz-bw.de/DB=2.104/?COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.104,E73e1765f-b47,A,H,R193.197.31.8,FY"
+                  >Gemeinsamen Normdatei</ref> referenziert (GND-ID), insofern dort ein Eintrag
+               besteht. Die Ansetzung richtet sich nach der Gemeinsamen Normdatei, Abweichungen
+               davon werden angegeben. Personen werden gemäß ihrer Funktion in Rollen kategorisiert.
+               Personen ohne zugewiesene Rolle sind als in der Titelaufnahme erwähnte Personen zu
+               verstehen. </p>
+            <p>Das Register wird laufend aktualisiert und ergänzt.</p>
+            <listPerson xml:id="blo_persons">
+               <!-- owner -->
+               <person xml:id="Nidbruck_Caspar" role="owner">
+                  <persName ref="http://d-nb.info/gnd/104223820"><reg>Nidbruck, Caspar
+                        von</reg><surname>Nidbruck</surname><forename>Caspar
+                     von</forename></persName>
+                  <idno type="GND">104223820</idno>
+                  <birth resp="GND"><date when-iso="1525"/></birth>
+                  <death resp="GND"><date when-iso="1557"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Jurist; Exakte Lebensdaten:
+                     -26.09.1557; Geburtsort: Boulay-Moselle; Lebensdaten: 1525-1557; Sterbeort:
+                     Brüssel</note>
+               </person>
+               <!-- author -->
+               <person xml:id="Afflitto_Matteo" role="author">
+                  <persName ref="http://d-nb.info/gnd/118846361">
+                     <reg>Afflitto, Matteo
+                        d'</reg><surname>Afflitto</surname><forename>Matteo</forename></persName>
+                  <persName type="Blotius">Mathaeus ab afflictis</persName>
+               </person>
+               <person xml:id="Alardus_Aemstelredamus" role="author editor">
+                  <persName ref="http://d-nb.info/gnd/102559120">
+                     <reg>Aemstelredamus,
+                        Alardus</reg><surname>Aemstelredamus</surname><forename>Alardus</forename></persName>
+                  <idno type="GND">102559120</idno>
+                  <birth resp="GND"><date when-iso="1491"/></birth>
+                  <death resp="GND"><date when-iso="1544"/></death>
+                  <note resp="GND">Beruf: Katholischer Theologe; Charakteristischer Beruf: Humanist;
+                     Lebensdaten: 1491-1544, 1490/91-1544</note>
+               </person>
+               <person xml:id="Albertus_Magnus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118637649">
+                     <reg>Albertus Magnus</reg>
+                  </persName>
+                  <idno type="GND">118637649</idno>
+                  <note resp="GND">Adelstitel: Graf von Bollstädt; Beruf: Bischof, Philosoph,
+                     Alchemist, Naturwissenschaftler, Heiliger; Charakteristischer Beruf: Theologe;
+                     Exakte Lebensdaten: -15.11.1280; Geburtsort: Lauingen (Donau); Lebensdaten:
+                     1193-1280; Sterbeort: Köln; Wirkungsort: Hildesheim, Köln, Regensburg</note>
+                  <birth resp="GND"><date when-iso="1193"/></birth>
+                  <death resp="GND"><date when-iso="1280"/></death>
+                  <note resp="GND">Adelstitel: Graf von Bollstädt; Beruf: Bischof, Philosoph,
+                     Alchemist, Naturwissenschaftler, Heiliger; Charakteristischer Beruf: Theologe;
+                     Exakte Lebensdaten: -15.11.1280; Geburtsort: Lauingen (Donau); Lebensdaten:
+                     1193-1280; Sterbeort: Köln; Wirkungsort: Hildesheim, Köln, Regensburg</note>
+               </person>
+               <person xml:id="Albertus_monachus" role="author">
+                  <persName ref="http://d-nb.info/gnd/1089610602">
+                     <reg>Albertus, monachus</reg>
+                  </persName>
+                  <idno type="GND">1089610602</idno>
+                  <note resp="GND">Lebensdaten: gest. 1456</note>
+                  <birth resp="GND"><date when-custom="gest. 1456" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="gest. 1456" cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: gest. 1456</note>
+               </person>
+               <person xml:id="Alberus_Erasmus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118501550">
+                     <reg>Alberus,
+                        Erasmus</reg><surname>Alberus</surname><forename>Erasmus</forename></persName>
+                  <idno type="GND">118501550</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1553"/></death>
+                  <note resp="GND">Affiliation: Kirchenkreis Stargard; Beruf: Reformator, Pfarrer,
+                     Superintendent, Pädagoge, Schriftsteller, Kirchenlieddichter, Satiriker;
+                     Charakteristischer Beruf: Evangelischer Theologe; Exakte Lebensdaten:
+                     -05.05.1553; Funktion: s, Text; Geburtsort: Bruchenbrücken; Lebensdaten:
+                     1500-1553; Sterbeort: Neubrandenburg; Wirkungsort: Sprendlingen, Magdeburg,
+                     Neubrandenburg, Mecklenburg</note>
+               </person>
+               <person xml:id="Amboise_Michel" role="author">
+                  <persName ref="http://d-nb.info/gnd/100008364">
+                     <reg>Amboise d', Michel</reg><surname>Amboise
+                        d'</surname><forename>Michel</forename></persName>
+                  <idno type="GND">100008364</idno>
+                  <birth resp="GND"><date when-iso="1505"/></birth>
+                  <death resp="GND"><date when-iso="1548"/></death>
+                  <note resp="GND">Beruf: Essayist, Höfling; Charakteristischer Beruf:
+                     Schriftsteller; Lebensdaten: 1505-1548</note>
+               </person>
+               <person xml:id="Amphilochius_Iconiensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/1089725302">
+                     <reg>Amphilochius Iconiensis</reg>
+                  </persName>
+                  <idno type="GND">1089725302</idno>
+                  <note resp="GND">Lebensdaten: ca. 343 - 394; UDK: 03-, 04-</note>
+                  <birth resp="GND"><date when-custom="ca. 343 - 394" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 343 - 394" cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: ca. 343 - 394; UDK: 03-, 04-</note>
+               </person>
+               <person xml:id="Amsdorff_Nicolaus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118645056">
+                     <reg>Amsdorff, Nicolaus von</reg><surname>Amsdorff</surname><forename>Nicolaus
+                        von</forename></persName>
+                  <idno type="GND">118645056</idno>
+                  <birth resp="GND"><date when-iso="1483"/></birth>
+                  <death resp="GND"><date when-iso="1565"/></death>
+                  <note resp="GND">Beruf: Evangelischer Theologe, Reformator, Hochschullehrer,
+                     Pfarrer, Superintendent, Bischof, Generalsuperintendent; Charakteristischer
+                     Beruf: Theologe; Exakte Lebensdaten: 03.12.1483-14.05.1565; Geburtsort: Torgau;
+                     Lebensdaten: 1483-1565; Sterbeort: Eisenach; Wirkungsort: Wittenberg,
+                     Magdeburg, Naumburg (Saale), Eisenach</note>
+               </person>
+               <person xml:id="Anna_Kaiserin">
+                  <persName ref="http://d-nb.info/gnd/133664473">
+                     <reg>Anna, Heiliges Römisches Reich, Kaiserin</reg>
+                     <persName type="Blotius">Anna Ferdinandi primi Imperatoris
+                     Conjugis</persName></persName>
+               </person>
+               <person xml:id="Anna_Sachsen">
+                  <persName ref="http://d-nb.info/gnd/118645293">
+                     <reg>Anna, Sachsen, Kurfürstin</reg>
+                  </persName>
+               </person>
+               <person xml:id="Arcadelt_Jacob" role="composer">
+                  <persName ref="http://d-nb.info/gnd/119501716">
+                     <reg>Arcadelt, Jacob</reg></persName>
+                  <persName type="Blotius">Archadelt</persName>
+               </person>
+               <person xml:id="Augustinus_Aurelius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118505114">
+                     <reg>Augustinus,
+                        Aurelius</reg><surname>Augustinus</surname><forename>Aurelius</forename></persName>
+                  <idno type="GND">118505114</idno>
+                  <birth resp="GND"><date when-iso="354"/></birth>
+                  <death resp="GND"><date when-iso="430"/></death>
+                  <note resp="GND">Beruf: Bischof, Schriftsteller, Geistlicher, Kirchenväter;
+                     Charakteristischer Beruf: Kirchenlehrer; Exakte Lebensdaten:
+                     13.11.354-28.08.430; Lebensdaten: 354-430; UDK: 03-, 04-</note>
+               </person>
+               <person xml:id="August_Sachsen">
+                  <persName ref="http://d-nb.info/gnd/119458446">
+                     <reg>August, Sachsen, Kurfürst</reg>
+                  </persName>
+               </person>
+               <person xml:id="Barth_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/124597866">
+                     <reg>Barth, Michael</reg></persName>
+                  <persName type="Blotius">Michäel Bart Annabergensis</persName>
+               </person>
+               <person xml:id="Basilius_Caesariensis">
+                  <persName ref="http://d-nb.info/gnd/118637797">
+                     <reg>Basilius, Caesariensis</reg>
+                  </persName>
+
+               </person>
+               <person xml:id="Bebel_Heinrich" role="author">
+                  <persName ref="http://d-nb.info/gnd/118654233">
+                     <reg>Bebel,
+                     Heinrich</reg><surname>Bebel</surname><forename>Heinrich</forename></persName>
+                  <idno type="GND">118654233</idno>
+                  <birth resp="GND"><date when-iso="1472"/></birth>
+                  <death resp="GND"><date when-iso="1518"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Humanist; Lebensdaten: 1472-1518</note>
+               </person>
+               <person xml:id="Benedikt_XII" role="author">
+                  <persName ref="http://d-nb.info/gnd/118508903">
+                     <reg>Benedikt XII., Papst</reg>
+                     <surname/>
+                     <forename/>
+                  </persName>
+                  <idno type="GND">118508903</idno>
+                  <note resp="GND">Funktion: Bischof, Papst; Geburtsort: Saverdun; Lebensdaten:
+                     1285-1342; Sterbeort: Avignon; Wirkungsort: Mirepoix</note>
+                  <birth resp="GND"><date when-iso="1285"/></birth>
+                  <death resp="GND"><date when-iso="1342"/></death>
+                  <note resp="GND">Funktion: Bischof, Papst; Geburtsort: Saverdun; Lebensdaten:
+                     1285-1342; Sterbeort: Avignon; Wirkungsort: Mirepoix</note>
+               </person>
+               <person xml:id="Berland_Michel" role="author">
+                  <persName>
+                     <reg>Berland,
+                     Michel</reg><surname>Berland</surname><forename>Michel</forename></persName>
+               </person>
+               <person xml:id="Beuther_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/116158751">
+                     <reg>Beuther,
+                        Michael</reg><surname>Beuther</surname><forename>Michael</forename></persName>
+                  <idno type="GND">116158751</idno>
+                  <birth resp="GND"><date when-iso="1522"/></birth>
+                  <death resp="GND"><date when-iso="1587"/></death>
+                  <note resp="GND">Beruf: Bibliothekar, Jurist; Charakteristischer Beruf:
+                     Historiker; Lebensdaten: 1522-1587</note>
+               </person>
+               <person xml:id="Bigot_Emery" role="owner">
+                  <persName ref="http://d-nb.info/gnd/121020444"><reg>Bigot, Emery</reg></persName>
+               </person>
+
+               <person xml:id="Bornato_Bernardino" role="author">
+                  <persName ref="http://d-nb.info/gnd/1075550416">
+                     <reg>Bornato,
+                        Bernardino</reg><surname>Bornato</surname><forename>Bernardino</forename></persName>
+                  <idno type="GND">1075550416</idno>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Wirkungsdaten:
+                     1480</note>
+               </person>
+               <person xml:id="Bucer_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/118516507"><reg>Bucer,
+                        Martin</reg><surname>Bucer</surname><forename>Martin</forename></persName>
+                  <idno type="GND">118516507</idno>
+                  <birth resp="GND"><date when-iso="1491"/></birth>
+                  <death resp="GND"><date when-iso="1551"/></death>
+                  <note resp="GND">Beruf: Reformator, Humanist; Charakteristischer Beruf: Theologe;
+                     Exakte Lebensdaten: 11.11.1491-01.03.1551; Geburtsort: Schlettstadt;
+                     Lebensdaten: 1491-1551; Sterbeort: Cambridge; Wirkungsort: Alsace, Straßburg,
+                     Ulm, Augsburg, Cambridge</note>
+               </person>
+               <person xml:id="Buchinger_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/124879837">
+                     <reg>Buchinger,
+                        Michael</reg><surname>Buchinger</surname><forename>Michael</forename></persName>
+                  <idno type="GND">124879837</idno>
+                  <birth resp="GND"><date when-iso="1520"/></birth>
+                  <death resp="GND"><date when-iso="1571"/></death>
+                  <note resp="GND">Beruf: Humanist; Charakteristischer Beruf: Geistlicher;
+                     Lebensdaten: 1520-1571</note>
+               </person>
+               <person xml:id="Bugenhagen_Johannes" role="author">
+                  <persName ref="http://d-nb.info/gnd/118517287">
+                     <reg>Bugenhagen, Johannes</reg></persName>
+                  <persName type="Blotius">Johannes Bugenhagenius Pomeranus</persName>
+               </person>
+               <person xml:id="Caelius_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/124643620">
+                     <reg>Caelius,
+                        Michael</reg><surname>Caelius</surname><forename>Michael</forename></persName>
+                  <idno type="GND">124643620</idno>
+                  <birth resp="GND"><date when-iso="1492"/></birth>
+                  <death resp="GND"><date when-iso="1559"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Theologe; Exakte Lebensdaten:
+                     07.09.1492-13.12.1559; Lebensdaten: 1492-1559; Wirkungsdaten: 1561</note>
+               </person>
+               <person xml:id="Castanega_Martin" role="author">
+                  <!-- GND-Nummer fehlt hier -->
+                  <persName>
+                     <reg>Castanega de, Martin</reg><surname>Castanega
+                        de</surname><forename>Martin</forename></persName>
+               </person>
+               <person xml:id="Chrysostomus_Johannes" role="author">
+                  <persName ref="http://d-nb.info/gnd/118557831"><reg>Chrysostomus,
+                        Johannes</reg><surname>Chrysostomus</surname><forename>Johannes</forename></persName>
+                  <persName type="Blotius">S. Gio. Chrysostomus</persName>
+                  <idno type="GND">118557831</idno>
+                  <birth resp="GND"><date when-iso="344"/></birth>
+                  <death resp="GND"><date when-iso="407"/></death>
+                  <note resp="GND">Beruf: Patriarch, Kirchenlehrer; Charakteristischer Beruf:
+                     Kirchenschriftsteller; Lebensdaten: 344-407; UDK: 03-, 04-</note>
+               </person>
+               <person xml:id="Chytraeus_Volkmar" role="author">
+                  <persName ref="http://d-nb.info/gnd/119641534"><reg>Chytraeus,
+                        Volkmar</reg><surname>Chytraeus</surname><forename>Volkmar</forename></persName>
+                  <idno type="GND">119641534</idno>
+                  <note resp="GND">Wirkungsdaten: 1564-1565</note>
+               </person>
+               <person xml:id="Cop_Michel" role="author">
+                  <!-- GND-Nummer fehlt hier -->
+                  <persName><reg>Cop,
+                     Michel</reg><surname>Cop</surname><forename>Michel</forename></persName>
+               </person>
+               <person xml:id="Cordier_Mathurin" role="author">
+                  <persName ref="http://d-nb.info/gnd/118912232">
+                     <reg>Cordier,
+                        Mathurin</reg><surname>Cordier</surname><forename>Mathurin</forename><persName
+                        type="blotius">Maturinus Cordorius</persName></persName>
+               </person>
+               <person xml:id="Cornax_Mathias" role="author">
+                  <persName ref="http://d-nb.info/gnd/116673052"><reg>Cornax,
+                     Mathias</reg></persName>
+               </person>
+               <person xml:id="Cruciger_Caspar" role="editor">
+                  <persName ref="http://d-nb.info/gnd/118670646"><reg>Cruciger,
+                     Caspar</reg></persName>
+               </person>
+               <person xml:id="Fritsche_Markus" role="author">
+                  <persName ref="http://d-nb.info/gnd/119678012">
+                     <reg>Fritsche,
+                        Markus</reg><surname>Fritsche</surname><forename>Markus</forename></persName>
+                  <idno type="GND">119678012</idno>
+                  <note resp="GND">Wirkungsdaten: 1555-1598</note>
+               </person>
+               <person xml:id="Coussord_Claudius" role="author">
+                  <!-- GND-Nummer fehlt hier -->
+                  <persName>
+                     <reg>Coussord, Claudius</reg>
+                     <surname>Coussord</surname>
+                     <forename>Claudius</forename>
+                  </persName>
+               </person>
+               <person xml:id="Daivd_Koenig">
+                  <persName ref="http://d-nb.info/gnd/118523929">
+                     <reg>David, Israel, König</reg></persName>
+                  <persName type="Blotius">David</persName>
+               </person>
+               <person xml:id="Delius_Matthaeus" role="author">
+                  <persName ref="http://d-nb.info/gnd/119652854">
+                     <reg>Delius,
+                        Matthäus</reg><surname>Delius</surname><forename>Matthäus</forename></persName>
+                  <idno type="GND">119652854</idno>
+                  <birth resp="GND"><date when-iso="1523"/></birth>
+                  <death resp="GND"><date when-iso="1544"/></death>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Humanist;
+                     Geburtsort: Wittenberg; Lebensdaten: 1523-1544</note>
+               </person>
+               <person xml:id="Dernschwam_Hans" role="owner">
+                  <persName ref="http://d-nb.info/gnd/118898884"><reg>Dernschwam von Hradiczin,
+                        Hans</reg></persName>
+               </person>
+               <person xml:id="Dioscorides_Pedanius">
+                  <persName ref="http://d-nb.info/gnd/118843400"><reg>Dioscorides,
+                     Pedanius</reg></persName>
+                  <persName type="Blotious">Pedacius Dioscorides</persName>
+               </person>
+               <person xml:id="Dorpius_Martinus" role="author">
+                  <persName ref="http://d-nb.info/gnd/116187972"><reg>Dorpius,
+                        Martinus</reg><surname>Dorpius</surname><forename>Martinus</forename></persName>
+                  <idno type="GND">116187972</idno>
+                  <birth resp="GND"><date when-iso="1485"/></birth>
+                  <death resp="GND"><date when-iso="1525"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Theologe; Lebensdaten: 1485-1525</note>
+               </person>
+               <person xml:id="Dubravius_Johannes" role="editor">
+                  <persName ref="http://d-nb.info/gnd/11946943X"><reg>Dubravius,
+                     Johannes</reg></persName>
+               </person>
+               <person xml:id="Engelbertus_Cultrificis" role="author">
+                  <persName ref="http://d-nb.info/gnd/100940560">
+                     <reg>Engelbertus, Cultrificis</reg>
+                     <surname>Cultrificis</surname>
+                     <forename>Engelbertus</forename>
+                  </persName>
+               </person>
+               <person xml:id="Eusebius_Caesariensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118531425"><reg>Caeariensis,
+                        Eusebius</reg><surname>Caeariensis</surname><forename>Eusebius</forename></persName>
+                  <idno type="GND">118531425</idno>
+                  <birth resp="GND"><date when-iso="260"/></birth>
+                  <death resp="GND"><date when-iso="339"/></death>
+                  <note resp="GND">Beruf: Theologe, Bischof; Charakteristischer Beruf:
+                     Kirchenhistoriker; Lebensdaten: 260-339; UDK: 02-, 03-; Wirkungsort: Caesarea
+                     Maritima</note>
+               </person>
+               <person xml:id="Ferdinand_I">
+                  <persName ref="http://d-nb.info/gnd/118532502"><reg>Ferdinand I., Heiliges
+                        Römisches Reich, Kaiser</reg>
+                     <persName type="Blotius">Ferdinandus primus Imperator</persName>
+                  </persName>
+               </person>
+               <person xml:id="Ficino_Marsilio" role="author">
+                  <persName ref="http://d-nb.info/gnd/118532855"><reg>Ficino,
+                        Marsilio</reg><surname>Ficino</surname><forename>Marsilio</forename></persName>
+                  <idno type="GND">118532855</idno>
+                  <birth resp="GND"><date when-iso="1433"/></birth>
+                  <death resp="GND"><date when-iso="1499"/></death>
+                  <note resp="GND">Beruf: Humanist; Charakteristischer Beruf: Philosoph; Exakte
+                     Lebensdaten: 19.10.1433-01.10.1499; Geburtsort: Figline Valdarno; Lebensdaten:
+                     1433-1499; Sterbeort: Florenz-Careggi; Wirkungsort: Florenz</note>
+               </person>
+               <person xml:id="Flacius_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/118533649"><reg>Flacius,
+                        Matthias</reg><surname>Flacius</surname><forename>Matthias</forename></persName>
+                  <persName type="Blotius">Mathias Flaccius Illiricus</persName>
+                  <idno type="GND">118533649</idno>
+                  <birth resp="GND"><date when-iso="1520"/></birth>
+                  <death resp="GND"><date when-iso="1575"/></death>
+                  <note resp="GND">Beruf: Evangelischer Theologe, Kirchenhistoriker, Pfarrer,
+                     Superintendent, Hochschullehrer; Charakteristischer Beruf: Theologe; Exakte
+                     Lebensdaten: 03.03.1520-11.03.1575; Geburtsort: Labin; Lebensdaten: 1520-1575;
+                     Sterbeort: Frankfurt am Main</note>
+               </person>
+               <person xml:id="Josephus_Flavius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118640003">
+                     <reg>Josephus, Flavius</reg>
+                  </persName>
+                  <idno type="GND">118640003</idno>
+                  <note resp="GND">Charakteristischer Beruf: Historiker; Lebensdaten: 37-100</note>
+                  <birth resp="GND"><date when-iso="37"/></birth>
+                  <death resp="GND"><date when-iso="100"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Historiker; Lebensdaten: 37-100</note>
+               </person>
+               <person xml:id="Folengo_Teofilo" role="author">
+                  <persName ref="http://d-nb.info/gnd/118684116"><reg>Folengo,
+                        Teofilo</reg><surname>Folengo</surname><forename>Teofilo</forename></persName>
+                  <persName type="Blotius">Marlinus Cocalius Poeta Mantuanis</persName>
+                  <idno type="GND">118684116</idno>
+                  <birth resp="GND"><date when-iso="1491"/></birth>
+                  <death resp="GND"><date when-iso="1544"/></death>
+                  <note resp="GND">Beruf: Mönch; Charakteristischer Beruf: Schriftsteller;
+                     Lebensdaten: 1491-1544</note>
+               </person>
+               <person xml:id="Franz_Assisi">
+                  <persName ref="http://d-nb.info/gnd/118534963"><reg>Franz, von Assisi,
+                        Heiliger</reg></persName>
+               </person>
+               <person xml:id="Fugger_Philipp_Eduard" role="owner">
+                  <persName ref="http://d-nb.info/gnd/118827138"><reg>Fugger, Philipp
+                     Eduard</reg></persName>
+               </person>
+               <person xml:id="Gallus_Nikolaus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118537369"><reg>Gallus,
+                        Nikolaus</reg><surname>Gallus</surname><forename>Nikolaus</forename></persName>
+                  <idno type="GND">118537369</idno>
+                  <birth resp="GND"><date when-iso="1516"/></birth>
+                  <death resp="GND"><date when-iso="1570"/></death>
+                  <note resp="GND">Akademischer Grad: Magister; Beruf: Gnesiolutheraner, Pfarrer,
+                     Superintendent, Gymnasiallehrer; Charakteristischer Beruf: Evangelischer
+                     Theologe; Geburtsort: Köthen (Anhalt); Lebensdaten: 1516-1570; Sterbeort: Bad
+                     Liebenzell; Wirkungsort: Mansfeld, Regensburg, Wittenberg, Magdeburg</note>
+               </person>
+               <person xml:id="Fugger_Raymund" role="owner">
+                  <persName ref="http://d-nb.info/gnd/130588687"><reg>Fugger, Raimund, der
+                        Jüngere</reg></persName>
+               </person>
+               <person xml:id="Gardano_Antonio" role="composer">
+                  <persName ref="http://d-nb.info/gnd/118992880"><reg>Gardano,
+                     Antonio</reg></persName>
+               </person>
+               <person xml:id="Ghilini_Giangiacomo" role="author">
+                  <persName ref="http://d-nb.info/gnd/104246286"><reg>Ghilini, Giovanni
+                     Jacopo</reg></persName>
+               </person>
+               <person xml:id="Grynaeus-Simon" role="author">
+                  <persName ref="http://d-nb.info/gnd/11690240X"><reg>Grynäus,
+                        Simon</reg><surname>Grynäus</surname><forename>Simon</forename></persName>
+                  <idno type="GND">11690240X</idno>
+                  <birth resp="GND"><date when-iso="1493"/></birth>
+                  <death resp="GND"><date when-iso="1541"/></death>
+                  <note resp="GND">Beruf: Theologe, Lehrer; Charakteristischer Beruf: Humanist;
+                     Geburtsort: Veringendorf; Lebensdaten: 1493-1541; Sterbeort: Basel;
+                     Wirkungsort: Buda</note>
+               </person>
+               <person xml:id="Guazzo_Marco" role="author">
+                  <persName ref="http://d-nb.info/gnd/129338842"><reg>Guazzo,
+                        Marco</reg><surname>Guazzo</surname><forename>Marco</forename></persName>
+                  <idno type="GND">129338842</idno>
+                  <birth resp="GND"><date when-iso="1480"/></birth>
+                  <death resp="GND"><date when-iso="1556"/></death>
+                  <note resp="GND">Lebensdaten: 1480-1556</note>
+               </person>
+               <person xml:id="Guevara_Antonio" role="author">
+                  <persName ref="http://d-nb.info/gnd/118699032"><reg>Guevara de,
+                        Antonio</reg><surname>Guevara
+                     de</surname><forename>Antonio</forename></persName>
+                  <idno type="GND">118699032</idno>
+                  <birth resp="GND"><date when-iso="1480"/></birth>
+                  <death resp="GND"><date when-iso="1545"/></death>
+                  <note resp="GND">Beruf: Schriftsteller, Bischof; Charakteristischer Beruf:
+                     Geistlicher; Exakte Lebensdaten: -03.04.1545; Geburtsort: Trecen̂o;
+                     Lebensdaten: 1480-1545; Sterbeort: Mondoñedo</note>
+               </person>
+               <person xml:id="Guilelmus_de_Melitona" role="author">
+                  <persName ref="http://d-nb.info/gnd/118993925">
+                     <reg>Guilelmus, de Melitona</reg>
+                  </persName>
+                  <idno type="GND">118993925</idno>
+                  <note resp="GND">Lebensdaten: -1257</note>
+                  <death resp="GND"><date when-iso="1257"/></death>
+                  <note resp="GND">Lebensdaten: -1257</note>
+               </person>
+               <person xml:id="Hahn_Nicolaus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118537369"><reg>Gallus,
+                     Nikolaus</reg></persName>
+                  <persName type="Blotius">Nicolaus</persName>
+               </person>
+               <person xml:id="Herberstein_Sigmund" role="author">
+                  <persName ref="http://d-nb.info/gnd/118710656"><reg>Herberstein, Sigmund
+                     von</reg></persName>
+                  <persName type="Blotius">Sigismundus liber Baron in Herberstain</persName>
+               </person>
+               <person xml:id="Herr_Michael" role="editor">
+                  <persName ref="http://d-nb.info/gnd/121864235"><reg>Herr,
+                        Michael</reg><surname>Herr</surname><forename>Michael</forename></persName>
+                  <idno type="GND">121864235</idno>
+                  <death resp="GND"><date when-iso="1550"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Arzt; Lebensdaten: -1550</note>
+               </person>
+               <person xml:id="Heyde_Joachim" role="author">
+                  <persName ref="http://d-nb.info/gnd/131687298"><reg>Heyde, Joachim von
+                        der</reg><surname>Heyde</surname><forename>Joachim von der</forename>
+                     <persName type="blotius">Myricianus Poeta</persName>
+                  </persName>
+               </person>
+               <person xml:id="Hohendorf_GeorgWilhelm" role="owner">
+                  <persName ref="http://d-nb.info/gnd/1101466332"><reg>Hohendorf, Georg Wilhelm
+                        von</reg></persName>
+               </person>
+               <person xml:id="Hrabanus_Maurus">
+                  <persName ref="http://d-nb.info/gnd/118553909"><reg>Hrabanus,
+                     Maurus</reg></persName>
+                  <persName type="Blotius">Magnencius Kabanus Maurus</persName>
+               </person>
+               <person xml:id="Ivo_Carnotensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118711024">
+                     <reg>Ivo, Carnotensis</reg>
+                  </persName>
+                  <idno type="GND">118711024</idno>
+                  <note resp="GND">Beruf: Bischof; Charakteristischer Beruf: Geistlicher;
+                     Geburtsort: Chartres; Lebensdaten: 1040-1115; Sterbeort: Chartres; Wirkungsort:
+                     Beauvais</note>
+                  <birth resp="GND"><date when-iso="1040"/></birth>
+                  <death resp="GND"><date when-iso="1115"/></death>
+                  <note resp="GND">Beruf: Bischof; Charakteristischer Beruf: Geistlicher;
+                     Geburtsort: Chartres; Lebensdaten: 1040-1115; Sterbeort: Chartres; Wirkungsort:
+                     Beauvais</note>
+               </person>
+               <person xml:id="Joachim_Brandenburg">
+                  <persName ref="                         http://d-nb.info/gnd/119214644"
+                        ><reg>Joachim Nestor I., Brandenburg, Kurfürst</reg></persName>
+               </person>
+               <person xml:id="Jacobi_Leonhard" role="contributor">
+                  <persName ref="http://d-nb.info/gnd/119720116"><reg>Jacobi,
+                     Leonhard</reg></persName>
+                  <persName type="Blotius">M. Leonhardus Jacobi Northusianus</persName>
+               </person>
+               <person xml:id="Jacobus_de_Misa" role="author">
+                  <persName ref="http://d-nb.info/gnd/118775758">
+                     <reg>Jacobus, de Misa</reg>
+                  </persName>
+                  <idno type="GND">118775758</idno>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Priester; Exakte
+                     Lebensdaten: XX.XX.1373-09.08.1429; Geburtsort: Střı́bro; Lebensdaten:
+                     1373-1429, ca. 1373-1429; Sterbeort: Prag</note>
+                  <birth resp="GND"><date when-iso="1373"/></birth>
+                  <death resp="GND"><date when-iso="1429"/></death>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Priester; Exakte
+                     Lebensdaten: XX.XX.1373-09.08.1429; Geburtsort: Střı́bro; Lebensdaten:
+                     1373-1429, ca. 1373-1429; Sterbeort: Prag</note>
+               </person>
+               <person xml:id="Johannes_Marchesinus" role="author">
+                  <persName ref="http://d-nb.info/gnd/102547637">
+                     <reg>Johannes, Marchesinus</reg>
+                  </persName>
+                  <idno type="GND">102547637</idno>
+                  <note resp="GND">Lebensdaten: ca. um 1300; Wirkungsdaten: um 1300</note>
+                  <birth resp="GND"><date when-custom="ca. um 1300" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. um 1300" cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: ca. um 1300; Wirkungsdaten: um 1300</note>
+               </person>
+               <person xml:id="Jonas_Justus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118712926"><reg>Jonas,
+                        Justus</reg><surname>Jonas</surname><forename>Justus</forename></persName>
+                  <idno type="GND">118712926</idno>
+                  <birth resp="GND"><date when-iso="1493"/></birth>
+                  <death resp="GND"><date when-iso="1555"/></death>
+                  <note resp="GND">Akademischer Grad: Dr. theol.; Beruf: Pfarrer, Reformator,
+                     Humanist, Propst, Superintendent, Jurist; Charakteristischer Beruf:
+                     Evangelischer Theologe; Exakte Lebensdaten: 05.06.1493-09.10.1555; Geburtsort:
+                     Nordhausen; Lebensdaten: 1493-1555; Sterbeort: Eisfeld</note>
+               </person>
+               <person xml:id="Karl_Große">
+                  <persName ref="http://d-nb.info/gnd/118560034"><reg>Karl I., Heiliges Römisches
+                        Reich, Kaiser</reg></persName>
+                  <persName type="Blotius">Carolus Magnus</persName>
+               </person>
+               <person xml:id="Karl_V">
+                  <persName ref="http://d-nb.info/gnd/118560093"><reg>Karl V., Heiliges Römisches
+                        Reich, Kaiser</reg></persName>
+               </person>
+               <person xml:id="Karlstadt_Andreas" role="author">
+                  <persName ref="http://d-nb.info/gnd/118560239"><reg>Karlstadt,
+                     Andreas</reg></persName>
+                  <persName type="Blotius">Carolostadius</persName>
+               </person>
+               <person xml:id="Keller_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/129477230"><reg>Keller,
+                     Michael</reg></persName>
+               </person>
+               <person xml:id="Kling_Melchior" role="author">
+                  <persName ref="http://d-nb.info/gnd/116228741">
+                     <reg>Kling, Melchior</reg>
+                     <surname>Kling</surname><forename>Melchior</forename>
+                  </persName>
+                  <persName type="Blotius"
+                     ><surname>Cling</surname><forename>Melchior</forename></persName>
+               </person>
+               <person xml:id="Krueckel_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/119734036"><reg>Krückel,
+                     Martin</reg></persName>
+               </person>
+               <person xml:id="Lambeck_Peter">
+                  <persName ref="http://d-nb.info/gnd/100839061"><reg>Lambeck,
+                     Peter</reg></persName>
+               </person>
+               <person xml:id="Latomus_Bartholomaeus" role="author">
+                  <persName ref="http://d-nb.info/gnd/123880645"><reg>Latomus,
+                        Bartholomäus</reg><surname>Latomus</surname><forename>Bartholomäus</forename></persName>
+                  <idno type="GND">123880645</idno>
+                  <birth resp="GND"><date when-iso="1485"/></birth>
+                  <death resp="GND"><date when-iso="1570"/></death>
+                  <note resp="GND">Beruf: Jurist, Hochschullehrer, Rat; Charakteristischer Beruf:
+                     Humanist; Geburtsort: Arlon; Lebensdaten: 1485-1570, ca. 1485-1570; Sterbeort:
+                     Koblenz; Wirkungsort: Trier</note>
+               </person>
+               <person xml:id="Lochmair_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/100370128"><reg>Lochmair,
+                        Michael</reg><surname>Lochmair</surname><forename>Michael</forename></persName>
+                  <persName type="Blotius">Michaë Lochmar</persName>
+                  <idno type="GND">100370128</idno>
+                  <death resp="GND"><date when-iso="1499"/></death>
+                  <note resp="GND">Beruf: Katholischer Theologe, Hochschullehrer, Domprediger,
+                     Dombaumeister; Exakte Lebensdaten: -08.03.1499; Lebensdaten: -1499;
+                     Wirkungsort: Wien, Passau</note>
+               </person>
+               <person xml:id="Luther_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/118575449"><reg>Luther,
+                        Martin</reg><surname>Luther</surname><forename>Martin</forename></persName>
+                  <idno type="GND">118575449</idno>
+                  <birth resp="GND"><date when-iso="1483"/></birth>
+                  <death resp="GND"><date when-iso="1546"/></death>
+                  <note resp="GND">Beruf: Theologe, Komponist, Übersetzer, Schriftsteller;
+                     Charakteristischer Beruf: Reformator; Exakte Lebensdaten:
+                     10.11.1483-18.02.1546; Geburtsort: Eisleben; Lebensdaten: 1483-1546; Sterbeort:
+                     Eisleben; Wirkungsort: Wittenberg, Eisenach</note>
+               </person>
+               <person xml:id="Kromer_Marcin" role="author">
+                  <persName ref="http://d-nb.info/gnd/119056526"><reg>Kromer,
+                        Marcin</reg><surname>Kromer</surname><forename>Marcin</forename></persName>
+                  <idno type="GND">119056526</idno>
+                  <birth resp="GND"><date when-iso="1512"/></birth>
+                  <death resp="GND"><date when-iso="1589"/></death>
+                  <note resp="GND">Beruf: Bischof, Chronist; Charakteristischer Beruf: Theologe;
+                     Exakte Lebensdaten: XX.XX.1512-23.03.1589; Geburtsort: Biecz; Lebensdaten:
+                     1512-1589; Sterbeort: Heilsberg</note>
+               </person>
+
+               <person xml:id="Magninus_Mediolanensis">
+                  <persName ref="http://d-nb.info/gnd/100952666"><reg>Magninus,
+                     Mediolanensis</reg></persName>
+               </person>
+               <person xml:id="Mameranus_Nicolaus" role="author">
+                  <persName ref="http://d-nb.info/gnd/122545001"><reg>Mameranus,
+                        Nicolaus</reg><surname>Mameranus</surname><forename>Nicolaus</forename></persName>
+                  <persName type="Blotius">Mameranus</persName>
+                  <persName type="Blotius">Mameranus Lucenburgensis</persName>
+                  <persName type="Blotius">mameranus Lucemburgensis</persName>
+                  <idno type="GND">122545001</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1566"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Lebensdaten: 1500-1566,
+                     1500-1567</note>
+               </person>
+               <person xml:id="Mancinelli_Antonio" role="author">
+                  <persName ref="http://d-nb.info/gnd/124652174"><reg>Mancinelli,
+                        Antonio</reg><surname>Mancinelli</surname><forename>Antonio</forename></persName>
+                  <idno type="GND">124652174</idno>
+                  <birth resp="GND"><date when-iso="1452"/></birth>
+                  <death resp="GND"><date when-iso="1505"/></death>
+                  <note resp="GND">Beruf: Philologe, Hochschullehrer; Charakteristischer Beruf:
+                     Humanist; Geburtsort: Velletri; Lebensdaten: 1452-1505; Sterbeort: Rom</note>
+               </person>
+               <person xml:id="Masuer_Johannes" role="author">
+                  <persName ref="http://d-nb.info/gnd/100304702"><reg>Masuer,
+                        Johannes</reg><surname>Masuer</surname><forename>Jean</forename>
+                  </persName>
+               </person>
+               <person xml:id="Marbodus_Redonensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118781715"><reg>Marbodus,
+                        Redonensis</reg><surname>Marbodus</surname><forename>Redonensis</forename></persName>
+                  <idno type="GND">118781715</idno>
+                  <birth resp="GND"><date when-iso="1035"/></birth>
+                  <death resp="GND"><date when-iso="1123"/></death>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Bischof;
+                     Lebensdaten: 1035-1123; Sterbeort: Rennes</note>
+               </person>
+               <person xml:id="Marcus_Eremita" role="author">
+                  <persName ref="http://d-nb.info/gnd/100376142"><reg>Marcus,
+                     Eremita</reg></persName>
+                  <persName type="Blotius">S. Marcus Anachoretes</persName>
+               </person>
+               <person xml:id="Margarete_Heilige">
+                  <persName ref="http://d-nb.info/gnd/119072866"><reg>Margareta, von Antiochia,
+                        Heilige</reg></persName>
+               </person>
+               <person xml:id="Margarete_Navarra" role="author">
+                  <persName ref="http://d-nb.info/gnd/118577719"><reg>Margarete, Navarra,
+                        Königin</reg><surname>Margarete</surname><forename>Navarra,
+                        Königin</forename></persName>
+                  <persName type="Blotius">Marguerite de France Royne de Navarre</persName>
+                  <persName type="Blotius">Marguerite des Princesses Royne de Navarre</persName>
+                  <idno type="GND">118577719</idno>
+                  <birth resp="GND"><date when-iso="1492"/></birth>
+                  <death resp="GND"><date when-iso="1549"/></death>
+                  <note resp="GND">Lebensdaten: 1492-1549</note>
+               </person>
+               <person xml:id="Mark_Aurel" role="author">
+                  <persName ref="http://d-nb.info/gnd/118577468"><reg>Mark Aurel, Römisches Reich,
+                        Kaiser</reg><surname>Mark Aurel</surname><forename>Römisches Reich,
+                        Kaiser</forename></persName>
+                  <idno type="GND">118577468</idno>
+                  <birth resp="GND"><date when-iso="121"/></birth>
+                  <death resp="GND"><date when-iso="180"/></death>
+                  <note resp="GND">Beruf: Philosoph; Charakteristischer Beruf: Kaiser; Lebensdaten:
+                     121-180; UDK: 01-</note>
+               </person>
+               <person xml:id="Markulic_Marko" role="author">
+                  <persName ref="http://d-nb.info/gnd/119753154"><reg>Marculic,
+                        Marko</reg><surname>Marculic</surname><forename>Marko</forename></persName>
+                  <persName type="Blotius">M. Marullus</persName>
+                  <idno type="GND">119753154</idno>
+                  <note resp="GND">Wirkungsdaten: 1529</note>
+               </person>
+               <person xml:id="Marsilius_dePadua">
+                  <persName ref="http://d-nb.info/gnd/118578170"><reg>Marsilius, de
+                     Padua</reg></persName>
+               </person>
+               <person xml:id="Martialis" role="author">
+                  <persName ref="http://d-nb.info/gnd/11857826X"><reg>Martialis, Marcus
+                        Valerius</reg><surname>Martialis</surname><forename>Marcus
+                        Valerius</forename></persName>
+                  <idno type="GND">11857826X</idno>
+                  <birth resp="GND"><date when-iso="38"/></birth>
+                  <death resp="GND"><date when-iso="102"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Lebensdaten: 38-102;
+                     UDK: 00-, 01-; Wirkungsort: Rom</note>
+               </person>
+               <person xml:id="Martianus_Capella" role="author">
+                  <persName ref="http://d-nb.info/gnd/118578278"><reg>Martianus,
+                        Capella</reg><surname>Martianus</surname><forename>Capella</forename></persName>
+                  <idno type="GND">118578278</idno>
+                  <birth resp="GND"><date when-custom="ca. 5. Jh." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 5. Jh." cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Rechtsanwalt; Lebensdaten: ca. 5. Jh.;
+                     UDK: 04-</note>
+               </person>
+               <person xml:id="Martinus_Magistri">
+                  <persName ref="http://d-nb.info/gnd/100974384"><reg>Martinus,
+                     Magistri</reg></persName>
+                  <persName type="Blotius">Martinus à magistris Theologi</persName>
+               </person>
+               <person xml:id="Masi_Teofilo">
+                  <persName ref="http://d-nb.info/gnd/108962879X"><reg>Masi, Massimo
+                     Teofilo</reg></persName>
+                  <persName type="Blotius">Maximus Teophilus Fiorentinus</persName>
+               </person>
+               <person xml:id="Matthaeus_de_Cracovia" role="author">
+                  <persName ref="http://d-nb.info/gnd/118731823">
+                     <reg>Matthaeus, de Cracovia </reg>
+                  </persName>
+                  <idno type="GND">118731823</idno>
+                  <note resp="GND">Beruf: Bischof; Charakteristischer Beruf: Theologe; Geburtsort:
+                     Krakau; Lebensdaten: 1355-1410; Wirkungsort: Vynohradne, Krakau</note>
+                  <birth resp="GND"><date when-iso="1355"/></birth>
+                  <death resp="GND"><date when-iso="1410"/></death>
+                  <note resp="GND">Beruf: Bischof; Charakteristischer Beruf: Theologe; Geburtsort:
+                     Krakau; Lebensdaten: 1355-1410; Wirkungsort: Vynohradne, Krakau</note>
+               </person>
+               <person xml:id="Matthaeus_Philadelphia" role="author">
+                  <persName ref="http://d-nb.info/gnd/119755572">
+                     <reg>Matthaeus, aus Philadelphia</reg><surname>Matthaeus</surname><forename>aus
+                        Philadelphia</forename></persName>
+                  <idno type="GND">119755572</idno>
+                  <note resp="GND">Wirkungsdaten: 1539</note>
+               </person>
+               <person xml:id="Matthias_de_Ianova" role="author">
+                  <persName ref="http://d-nb.info/gnd/118731858">
+                     <reg>Matthias, de Ianova</reg>
+                  </persName>
+                  <idno type="GND">118731858</idno>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Priester; Exakte
+                     Lebensdaten: XX.XX.1350-30.11.1393; Lebensdaten: 1350-1393, ca. 1350-1393;
+                     Sterbeort: Prag</note>
+                  <birth resp="GND"><date when-iso="1350"/></birth>
+                  <death resp="GND"><date when-iso="1393"/></death>
+                  <note resp="GND">Beruf: Schriftsteller; Charakteristischer Beruf: Priester; Exakte
+                     Lebensdaten: XX.XX.1350-30.11.1393; Lebensdaten: 1350-1393, ca. 1350-1393;
+                     Sterbeort: Prag</note>
+               </person>
+               <person xml:id="Mattioli_Pietro_Andrea" role="author">
+                  <persName ref="http://d-nb.info/gnd/118731912">
+                     <reg>Mattioli, Pietro Andrea</reg><surname>Mattioli</surname><forename>Pietro
+                        Andrea</forename></persName>
+                  <idno type="GND">118731912</idno>
+                  <birth resp="GND"><date when-iso="1501"/></birth>
+                  <death resp="GND"><date when-iso="1577"/></death>
+                  <note resp="GND">Beruf: Botaniker, Leibarzt; Charakteristischer Beruf: Arzt;
+                     Exakte Lebensdaten: 12.03.1501-; Geburtsort: Siena; Lebensdaten: 1501-1577;
+                     Sterbeort: Trient</note>
+               </person>
+               <person xml:id="Maximilian_II">
+                  <persName ref="http://d-nb.info/gnd/11857938X">
+                     <reg>Maximilian II., Heiliges Römisches Reich, Kaiser</reg></persName>
+               </person>
+               <person xml:id="Maximilian_I">
+                  <persName ref="http://d-nb.info/gnd/118579371">
+                     <reg>Maximilian I., Heiliges Römisches Reich, Kaiser</reg></persName>
+                  <persName type="Blotius">Imperator Cæsar Divus Maximilianus</persName>
+               </person>
+               <person xml:id="Maximus_Taurinensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118934996">
+                     <reg>Maximus,
+                        Taurinensis</reg><surname>Maximus</surname><forename>Taurinensis</forename></persName>
+                  <idno type="GND">118934996</idno>
+                  <birth resp="GND"><date when-custom="ca. 4./5. Jh." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 4./5. Jh." cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Bischof; Lebensdaten: ca. 4./5. Jh.;
+                     Oberbegriff instantiell: Heiliger; UDK: 03-, 04-</note>
+               </person>
+               <person xml:id="Maximus_Tyrius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118944819">
+                     <reg>Maximus,
+                     Tyrius</reg><surname>Maximus</surname><forename>Tyrius</forename></persName>
+                  <persName type="Blotius">Maximus Tirius</persName>
+                  <persName type="Blotius">Maximus Tirius Philosophus Platonicus</persName>
+                  <idno type="GND">118944819</idno>
+                  <birth resp="GND"><date when-iso="125"/></birth>
+                  <death resp="GND"><date when-iso="185"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Philosoph; Lebensdaten: 125-185,
+                     125-185 n.Chr.; UDK: 01-</note>
+               </person>
+               <person xml:id="Melanchthon_Philipp" role="author">
+                  <persName ref="http://d-nb.info/gnd/118580485">
+                     <reg>Melanchthon,
+                        Philipp</reg><surname>Melanchthon</surname><forename>Philipp</forename></persName>
+                  <idno type="GND">118580485</idno>
+                  <birth resp="GND"><date when-iso="1497"/></birth>
+                  <death resp="GND"><date when-iso="1560"/></death>
+                  <note resp="GND">Beruf: Evangelischer Theologe, Philologe, Philosoph, Humanist,
+                     Reformator; Charakteristischer Beruf: Theologe; Exakte Lebensdaten:
+                     16.02.1497-19.04.1560; Geburtsort: Bretten; Lebensdaten: 1497-1560; Sterbeort:
+                     Wittenberg</note>
+               </person>
+               <person xml:id="Michael_de_Massa" role="author">
+                  <persName ref="http://d-nb.info/gnd/102829217">
+                     <reg>Michael, de Massa</reg>
+                  </persName>
+                  <idno type="GND">102829217</idno>
+                  <note resp="GND">Lebensdaten: -1337</note>
+                  <death resp="GND"><date when-iso="1337"/></death>
+                  <note resp="GND">Lebensdaten: -1337</note>
+               </person>
+
+               <person xml:id="Michael_de_Morostica" role="author">
+                  <persName>
+                     <reg>Michael, de Morostica</reg>
+                  </persName>
+                  <!-- nicht gefunden -->
+               </person>
+
+               <person xml:id="Michael_Glykas">
+                  <persName ref="http://d-nb.info/gnd/119153084"><reg>Michael,
+                     Glycas</reg></persName>
+                  <persName type="Blotius">Michaēl logōn glykōn</persName>
+               </person>
+               <person xml:id="Michael_Merseburg" role="author">
+                  <persName ref="http://d-nb.info/gnd/118710109">
+                     <reg>Michael, Merseburg, Bischof</reg>
+                     <surname>Michael, Merseburg, Bischof</surname><forename/></persName>
+                  <persName type="Blotius">Michaël Bischoff zu Mersenburg</persName>
+                  <idno type="GND">118710109</idno>
+                  <birth resp="GND"><date when-iso="1506"/></birth>
+                  <death resp="GND"><date when-iso="1561"/></death>
+                  <note resp="GND">Beruf: Theologe; Charakteristischer Beruf: Bischof; Exakte
+                     Lebensdaten: 30.09.1561-; Geburtsort: Langenenslingen; Lebensdaten: 1506-1561;
+                     Sterbeort: Wien</note>
+               </person>
+               <person xml:id="Moerlin_Maximilian" role="author">
+                  <persName ref="http://d-nb.info/gnd/12239366X">
+                     <reg>Mörlin, Maximilian</reg>
+                     <surname>Mörlin</surname>
+                     <forename>Maximilian</forename>
+                  </persName>
+                  <persName type="Blotius">Maximus Morlinus</persName>
+                  <idno type="GND">12239366X</idno>
+                  <birth resp="GND"><date when-iso="1516"/></birth>
+                  <death resp="GND"><date when-iso="1584"/></death>
+                  <note resp="GND">Beruf: Hofprediger, Superintendent; Charakteristischer Beruf:
+                     Pfarrer; Geburtsort: Wittenberg; Lebensdaten: 1516-1584; Sterbeort:
+                     Coburg</note>
+               </person>
+               <person xml:id="Montalbano_Marco" role="author">
+                  <persName ref="http://d-nb.info/gnd/1055509232">
+                     <reg>Della Frata et Montalbano, Marco</reg><surname>Della Frata et
+                        Montalbano</surname><forename>Marco</forename></persName>
+                  <persName type="Blotius">Marco de la Frata et Mont'Albano</persName>
+                  <idno type="GND">1055509232</idno>
+                  <!-- GND Level 6f -->
+                  <note resp="GND">Wirkungsdaten: ca. vor 1548</note>
+               </person>
+               <person xml:id="MonterCueva_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/124647197"><reg>Monter de la Cueva,
+                        Martin</reg><surname>Monter de la
+                     Cueva</surname><forename>Martin</forename></persName>
+                  <persName type="Blotius">Frater Martinus Cueva Carmonensis</persName>
+                  <idno type="GND">124647197</idno>
+                  <birth resp="GND"><date when-iso="1571"/></birth>
+                  <death resp="GND"><date when-iso="1596"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Jurist; Lebensdaten: 1571-1596</note>
+               </person>
+               <person xml:id="Moschus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118737066"><reg>Moschus,
+                     Syracusanus</reg></persName>
+               </person>
+               <person xml:id="Mueller_Marx" role="author">
+                  <persName ref="http://d-nb.info/gnd/122736125"><reg>Müller,
+                        Marx</reg><surname>Müller</surname><forename>Marx</forename></persName>
+                  <idno type="GND">122736125</idno>
+                  <note resp="GND">Beruf: Lehrer; Charakteristischer Beruf: Jurist; Wirkungsdaten:
+                     1523-1545; Wirkungsort: Westendorf</note>
+               </person>
+               <person xml:id="Mylius_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/12472129X"><reg>Mylius,
+                        Martin</reg><surname>Mylius</surname><forename>Martin</forename></persName>
+                  <idno type="GND">12472129X</idno>
+                  <death resp="GND"><date when-iso="1574"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Arzt; Geburtsort: Annaberg;
+                     Lebensdaten: -1574; Wirkungsort: Iglau, Znojmo</note>
+               </person>
+               <person xml:id="Myrsilus_Lesbius" role="author">
+                  <persName ref="http://d-nb.info/gnd/100534430"><reg>Myrsilus,
+                     Lesbius</reg></persName>
+               </person>
+               <person xml:id="Odilo_Cluny">
+                  <persName ref="http://d-nb.info/gnd/100955835">
+                     <reg>Odilo, von Cluny</reg>
+                  </persName>
+                  <idno type="GND">100955835</idno>
+                  <note resp="GND">Beruf: Mönch; Charakteristischer Beruf: Abt; Exakte Lebensdaten:
+                     XX.XX.XXXX-01.01.1049; Lebensdaten: 961-1049; Sterbeort: Souvigny;
+                     Wirkungsdaten: 994-1049; Wirkungsort: Cluny</note>
+                  <birth resp="GND"><date when-iso="961"/></birth>
+                  <death resp="GND"><date when-iso="1049"/></death>
+                  <note resp="GND">Beruf: Mönch; Charakteristischer Beruf: Abt; Exakte Lebensdaten:
+                     XX.XX.XXXX-01.01.1049; Lebensdaten: 961-1049; Sterbeort: Souvigny;
+                     Wirkungsdaten: 994-1049; Wirkungsort: Cluny</note>
+               </person>
+               <person xml:id="Ovidius_Naso" role="author">
+                  <persName ref="http://d-nb.info/gnd/118590995"><reg>Ovidius Naso,
+                        Publius</reg><surname>Ovidius
+                     Naso</surname><forename>Publius</forename></persName>
+                  <idno type="GND">118590995</idno>
+                  <birth resp="GND"><date when-custom="v43-17" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="v43-17" cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Geburtsort: Sulmona;
+                     Lebensdaten: v43-17; Sterbeort: Constanța; Wirkungsort: Rom</note>
+               </person>
+               <person xml:id="Pacus_Matthaeus" role="author">
+                  <persName ref="http://viaf.org/viaf/89350075">
+                     <reg>Pacus, Matthaeus</reg>
+                     <surname>Paco</surname><forename>Mathieu</forename>
+                  </persName>
+                  <persName type="Blotius"
+                     ><surname>Pacus</surname><forename>Mathaeus</forename></persName>
+               </person>
+               <person xml:id="Palingenio_Marcello" role="author">
+                  <persName ref="http://d-nb.info/gnd/119150654"><reg>Palingènio Stellato,
+                        Marcello</reg><surname>Palingènio
+                        Stellato</surname><forename>Marcello</forename></persName>
+                  <persName>Manzolli, Pietro Angelo </persName>
+                  <idno type="GND">119150654</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1543"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Lebensdaten:
+                     1500-1543</note>
+               </person>
+               <person xml:id="Paulus_Apostel">
+                  <persName ref="http://d-nb.info/gnd/118641549"><reg>Paulus, Apostel,
+                        Heiliger</reg></persName>
+                  <persName type="Blotius">S. Paulus</persName>
+               </person>
+               <person xml:id="Pazzi_Cosimo" role="author">
+                  <!-- erscheint auch als Editor -->
+                  <persName ref="http://d-nb.info/gnd/124362710"><reg>Pazzi,
+                        Cosimo</reg><surname>Pazzi</surname><forename>Cosimo</forename></persName>
+                  <idno type="GND">124362710</idno>
+                  <birth resp="GND"><date when-iso="1466"/></birth>
+                  <death resp="GND"><date when-iso="1513"/></death>
+                  <note resp="GND">Lebensdaten: 1466-1513</note>
+               </person>
+               <person xml:id="Pegie_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/124676103"><reg>Pegie,
+                        Martin</reg><surname>Pegie</surname><forename>Martin</forename></persName>
+                  <idno type="GND">124676103</idno>
+                  <birth resp="GND"><date when-iso="1523"/></birth>
+                  <death resp="GND"><date when-iso="1592"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Jurist; Lebensdaten: 1523-1592</note>
+               </person>
+               <person xml:id="Peltzer_Mathias_Cremerius" role="author">
+                  <persName ref="http://d-nb.info/gnd/138739870"><reg>Peltzer, Mathias
+                        Cremerius</reg><surname>Peltzer</surname><forename>Mathias
+                        Cremerius</forename></persName>
+                  <idno type="GND">138739870</idno>
+                  <birth resp="GND"><date when-iso="1465"/></birth>
+                  <death resp="GND"><date when-iso="1557"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Katholischer Theologe; Geburtsort:
+                     Aachen; Lebensdaten: 1465-1557; Sterbeort: Köln</note>
+               </person>
+               <person xml:id="Perez_de_Ayala_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/119438828"><reg>Pérez de Ayala,
+                        Martín</reg><surname>Pérez de
+                     Ayala</surname><forename>Martín</forename></persName>
+                  <idno type="GND">119438828</idno>
+                  <birth resp="GND"><date when-iso="1503"/></birth>
+                  <death resp="GND"><date when-iso="1566"/></death>
+                  <note resp="GND">Beruf: Bischof; Charakteristischer Beruf: Katholischer Theologe;
+                     Lebensdaten: 1503-1566</note>
+               </person>
+               <person xml:id="Petrus_de_Vinea" role="author">
+                  <persName ref="http://d-nb.info/gnd/118740474">
+                     <reg>Petrus, de Vinea</reg>
+                  </persName>
+                  <idno type="GND">118740474</idno>
+                  <note resp="GND">Beruf: Regierungsbeamter, Diplomat; Charakteristischer Beruf:
+                     Jurist; Geburtsort: Capua; Lebensdaten: 1190-1249; Sterbeort: San
+                     Miniato</note>
+                  <birth resp="GND"><date when-iso="1190"/></birth>
+                  <death resp="GND"><date when-iso="1249"/></death>
+                  <note resp="GND">Beruf: Regierungsbeamter, Diplomat; Charakteristischer Beruf:
+                     Jurist; Geburtsort: Capua; Lebensdaten: 1190-1249; Sterbeort: San
+                     Miniato</note>
+               </person>
+               <person xml:id="Poppius_Menso" role="author">
+                  <persName ref="http://d-nb.info/gnd/119792613"><reg>Poppius,
+                        Menso</reg><surname>Poppius</surname><forename>Menso</forename></persName>
+                  <idno type="GND">119792613</idno>
+                  <note resp="GND">Charakteristischer Beruf: Prediger; Geburtsort: Oosterzee
+                     &lt;Friesland&gt;; Wirkungsdaten: 1542-1570</note>
+               </person>
+               <person xml:id="Qualle_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/119796368"><reg>Qualle,
+                     Matthias</reg></persName>
+                  <persName type="Blotius">Magister Mathias Qualla Carniolanus </persName>
+               </person>
+               <person xml:id="Rakovsky_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/121349497"><reg>Rakovsky,
+                        Martin</reg><surname>Rakovsky</surname><forename>Martin</forename></persName>
+                  <idno type="GND">121349497</idno>
+                  <birth resp="GND"><date when-iso="1535"/></birth>
+                  <death resp="GND"><date when-iso="1579"/></death>
+                  <note resp="GND">Lebensdaten: 1535-1579</note>
+               </person>
+               <person xml:id="Ratzenberger_Georg">
+                  <persName ref="http://d-nb.info/gnd/139458689"><reg>Ratzenberger,
+                     Georg</reg></persName>
+               </person>
+               <person xml:id="Reisacher_Bartholomaeus" role="author">
+                  <persName ref="http://d-nb.info/gnd/124306241"><reg>Reisacher,
+                     Bartholomaeus</reg></persName>
+                  <persName type="Blotius">Barptolomaeus Reisacherus</persName>
+               </person>
+               <person xml:id="Rhegius_Urbanus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118600796"><reg>Rhegius,
+                        Urbanus</reg><surname>Rhegius</surname><forename>Urbanus</forename></persName>
+                  <idno type="GND">118600796</idno>
+                  <birth resp="GND"><date when-iso="1489"/></birth>
+                  <death resp="GND"><date when-iso="1541"/></death>
+                  <note resp="GND">Beruf: Reformator, Pfarrer, Superintendent, Humanist;
+                     Charakteristischer Beruf: Evangelischer Theologe; Exakte Lebensdaten:
+                     -23.03.1541; Geburtsort: Langenargen; Lebensdaten: 1489-1541; Sterbeort:
+                     Celle</note>
+               </person>
+               <person xml:id="Rodt_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/11980770X"><reg>Rodt,
+                        Matthias</reg><surname>Rodt</surname><forename>Matthias</forename></persName>
+                  <idno type="GND">11980770X</idno>
+                  <note resp="GND">Wirkungsdaten: 1555-1556</note>
+               </person>
+               <person xml:id="Ruland_Martin" role="author">
+                  <persName ref="http://d-nb.info/gnd/121409929"><reg>Ruland,
+                     Martin</reg></persName>
+               </person>
+               <person xml:id="Sabellicus_MarcusAntonius" role="author">
+                  <persName ref="http://d-nb.info/gnd/100960170"><reg>Sabellicus, Marcus
+                        Antonius</reg><surname>Sabellicus</surname><forename>Marcus
+                        Antonius</forename></persName>
+                  <idno type="GND">100960170</idno>
+                  <birth resp="GND"><date when-iso="1436"/></birth>
+                  <death resp="GND"><date when-iso="1506"/></death>
+                  <note resp="GND">Beruf: Geschichtsschreiber, Philologe; Charakteristischer Beruf:
+                     Humanist; Geburtsort: Vicovaro; Lebensdaten: 1436-1506</note>
+               </person>
+               <person xml:id="Sachs_Hans">
+                  <persName ref="http://d-nb.info/gnd/118604597"><reg>Sachs, Hans</reg></persName>
+               </person>
+               <person xml:id="Salomon">
+                  <persName ref="http://d-nb.info/gnd/118605100"><reg>Salomo, Israel,
+                     König</reg></persName>
+                  <persName type="Blotius">Salomon</persName>
+               </person>
+               <person xml:id="Salamoni_Mario" role="author">
+                  <persName ref="http://d-nb.info/gnd/100263224">
+                     <reg>Salamoni, Mario</reg>
+                     <surname>Salamoni</surname><forename>Mario</forename>
+                     <surname>Salomonius</surname><forename>Marius</forename>
+                  </persName>
+               </person>
+               <person xml:id="Savoyen_Eugen_von" role="owner">
+                  <persName ref="http://d-nb.info/gnd/118605941"><reg>Savoyen-Carignan, Eugen
+                        von</reg></persName>
+               </person>
+               <person xml:id="Savoyen_Victoriavon" role="owner">
+                  <persName ref="http://d-nb.info/gnd/137839332"><reg>Victoria, Savoyen-Carignan,
+                        Prinzessin </reg></persName>
+               </person>
+               <person xml:id="Schwenckfeld_Caspar">
+                  <persName ref="http://d-nb.info/gnd/118612190"><reg>Schwenckfeld,
+                     Caspar</reg></persName>
+                  <persName type="Blotius">Caspar Schwenckhfeld</persName>
+               </person>
+               <person xml:id="Sittard_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/132444992"><reg>Sittard,
+                        Matthias</reg><surname>Sittard</surname><forename>Matthias</forename></persName>
+                  <persName type="Blotius">Mathias Citardus</persName>
+                  <persName type="Blotius">D. Mathias Cesthardus</persName>
+                  <idno type="GND">132444992</idno>
+                  <birth resp="GND"><date when-iso="1522"/></birth>
+                  <death resp="GND"><date when-iso="1566"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Mönch; Exakte Lebensdaten:
+                     22.02.1522-31.10.1566; Geburtsort: Sittard; Lebensdaten: 1522-1566</note>
+               </person>
+               <person xml:id="Socini_Mariano" role="author">
+                  <persName ref="http://d-nb.info/gnd/131750755"><reg>Socini,
+                        Mariano</reg><surname>Socini</surname><forename>Mariano</forename></persName>
+                  <idno type="GND">131750755</idno>
+                  <birth resp="GND"><date when-iso="1482"/></birth>
+                  <death resp="GND"><date when-iso="1556"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Jurist; Geburtsort: Siena; Lebensdaten:
+                     1482-1556</note>
+               </person>
+               <person xml:id="Sulpicius_Severus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118757806"><reg>Sulpicius,
+                     Severus</reg></persName>
+               </person>
+               <person xml:id="Timann_Johannes" role="author">
+                  <persName ref="http://d-nb.info/gnd/118575449"><reg>Timann,
+                        Johannes</reg><surname>Timann</surname><forename>Johannes</forename></persName>
+                  <persName type="Blotius">Joannes Amsterodamus</persName>
+                  <idno type="GND">118575449</idno>
+                  <birth resp="GND"><date when-iso="1483"/></birth>
+                  <death resp="GND"><date when-iso="1546"/></death>
+                  <note resp="GND">Beruf: Theologe, Komponist, Übersetzer, Schriftsteller;
+                     Charakteristischer Beruf: Reformator; Exakte Lebensdaten:
+                     10.11.1483-18.02.1546; Geburtsort: Eisleben; Lebensdaten: 1483-1546; Sterbeort:
+                     Eisleben; Wirkungsort: Wittenberg, Eisenach</note>
+               </person>
+               <person xml:id="Tinctorius_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/100642713"><reg>Tinctorius,
+                        Matthias</reg><surname>Tinctorius</surname><forename>Matthias</forename>
+                     <persName type="Blotius">Mathias Tinctorius</persName></persName>
+               </person>
+               <person xml:id="Valdes_Juan_de" role="author">
+                  <persName ref="http://d-nb.info/gnd/118625861"><reg>Valdes de,
+                        Juan</reg><surname>Valdes de</surname><forename>Juan</forename></persName>
+                  <idno type="GND">118625861</idno>
+                  <birth resp="GND"><date when-iso="1490"/></birth>
+                  <death resp="GND"><date when-iso="1541"/></death>
+                  <note resp="GND">Beruf: Humanist; Charakteristischer Beruf: Theologe; Geburtsort:
+                     Cuenca; Lebensdaten: 1490-1541; Sterbeort: Neapel; Verwandter Begriff:
+                     Valdesianismus</note>
+               </person>
+               <person xml:id="Valla_Laurentius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118626000"><reg>Valla,
+                     Laurentius</reg></persName>
+                  <persName type="Blotius">Laurentius Valla</persName>
+               </person>
+               <person xml:id="Vauzelles_Matthieu" role="author">
+                  <!-- hier fehlt Referenz -->
+                  <persName><reg>Vauzelles de, Matthieu</reg><surname>Vauzelles
+                        de</surname><forename>Matthieu</forename></persName>
+                  <persName type="Blotius">Mathieu de Vauselles docteur es droicts, et Advocat du
+                     Roy au Parlement de Dombes</persName>
+               </person>
+               <person xml:id="Vehe_Michael" role="author">
+                  <persName ref="http://d-nb.info/gnd/100626459"><reg>Vehe,
+                        Michael</reg><surname>Vehe</surname><forename>Michael</forename></persName>
+                  <idno type="GND">100626459</idno>
+                  <birth resp="GND"><date when-iso="1480"/></birth>
+                  <death resp="GND"><date when-iso="1539"/></death>
+                  <note resp="GND">Akademischer Grad: Dr. theol.; Charakteristischer Beruf:
+                     Theologe; Funktion: k; Geburtsort: Heilbronn-Biberach; Lebensdaten: 1480-1539;
+                     Sterbeort: Halle (Saale)</note>
+               </person>
+               <person xml:id="Veit_Dietrich" role="editor">
+                  <persName ref="http://d-nb.info/gnd/118671928"><reg>Veit,
+                        Dietrich</reg><surname>Veit</surname><forename>Dietrich</forename></persName>
+                  <idno type="GND">118671928</idno>
+                  <birth resp="GND"><date when-iso="1506"/></birth>
+                  <death resp="GND"><date when-iso="1549"/></death>
+                  <note resp="GND">Beruf: Evangelischer Theologe, Reformator; Charakteristischer
+                     Beruf: Pfarrer; Exakte Lebensdaten: 08.12.1506-25.03.1549; Geburtsort:
+                     Nürnberg; Lebensdaten: 1506-1549; Sterbeort: Nürnberg</note>
+               </person>
+               <person xml:id="Vergilius_Marcellus" role="author">
+                  <persName ref="http://d-nb.info/gnd/124404146"><reg>Vergilius,
+                        Marcellus</reg><surname>Vergilius</surname><forename>Marcellus</forename></persName>
+                  <idno type="GND">124404146</idno>
+                  <birth resp="GND"><date when-iso="1464"/></birth>
+                  <death resp="GND"><date when-iso="1521"/></death>
+                  <note resp="GND">Lebensdaten: 1464-1521</note>
+               </person>
+               <person xml:id="Vigerio_Marco" role="author">
+                  <persName ref="http://d-nb.info/gnd/119859084"><reg>Vigerio,
+                        Marco</reg><surname>Vigerio</surname><forename>Marco</forename></persName>
+                  <persName type="Blotius">Martius Vigerius</persName>
+                  <idno type="GND">119859084</idno>
+                  <note resp="GND">Wirkungsdaten: 1517</note>
+               </person>
+               <person xml:id="Villani_Matteo" role="author">
+                  <persName ref="http://d-nb.info/gnd/115805958"><reg>Villani,
+                        Matteo</reg><surname>Villani</surname><forename>Matteo</forename></persName>
+                  <persName type="Blotius">Matheo Villani Fiorentino</persName>
+                  <idno type="GND">115805958</idno>
+                  <death resp="GND"><date when-iso="1363"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Geschichtsschreiber; Lebensdaten:
+                     -1363</note>
+               </person>
+               <person xml:id="Virues_Alfonso" role="author">
+                  <persName ref="http://d-nb.info/gnd/119859769"
+                        ><!-- GND-Satz prüfen Level 6 aus VD16 --><reg>Virués, Alfonso
+                     de</reg></persName>
+                  <persName type="Blotius">Alphonsus</persName>
+               </person>
+               <person xml:id="Witzel_Georg" role="author">
+                  <persName ref="http://d-nb.info/gnd/118807757"><reg>Witzel,
+                        Georg</reg><surname>Witzel</surname><forename>Georg</forename></persName>
+                  <persName type="Blotius">Georgius Wicelius</persName>
+                  <idno type="GND">118807757</idno>
+                  <birth resp="GND"><date when-iso="1501"/></birth>
+                  <death resp="GND"><date when-iso="1573"/></death>
+                  <note resp="GND">Beruf: Reformationstheologe; Charakteristischer Beruf:
+                     Katholischer Theologe; Geburtsort: Vacha; Lebensdaten: 1501-1573; Sterbeort:
+                     Mainz</note>
+               </person>
+               <person xml:id="Wanner_Valentin" role="author">
+                  <persName ref="http://d-nb.info/gnd/118629115"><reg>Wanner,
+                        Valentin</reg><surname>Wanner</surname><forename>
+                     Valentin</forename></persName>
+                  <idno type="GND">118629115</idno>
+                  <birth resp="GND"><date when-iso="1495"/></birth>
+                  <death resp="GND"><date when-iso="1567"/></death>
+                  <note resp="GND">Beruf: Pfarrer; Charakteristischer Beruf: Evangelischer Theologe;
+                     Geburtsort: Beilstein; Lebensdaten: 1495-1567</note>
+               </person>
+               <person xml:id="Wesenbeck_Matthaeus" role="author">
+                  <persName ref="http://d-nb.info/gnd/11757287X"><reg>Wesenbeck,
+                     Matthaeus</reg></persName>
+                  <persName type="Blotius">Mathaeus Wesenbecius</persName>
+               </person>
+               <person xml:id="Wurm_Matthias" role="author">
+                  <persName ref="http://d-nb.info/gnd/119875357"><reg>Wurm,
+                        Matthias</reg><surname>Wurm</surname><forename>Matthias</forename></persName>
+                  <idno type="GND">119875357</idno>
+                  <note resp="GND">Beruf: Autor; Charakteristischer Beruf: Kanzleisekretär;
+                     Geburtsort: Geudertheim; Wirkungsdaten: 1522-1525; Wirkungsort:
+                     Straßburg</note>
+               </person>
+               <person xml:id="Zell_Matthaeus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118808397"><reg>Zell,
+                        Matthäus</reg><surname>Zell</surname><forename>Matthäus</forename></persName>
+                  <idno type="GND">118808397</idno>
+                  <birth resp="GND"><date when-iso="1477"/></birth>
+                  <death resp="GND"><date when-iso="1548"/></death>
+                  <note resp="GND">Beruf: Reformator, Pfarrer, Prediger, Reformator;
+                     Charakteristischer Beruf: Evangelischer Theologe; Geburtsort: Kaysersberg;
+                     Lebensdaten: 1477-1548; Sterbeort: Straßburg</note>
+               </person>
+               <!--Begin Sonjas authors, nach GND, ergänzend-->
+               <person xml:id="Amerbach_Veit" role="author">
+                  <persName ref="http://d-nb.info/gnd/119059835"><reg>Amerbach,
+                        Veit</reg><surname>Amerbach</surname><forename>Veit</forename></persName>
+                  <idno type="GND">119059835</idno>
+                  <birth resp="GND"><date when-iso="1503"/></birth>
+                  <death resp="GND"><date when-iso="1557"/></death>
+                  <note resp="GND">Akademischer Grad: Prof.; Beruf: Theologe, Jurist;
+                     Charakteristischer Beruf: Humanist; Geburtsort: Wemding; Lebensdaten:
+                     1503-1557; Sterbeort: Ingolstadt; Wirkungsort: Ingolstadt</note>
+               </person>
+               <person xml:id="Aytta_Wigle_van" role="author">
+                  <persName ref="http://d-nb.info/gnd/119490528"><reg>Aytta, Wigle
+                        van</reg><surname>Aytta</surname><forename>Wigle van</forename></persName>
+                  <idno type="GND">119490528</idno>
+                  <birth resp="GND"><date when-iso="1507"/></birth>
+                  <death resp="GND"><date when-iso="1577"/></death>
+                  <note resp="GND">Beruf: Diplomat, Bibliothekar, Politiker; Charakteristischer
+                     Beruf: Jurist; Exakte Lebensdaten: 19.10.1507-08.05.1577; Geburtsort: Wirdum;
+                     Lebensdaten: 1507-1577; Sterbeort: Brüssel</note>
+               </person>
+               <person xml:id="Bonacurso_Ubertus_de" role="author">
+                  <persName ref="http://d-nb.info/gnd/100969607"><reg>Bonacurso, Ubertus
+                        de</reg><surname>Bonacurso</surname><forename>Ubertus
+                     de</forename></persName>
+                  <idno type="GND">100969607</idno>
+                  <birth resp="GND"><date when-custom="ca. um 1228/36, &quot;Praeludia&quot;"
+                        cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. um 1228/36, &quot;Praeludia&quot;"
+                        cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: ca. um 1228/36, "Praeludia"</note>
+               </person>
+               <person xml:id="Cajetan_Thomas" role="author">
+                  <persName ref="http://d-nb.info/gnd/118518348"><reg>Cajetan,
+                        Thomas</reg><surname>Cajetan</surname><forename>Thomas</forename></persName>
+                  <idno type="GND">118518348</idno>
+                  <birth resp="GND"><date when-iso="1469"/></birth>
+                  <death resp="GND"><date when-iso="1534"/></death>
+                  <note resp="GND">Beruf: Philosoph, Kardinal; Charakteristischer Beruf:
+                     Katholischer Theologe; Exakte Lebensdaten: 20.02.1469-10.08.1534; Geburtsort:
+                     Gaeta; Lebensdaten: 1469-1534; Sterbeort: Rom; Wirkungsort: Augsburg</note>
+               </person>
+               <person xml:id="Cambanis_Vital_de" role="author">
+                  <persName ref="http://d-nb.info/gnd/174148798"><reg>Cambanis, Vital
+                        de</reg><surname>Cambanis</surname><forename>Vital de</forename></persName>
+                  <idno type="GND">174148798</idno>
+                  <note resp="GND"/>
+               </person>
+               <person xml:id="Cicogna_Vincenzo" role="author">
+                  <persName ref="http://d-nb.info/gnd/119641674"><reg>Cicogna,
+                        Vincenzo</reg><surname>Cicogna</surname><forename>Vincenzo</forename></persName>
+                  <idno type="GND">119641674</idno>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Wirkungsdaten:
+                     1557</note>
+               </person>
+               <person xml:id="Drechsler_Wolfgang" role="author">
+                  <persName ref="http://d-nb.info/gnd/1089518250"><reg>Drechsler,
+                        Wolfgang</reg><surname>Drechsler</surname><forename>Wolfgang</forename></persName>
+                  <idno type="GND">1089518250</idno>
+                  <note resp="GND">Charakteristischer Beruf: Historiker; Wirkungsdaten: 1550</note>
+               </person>
+
+               <person xml:id="Ercolani_Vincenzio" role="author">
+                  <persName ref="http://d-nb.info/gnd/17293561X"><reg>Ercolani,
+                        Vincenzio</reg><surname>Ercolani</surname><forename>Vincenzio</forename></persName>
+                  <idno type="GND">17293561X</idno>
+                  <death resp="GND"><date when-iso="1539"/></death>
+                  <note resp="GND">Lebensdaten: -1539</note>
+               </person>
+               <person xml:id="Faber_Ulrich_Rhaetus" role="author">
+                  <persName ref="http://d-nb.info/gnd/1089658877"><reg>Faber, Ulrich
+                        Rhaetus</reg><surname>Faber</surname><forename>Ulrich
+                     Rhaetus</forename></persName>
+                  <idno type="GND">1089658877</idno>
+                  <birth resp="GND"><date when-custom="16. Jht." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="16. Jht." cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: 16. Jht.</note>
+               </person>
+               <person xml:id="Forster_Valentin" role="author">
+                  <persName ref="http://d-nb.info/gnd/100279317"><reg>Forster,
+                        Valentin</reg><surname>Forster</surname><forename>Valentin</forename></persName>
+                  <idno type="GND">100279317</idno>
+                  <birth resp="GND"><date when-iso="1530"/></birth>
+                  <death resp="GND"><date when-iso="1609"/></death>
+                  <note resp="GND">Beruf: Hochschullehrer; Charakteristischer Beruf: Jurist; Exakte
+                     Lebensdaten: 20.01.1530-28.10.1609; Geburtsort: Wittenberg; Lebensdaten:
+                     1530-1609; Sterbeort: Helmstedt</note>
+               </person>
+               <person xml:id="Hugwald_Ulrich" role="author">
+                  <persName ref="http://d-nb.info/gnd/128811404"><reg>Hugwald,
+                        Ulrich</reg><surname>Hugwald</surname><forename>Ulrich</forename></persName>
+                  <idno type="GND">128811404</idno>
+                  <birth resp="GND"><date when-iso="1496"/></birth>
+                  <death resp="GND"><date when-iso="1571"/></death>
+                  <note resp="GND">Beruf: Lehrer; Charakteristischer Beruf: Schriftsteller;
+                     Lebensdaten: 1496-1571</note>
+               </person>
+               <person xml:id="Hutten_Ulrich_von" role="author">
+                  <persName ref="http://d-nb.info/gnd/118555049"><reg>Hutten, Ulrich
+                        von</reg><surname>Hutten</surname><forename>Ulrich von</forename></persName>
+                  <idno type="GND">118555049</idno>
+                  <birth resp="GND"><date when-iso="1488"/></birth>
+                  <death resp="GND"><date when-iso="1523"/></death>
+                  <note resp="GND">Beruf: Publizist, Politiker; Charakteristischer Beruf: Humanist;
+                     Lebensdaten: 1488-1523</note>
+               </person>
+               <person xml:id="Muentzer_Valentin" role="author">
+                  <persName ref="http://d-nb.info/gnd/119764776"><reg>Müntzer,
+                        Valentin</reg><surname>Müntzer</surname><forename>Valentin</forename></persName>
+                  <idno type="GND">119764776</idno>
+                  <note resp="GND">Beruf: Historiker, Chronist; Geburtsort: Fulda; Wirkungsdaten:
+                     1550</note>
+               </person>
+               <person xml:id="Nicolaides_Wenzel" role="author">
+                  <persName ref="http://d-nb.info/gnd/119773821"><reg>Nicolaides,
+                        Wenzel</reg><surname>Nicolaides</surname><forename>Wenzel</forename></persName>
+                  <idno type="GND">119773821</idno>
+                  <note resp="GND">Charakteristischer Beruf: Stadtschreiber; Wirkungsdaten:
+                     1554</note>
+               </person>
+               <person xml:id="Priboevus_Vincentius" role="author">
+                  <persName ref="http://d-nb.info/gnd/105251765X"><reg>Priboevus,
+                        Vincentius</reg><surname>Priboevus</surname><forename>Vincentius</forename></persName>
+                  <idno type="GND">105251765X</idno>
+                  <note resp="GND">Wirkungsdaten: ca. vor 1532</note>
+               </person>
+               <person xml:id="Ryd_Valerius_Anselmus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118645315"><reg>Ryd, Valerius
+                        Anselmus</reg><surname>Ryd</surname><forename>Valerius
+                     Anselmus</forename></persName>
+                  <idno type="GND">118645315</idno>
+                  <birth resp="GND"><date when-iso="1475"/></birth>
+                  <death resp="GND"><date when-iso="1547"/></death>
+                  <note resp="GND">Beruf: Arzt; Charakteristischer Beruf: Chronist; Geburtsort:
+                     Rottweil; Lebensdaten: 1475-1547; Sterbeort: Bern</note>
+               </person>
+               <person xml:id="Starhemberg_HeinrichWilhelm" role="owner">
+                  <persName ref="http://d-nb.info/gnd/12279155X">
+                     <reg>Starhemberg, Heinrich Wilhelm von</reg>
+                     <surname>Starhemberg</surname>
+                     <forename>Heinrich Wilhelm von</forename>
+                  </persName>
+                  <note resp="#MK">Entgegen Ansetzungsform "Starenberg, Heinrich Wilhelm" wird hier
+                     die Form "Starhemberg, Heinrich Wilhelm" bevorzugt</note>
+               </person>
+               <person xml:id="Trincavelli_Vittore" role="author">
+                  <persName ref="http://d-nb.info/gnd/119091232"><reg>Trincavelli,
+                        Vittore</reg><surname>Trincavelli</surname><forename>Vittore</forename></persName>
+                  <idno type="GND">119091232</idno>
+                  <birth resp="GND"><date when-iso="1496"/></birth>
+                  <death resp="GND"><date when-iso="1568"/></death>
+                  <note resp="GND">Beruf: Philosoph; Charakteristischer Beruf: Arzt; Lebensdaten:
+                     1496-1568</note>
+               </person>
+               <person xml:id="Troiano_Massimo" role="author">
+                  <persName ref="http://d-nb.info/gnd/122151763"><reg>Troiano,
+                     Massimo</reg></persName>
+               </person>
+               <person xml:id="Valerius_Maximus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118625969"><reg>Maximus,
+                        Valerius</reg><surname>Maximus</surname><forename>Valerius</forename></persName>
+                  <idno type="GND">118625969</idno>
+                  <birth resp="GND"><date when-custom="ca. Ende 1. Jh. v. Chr.-1. H. 1. Jh."
+                        cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. Ende 1. Jh. v. Chr.-1. H. 1. Jh."
+                        cert="unknown"/></death>
+                  <note resp="GND">Lebensdaten: ca. Ende 1. Jh. v. Chr.-1. H. 1. Jh.; UDK: v00-,
+                     00-</note>
+               </person>
+               <person xml:id="Vergetius_Renatus_Flavius" role="author">
+                  <persName ref="http://d-nb.info/gnd/11880409X"><reg>Vergetius Renatus,
+                        Flavius</reg><surname>Vergetius
+                        Renatus</surname><forename>Flavius</forename></persName>
+                  <idno type="GND">11880409X</idno>
+                  <birth resp="GND"><date when-iso="383"/></birth>
+                  <death resp="GND"><date when-iso="450"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Beamter; Lebensdaten: 383-450, 383-450
+                     n.Chr.; UDK: 03-, 04-</note>
+               </person>
+               <person xml:id="Vergilius_Maro_Publius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118626574"><reg>Vergilius Maro,
+                        Publius</reg><surname>Vergilius
+                     Maro</surname><forename>Publius</forename></persName>
+                  <idno type="GND">118626574</idno>
+                  <birth resp="GND"><date when-custom="v70-v19" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="v70-v19" cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Schriftsteller; Exakte Lebensdaten:
+                     15.10.v70-21.09.v19; Funktion: s, Text; Geburtsort: Andes; Lebensdaten:
+                     v70-v19; Sterbeort: Brindisi; UDK: v00-</note>
+               </person>
+               <person xml:id="Vigilius_Thapsensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118968319"><reg>Thapsensis,
+                        Vigilius</reg><surname>Thapsensis</surname><forename>Vigilius</forename></persName>
+                  <idno type="GND">118968319</idno>
+                  <death resp="GND"><date when-iso="484"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Bischof; Lebensdaten: -484; UDK: 04-;
+                     Wirkungsort: Thapsus</note>
+               </person>
+               <person xml:id="Vincentius_Bellovacensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118627163"><reg>Bellovacensis,
+                        Vincentius</reg><surname>Bellovacensis</surname><forename>Vincentius</forename></persName>
+                  <idno type="GND">118627163</idno>
+                  <birth resp="GND"><date when-iso="1190"/></birth>
+                  <death resp="GND"><date when-iso="1264"/></death>
+                  <note resp="GND">Beruf: Enzyklopädist; Charakteristischer Beruf: Pädagoge;
+                     Lebensdaten: 1190-1264; Sterbeort: Beauvais</note>
+               </person>
+               <person xml:id="Vincentius_Ferrerius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118627082"><reg>Ferrerius,
+                        Vincentius</reg><surname>Ferrerius</surname><forename>Vincentius</forename></persName>
+                  <idno type="GND">118627082</idno>
+                  <birth resp="GND"><date when-iso="1350"/></birth>
+                  <death resp="GND"><date when-iso="1419"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Prediger; Lebensdaten: 1350-1419</note>
+               </person>
+               <person xml:id="Vincentius_Lerinensis" role="author">
+                  <persName ref="http://d-nb.info/gnd/118804685"><reg>Lerinensis,
+                        Vincentius</reg><surname>Lerinensis</surname><forename>Vincentius</forename></persName>
+                  <idno type="GND">118804685</idno>
+                  <death resp="GND"><date when-iso="450"/></death>
+                  <note resp="GND">Lebensdaten: -450</note>
+               </person>
+               <person xml:id="Vitruvius" role="author">
+                  <persName ref="http://d-nb.info/gnd/118627252"
+                        ><reg>Vitruvius</reg><forename>Vitruvius</forename></persName>
+                  <idno type="GND">118627252</idno>
+                  <birth resp="GND"><date when-custom="ca. v1. Jh." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. v1. Jh." cert="unknown"/></death>
+                  <note resp="GND">Beruf: Architekt; Charakteristischer Beruf: Ingenieur;
+                     Lebensdaten: ca. v1. Jh.; UDK: v00-</note>
+               </person>
+               <person xml:id="Witelo" role="author">
+                  <persName ref="http://d-nb.info/gnd/118975765"
+                        ><reg>Witelo</reg><forename>Witelo</forename></persName>
+                  <idno type="GND">118975765</idno>
+                  <birth resp="GND"><date when-iso="1237"/></birth>
+                  <death resp="GND"><date when-iso="1275"/></death>
+                  <note resp="GND">Beruf: Mönch, Philosoph; Charakteristischer Beruf:
+                     Naturwissenschaftler; Geburtsort: Liegnitz; Lebensdaten: 1237-1275;
+                     Wirkungsort: Paris, Padua, Viterbo, Petrikau</note>
+               </person>
+               <person xml:id="Wuerttemberg_Ulrich_von" role="author">
+                  <persName ref="http://d-nb.info/gnd/142700029"><reg>Württemberg,
+                        Ulrich_von</reg><surname>Württemberg</surname><forename>Ulrich_von</forename></persName>
+                  <idno type="GND">142700029</idno>
+                  <birth resp="GND"><date when-iso="1343"/></birth>
+                  <death resp="GND"><date when-iso="1388"/></death>
+                  <note resp="GND">Adelstitel: Graf, Prinz; Lebensdaten: 1343-1388; Oberbegriff
+                     instantiell: Adel</note>
+               </person>
+               <person xml:id="Zasius_Ulrich" role="author">
+                  <persName ref="http://d-nb.info/gnd/118772295"><reg>Zasius,
+                        Ulrich</reg><surname>Zasius</surname><forename>Ulrich</forename></persName>
+                  <idno type="GND">118772295</idno>
+                  <birth resp="GND"><date when-iso="1461"/></birth>
+                  <death resp="GND"><date when-iso="1535"/></death>
+                  <note resp="GND">Akademischer Grad: Prof.; Beruf: Jurist, Hochschullehrer;
+                     Charakteristischer Beruf: Humanist; Exakte Lebensdaten: XX.XX.1461-24.11.1535;
+                     Geburtsort: Konstanz; Lebensdaten: 1461-1535; Sterbeort: Freiburg im Breisgau;
+                     Wirkungsort: Konstanz, Freiburg im Breisgau</note>
+               </person>
+               <person xml:id="Zwingli_Ulrich" role="author">
+                  <persName ref="http://d-nb.info/gnd/118637533"><reg>Zwingli,
+                        Ulrich</reg><surname>Zwingli</surname><forename>Ulrich</forename></persName>
+                  <idno type="GND">118637533</idno>
+                  <birth resp="GND"><date when-iso="1484"/></birth>
+                  <death resp="GND"><date when-iso="1531"/></death>
+                  <note resp="GND">Beruf: Theologe, Komponist; Charakteristischer Beruf: Reformator;
+                     Funktion: k; Geburtsort: Wildhaus; Lebensdaten: 1484-1531; Sterbeort: Kappel am
+                     Albis; Wirkungsort: Zürich</note>
+               </person>
+               <!--End Sonjas authors-->
+               <!-- publisher -->
+               <person xml:id="Angelier_Arnoul" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037607821"><reg>L'Angelier,
+                        Arnoul</reg><surname>L'Angelier</surname><forename>Arnoul</forename></persName>
+                  <idno type="GND">1037607821</idno>
+                  <note resp="GND">Funktion: Verleger, Buchhändler; Wirkungsort: Paris</note>
+               </person>
+               <person xml:id="Anshelm_Thomas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/123978386"><reg>Anshelm,
+                        Thomas</reg><surname>Anshelm</surname><forename>Thomas</forename></persName>
+                  <idno type="GND">123978386</idno>
+                  <death resp="GND"><date when-iso="1523"/></death>
+                  <note resp="GND">Beruf: Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Lebensdaten: -1523; Wirkungsort: Straßburg, Pforzheim, Tübingen,
+                     Hagenau</note>
+               </person>
+               <person xml:id="Apiarius_Mathias" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/102768595"><reg>Apiarius,
+                        Mathias</reg><surname>Apiarius</surname><forename>Mathias</forename></persName>
+                  <idno type="GND">102768595</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1554"/></death>
+                  <note resp="GND">Beruf: Komponist, Buchbinder, Topograph; Charakteristischer
+                     Beruf: Drucker; Geburtsort: Berching; Lebensdaten: 1500-1554; Sterbeort: Bern;
+                     Wirkungsort: Nürnberg, Basel, Straßburg, Bern</note>
+               </person>
+               <person xml:id="BadiusAscensius_Jodocus" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/11901808X"><reg>Badius Ascensius,
+                        Jodocus</reg><surname>Badius
+                     Ascensius</surname><forename>Jodocus</forename></persName>
+                  <idno type="GND">11901808X</idno>
+                  <birth resp="GND"><date when-iso="1462"/></birth>
+                  <death resp="GND"><date when-iso="1535"/></death>
+                  <note resp="GND">Beruf: Buchdrucker, Verleger, Drucker; Charakteristischer Beruf:
+                     Humanist; Lebensdaten: 1462-1535; Wirkungsort: Gent, Lyon, Paris</note>
+               </person>
+               <person xml:id="Badius_Conrad" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/102782733"><reg>Badius,
+                        Conrad</reg><surname>Badius</surname><forename>Conrad</forename></persName>
+                  <idno type="GND">102782733</idno>
+                  <birth resp="GND"><date when-iso="1510"/></birth>
+                  <death resp="GND"><date when-iso="1562"/></death>
+                  <note resp="GND">Beruf: Buchhändler; Charakteristischer Beruf: Drucker;
+                     Lebensdaten: 1510-1562; Wirkungsort: Paris, Genf</note>
+               </person>
+               <person xml:id="Bapst_Valentin" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119612968"><reg>Bapst,
+                        Valentin</reg><surname>Bapst</surname><forename>Valentin</forename></persName>
+                  <idno type="GND">119612968</idno>
+                  <death resp="GND"><date when-iso="1556"/></death>
+                  <note resp="GND">Beruf: Verleger; Charakteristischer Beruf: Buchdrucker; Funktion:
+                     Drucker; Lebensdaten: -1556; Sterbeort: Leipzig; Wirkungsort: Leipzig</note>
+               </person>
+               <person xml:id="Bebel_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119615525"><reg>Bebel, Johann</reg></persName>
+               </person>
+               <person xml:id="Beck_Reinhard" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/135941636"><reg>Beck,
+                        Reinhard</reg><surname>Beck</surname><forename>Reinhard</forename></persName>
+                  <idno type="GND">135941636</idno>
+                  <death resp="GND"><date when-iso="1522"/></death>
+                  <note resp="GND">Beruf: Buchdrucker; Charakteristischer Beruf: Drucker;
+                     Lebensdaten: -1522; Wirkungsort: Straßburg, Baden-Baden</note>
+               </person>
+               <person xml:id="Behem_Franz" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119522098"><reg>Behem,
+                        Franz</reg><surname>Behem</surname><forename>Franz</forename></persName>
+                  <idno type="GND">119522098</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1582"/></death>
+                  <note resp="GND">Beruf: Buchdrucker, Buchhändler; Charakteristischer Beruf:
+                     Buchbinder; Exakte Lebensdaten: XX.XX.1500-09.06.1582; Funktion: Drucker;
+                     Geburtsort: Dippoldiswalde; Lebensdaten: 1500-1582; Wirkungsort: Dresden,
+                     Mainz</note>
+               </person>
+               <person xml:id="Blawe_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1044048077"><reg>Blawe,
+                        Johann</reg><surname>Blawe</surname><forename>Johann</forename></persName>
+                  <idno type="GND">1044048077</idno>
+                  <note resp="GND">Funktion: Drucker; Wirkungsort: Wesel</note>
+               </person>
+               <person xml:id="Blum_Michael" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119623722"><reg>Blum,
+                        Michael</reg><surname>Blum</surname><forename>Michael</forename></persName>
+                  <idno type="GND">119623722</idno>
+                  <death resp="GND"><date when-iso="1550"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Geburtsort: Straßburg; Lebensdaten: -1550; Sterbeort: Leipzig; Wirkungsdaten:
+                     1514-1550; Wirkungsort: Leipzig</note>
+               </person>
+               <person xml:id="Brubach_Peter" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118514555"><reg>Brubach,
+                        Peter</reg><surname>Brubach</surname><forename>Peter</forename></persName>
+                  <idno type="GND">118514555</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1567"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Lebensdaten: 1500-1567; Wirkungsort: Frankfurt am Main, Schwäbisch Hall,
+                     Hagenau</note>
+               </person>
+               <person xml:id="Calvo_Francesco" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037645979"><reg>Calvo, Francesco
+                        Minizio</reg></persName>
+               </person>
+               <person xml:id="Cholinus_Maternus" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119640619"><reg>Cholinus,
+                     Maternus</reg></persName>
+                  <idno type="GND">119640619</idno>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker,
+                     Verleger; Lebensdaten: 1528-1588; Wirkungsort: Köln</note>
+                  <birth resp="GND"><date when-iso="1528"/></birth>
+                  <death resp="GND"><date when-iso="1588"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker,
+                     Verleger; Lebensdaten: 1528-1588; Wirkungsort: Köln</note>
+               </person>
+               <person xml:id="Comin_daTrino" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1031972552"><reg>Trino, Comin
+                        da</reg><surname>Trino</surname><forename>Comin da</forename></persName>
+                  <idno type="GND">1031972552</idno>
+                  <note resp="GND">Funktion: Drucker; Wirkungsdaten: 1539-1574; Wirkungsort:
+                     Venedig</note>
+               </person>
+               <person xml:id="Couteau_Nicolas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1060346753"><reg>Couteau,
+                        Nicolas</reg><surname>Couteau</surname><forename>Nicolas</forename></persName>
+                  <idno type="GND">1060346753</idno>
+                  <!-- GND PF1 Satz, auch PF3 Satz 1090037163 -->
+                  <note resp="GND">Funktion: Drucker; Wirkungsdaten: 1524-1547; Wirkungsort:
+                     Paris</note>
+               </person>
+               <person xml:id="Creuziger_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037541111"><reg>Creutziger,
+                     Johann</reg></persName>
+               </person>
+               <person xml:id="Dugort_Robert" role="publisher">
+                  <persName><reg>Dugort,
+                        Robert</reg><surname>Dugort</surname><forename>Robert</forename></persName>
+               </person>
+               <person xml:id="DuPre_Galliot" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037553594"><reg>Du Pré,
+                     Galliot</reg></persName>
+               </person>
+               <person xml:id="Emmel_Samuel" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119662930"><reg>Emmel,
+                        Samuel</reg><surname>Emmel</surname><forename>Samuel</forename></persName>
+                  <idno type="GND">119662930</idno>
+                  <note resp="GND">Beruf: Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Wirkungsdaten: 1553-1573; Wirkungsort: Köln, Straßburg</note>
+               </person>
+               <person xml:id="Estienne_Henri" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118862758"><reg>Estienne,
+                        Henri</reg><surname>Estienne</surname><forename>Henri</forename></persName>
+                  <idno type="GND">118862758</idno>
+                  <birth resp="GND"><date when-iso="1531"/></birth>
+                  <death resp="GND"><date when-iso="1598"/></death>
+                  <note resp="GND">Beruf: Verleger, Philologe, Gelehrter, Humanist;
+                     Charakteristischer Beruf: Drucker; Geburtsort: Paris; Lebensdaten: 1531-1598;
+                     Sterbeort: Lyon; Wirkungsort: Lyon, Genf, Paris</note>
+               </person>
+               <person xml:id="Ferrari_Giovanni" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037546474"><reg>Ferrari, Giovanni
+                        Giacomo</reg></persName>
+               </person>
+               <person xml:id="Froben_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/136000509"><reg>Froben, Johann
+                        Erasmus</reg><surname>Froben</surname><forename>Johann
+                     Erasmus</forename></persName>
+                  <idno type="GND">136000509</idno>
+                  <birth resp="GND"><date when-iso="1519"/></birth>
+                  <death resp="GND"><date when-iso="1549"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Lebensdaten: 1519-1549;
+                     Wirkungsort: Basel</note>
+               </person>
+               <person xml:id="Froelich_Jakob" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1038797675"><reg>Frölich,
+                        Jakob</reg><surname>Frölich</surname><forename>Jakob</forename></persName>
+                  <idno type="GND">1038797675</idno>
+                  <birth resp="GND"><date when-custom="ca. 16. Jh." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 16. Jh." cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker,
+                     Verleger; Lebensdaten: ca. 16. Jh.; Wirkungsdaten: 1540-1555; Wirkungsort:
+                     Straßburg</note>
+               </person>
+               <person xml:id="Fuchs_Hero" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/11967923X"><reg>Fuchs,
+                        Hero</reg><surname>Fuchs</surname><forename>Hero</forename></persName>
+                  <idno type="GND">11967923X</idno>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Wirkungsdaten: 1520-1562; Wirkungsort: Köln</note>
+               </person>
+               <person xml:id="Gennep_Jaspar" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118716824"><reg>von Gennep,
+                        Jaspar</reg><surname>von
+                     Gennep</surname><forename>Jaspar</forename></persName>
+                  <idno type="GND">118716824</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1564"/></death>
+                  <note resp="GND">Beruf: Buchdrucker; Charakteristischer Beruf: Schriftsteller;
+                     Funktion: Verleger, Drucker; Lebensdaten: 1500-1564; Wirkungsort: Köln</note>
+               </person>
+               <person xml:id="Giolito_DeFerrari" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/132778890"><reg>Giolito De Ferrari,
+                        Gabriele</reg><surname>Giolito De
+                        Ferrari</surname><forename>Gabriele</forename></persName>
+                  <idno type="GND">132778890</idno>
+                  <birth resp="GND"><date when-iso="1510"/></birth>
+                  <death resp="GND"><date when-iso="1578"/></death>
+                  <note resp="GND">Beruf: Buchdrucker, Drucker; Charakteristischer Beruf:
+                     Buchhändler; Lebensdaten: 1510-1578; Wirkungsort: Venedig</note>
+               </person>
+               <person xml:id="Goinus_Antonius" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037593782"><reg>Goinus,
+                        Antonius</reg><surname>Goinus</surname><forename>Antonius</forename></persName>
+                  <idno type="GND">1037593782</idno>
+                  <birth resp="GND"><date when-custom="ca. 16. Jh." cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 16. Jh." cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Lebensdaten: ca. 16. Jh.;
+                     Wirkungsdaten: 1537-1544; Wirkungsort: Antwerpen</note>
+               </person>
+               <person xml:id="Gran_Heinrich" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/13764390X"><reg>Gran,
+                     Heinrich</reg></persName>
+               </person>
+               <person xml:id="Graphaeus_Joannes" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037542835"><reg>Grapheus,
+                        Joannes</reg><surname>Grapheus</surname><forename>Joannes</forename></persName>
+                  <idno type="GND">1037542835</idno>
+                  <birth resp="GND"><date when-custom="ca. 1502-1571" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="ca. 1502-1571" cert="unknown"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Lebensdaten: ca. 1502-1571;
+                     Wirkungsort: Antwerpen</note>
+               </person>
+               <person xml:id="Grimm_Siegmund" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/120441101"><reg>Grimm,
+                        Siegmund</reg><surname>Grimm</surname><forename>Siegmund</forename></persName>
+                  <idno type="GND">120441101</idno>
+                  <death resp="GND"><date when-iso="1530"/></death>
+                  <note resp="GND">Beruf: Apotheker, Humanist; Charakteristischer Beruf: Arzt;
+                     Funktion: Verleger; Lebensdaten: -1530; Wirkungsort: Augsburg</note>
+               </person>
+               <person xml:id="Gutknecht_Friedrich" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037537939"><reg>Gutknecht,
+                     Friedrich</reg></persName>
+               </person>
+               <person xml:id="Gymnich_Johann" role="publisher">
+                  <persName><reg>Gymnich,
+                        Johann</reg><surname>Gymnich</surname><forename>Johann</forename></persName>
+               </person>
+               <person xml:id="Herwagen_Johannes" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119707950"><reg>Herwagen,
+                        Johannes</reg><surname>Herwagen</surname><forename>Johannes</forename></persName>
+                  <idno type="GND">119707950</idno>
+                  <birth resp="GND"><date when-iso="1497"/></birth>
+                  <death resp="GND"><date when-iso="1558"/></death>
+                  <note resp="GND">Beruf: Verleger; Charakteristischer Beruf: Drucker; Geburtsort:
+                     Waderdingen &lt;Hegau&gt;; Lebensdaten: 1497-1558; Sterbeort: Basel;
+                     Wirkungsort: Straßburg, Basel</note>
+               </person>
+               <person xml:id="Hain_Gabriel" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119697203"><reg>Hain,
+                        Gabriel</reg><surname>Hain</surname><forename>Gabriel</forename></persName>
+                  <idno type="GND">119697203</idno>
+                  <note resp="GND">Beruf: Buchdrucker; Charakteristischer Beruf: Buchhändler;
+                     Wirkungsdaten: 1550-1564; Wirkungsort: Nürnberg</note>
+               </person>
+               <person xml:id="Hoffhalter_Raphael" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/133669041"><reg>Hoffhalter,
+                        Raphael</reg><surname>Hoffhalter</surname><forename>Raphael</forename></persName>
+                  <idno type="GND">133669041</idno>
+                  <birth resp="GND"><date when-iso="1525"/></birth>
+                  <death resp="GND"><date when-iso="1568"/></death>
+                  <note resp="GND">Beruf: Formschneider, Schriftgießer, Buchhändler, Drucker;
+                     Charakteristischer Beruf: Buchdrucker; Geburtsort: Posen; Lebensdaten:
+                     1525-1568; Sterbeort: Weissenburg; Wirkungsort: Wien, Debrecen</note>
+               </person>
+               <person xml:id="Hollnsteiner_Franz" role="bookbinder">
+                  <!-- hier fehlt GND-Eintrag -->
+                  <persName><reg>Hollnsteiner, Franz</reg>
+                  </persName>
+               </person>
+               <person xml:id="Johannes_deWestfalia" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/134108760"><reg>Johannes, de
+                     Westfalia</reg></persName>
+                  <persName type="Blotius">Ioannes de Westphalia</persName>
+               </person>
+               <person xml:id="Koepfel_Wolfgang" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/136129137"><reg>Köpfel,
+                        Wolfgang</reg><surname>Köpfel</surname><forename>Wolfgang</forename></persName>
+                  <idno type="GND">136129137</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <death resp="GND"><date when-iso="1554"/></death>
+                  <note resp="GND">Beruf: Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Geburtsort: Hagenau; Lebensdaten: 1500-1554; Wirkungsort: Straßburg</note>
+               </person>
+               <person xml:id="Kolbe_Andreas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037507835"><reg>Kolbe,
+                        Andreas</reg><surname>Kolbe</surname><forename>Andreas</forename></persName>
+                  <idno type="GND">1037507835</idno>
+                  <death resp="GND"><date when-iso="1566"/></death>
+                  <note resp="GND">Funktion: Drucker; Lebensdaten: -1566; Wirkungsort:
+                     Marburg</note>
+               </person>
+               <person xml:id="Konrad_von_Soest" role="author">
+                  <persName ref="http://d-nb.info/gnd/118565125">
+                     <reg>Konrad von Soest</reg>
+                  </persName>
+                  <idno type="GND">118565125</idno>
+                  <note resp="GND">Beruf: Maler; Charakteristischer Beruf: Künstler; Geburtsort:
+                     Dortmund; Lebensdaten: 1370-1422; Sterbeort: Dortmund; Wirkungsort:
+                     Dortmund</note>
+                  <birth resp="GND"><date when-iso="1370"/></birth>
+                  <death resp="GND"><date when-iso="1422"/></death>
+                  <note resp="GND">Beruf: Maler; Charakteristischer Beruf: Künstler; Geburtsort:
+                     Dortmund; Lebensdaten: 1370-1422; Sterbeort: Dortmund; Wirkungsort:
+                     Dortmund</note>
+               </person>
+               <person xml:id="Krafft_Johann_dÄ" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/128600691"><reg>Krafft,
+                     Johann</reg></persName>
+               </person>
+               <person xml:id="Kreutzer_Veit" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/130465003"><reg>Kreutzer,
+                        Veit</reg><surname>Kreutzer</surname><forename>Veit</forename></persName>
+                  <persName type="Blotius">Veyt Kreüzer</persName>
+                  <idno type="GND">130465003</idno>
+                  <death resp="GND"><date when-iso="1578"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Lebensdaten: -1578; Wirkungsort: Wittenberg</note>
+               </person>
+               <person xml:id="Lotter_Michael" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119747189"><reg>Lotter,
+                        Michael</reg><surname>Lotter</surname><forename>Michael</forename></persName>
+                  <idno type="GND">119747189</idno>
+                  <death resp="GND"><date when-iso="1554"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Lebensdaten: -1554; Wirkungsdaten: 1534-1545; Wirkungsort: Wittenberg,
+                     Magdeburg</note>
+               </person>
+               <!-- Hier fehlt ein Drucker -->
+               <person xml:id="Lufft_Hans" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/117313785"><reg>Lufft,
+                        Hans</reg><surname>Lufft</surname><forename>Hans</forename></persName>
+                  <idno type="GND">117313785</idno>
+                  <birth resp="GND"><date when-iso="1495"/></birth>
+                  <death resp="GND"><date when-iso="1584"/></death>
+                  <note resp="GND">Beruf: Bürgermeister, Buchhändler, Drucker; Charakteristischer
+                     Beruf: Buchdrucker; Exakte Lebensdaten: -02.09.1584; Geburtsort: Amberg;
+                     Lebensdaten: 1495-1584; Sterbeort: Wittenberg; Wirkungsort: Wittenberg,
+                     Königsberg</note>
+               </person>
+               <person xml:id="Mayer_Sebald" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/131895869"><reg>Mayer,
+                        Sebald</reg><surname>Mayer</surname><forename>Sebald</forename></persName>
+                  <idno type="GND">131895869</idno>
+                  <death resp="GND"><date when-iso="1576"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Lebensdaten: -1576;
+                     Wirkungsort: Ingolstadt, Dillingen a.d. Donau</note>
+               </person>
+               <person xml:id="Melantrich_Jiri" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119291398"><reg>Melantrich z Aventina,
+                        Jiří</reg></persName>
+               </person>
+               <person xml:id="Misinta_Bernardino" role="publisher">
+                  <!-- hier fehlt GND-Nummer-->
+                  <persName>
+                     <reg>Misinta, Bernardino</reg>
+                     <surname>Misinta</surname>
+                     <forename>Bernardino</forename>
+                  </persName>
+               </person>
+               <person xml:id="Morhart_Ulrich" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119767325">
+                     <reg>Morhart, Ulrich d.Ä.</reg>
+                     <surname>Morhart</surname>
+                     <forename>Ulrich d.Ä.</forename>
+                  </persName>
+                  <idno type="GND">119767325</idno>
+                  <birth resp="GND"><date when-iso="1490"/></birth>
+                  <death resp="GND"><date when-iso="1554"/></death>
+                  <note resp="GND">Beruf: Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Geburtsort: Augsburg; Lebensdaten: 1490-1554; Sterbeort: Tübingen;
+                     Wirkungsort: Straßburg, Tübingen</note>
+               </person>
+               <person xml:id="Morin_Romain" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037615212"><reg>Morin,
+                        Romain</reg><surname>Morin</surname><forename>Romain</forename></persName>
+                  <idno type="GND">1037615212</idno>
+                  <death resp="GND"><date when-iso="1560"/></death>
+                  <note resp="GND">Funktion: Verleger; Lebensdaten: -1560; Wirkungsort: Lyon</note>
+               </person>
+               <person xml:id="Mueller_Kraft" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/120988534"><reg>Müller,
+                        Kraft</reg><surname>Müller</surname><forename>Kraft</forename></persName>
+                  <idno type="GND">120988534</idno>
+                  <birth resp="GND"><date when-iso="1503"/></birth>
+                  <death resp="GND"><date when-iso="1547"/></death>
+                  <note resp="GND">Beruf: Gelehrter; Charakteristischer Beruf: Buchdrucker;
+                     Funktion: Drucker; Lebensdaten: 1503-1547; Wirkungsort: Straßburg</note>
+               </person>
+               <person xml:id="Neuber_Ulrich" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/123256038"><reg>Neuber,
+                        Ulrich</reg><surname>Neuber</surname><forename>Ulrich</forename></persName>
+                  <idno type="GND">123256038</idno>
+                  <death resp="GND"><date when-iso="1571"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker,
+                     Verleger; Lebensdaten: -1571; Wirkungsort: Nürnberg</note>
+               </person>
+               <person xml:id="Neuß_Melchior" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/129324531"><reg>von Neuß,
+                        Melchior</reg><surname>von
+                     Neuß</surname><forename>Melchior</forename></persName>
+                  <idno type="GND">129324531</idno>
+                  <birth resp="GND"><date when-iso="1525"/></birth>
+                  <death resp="GND"><date when-iso="1551"/></death>
+                  <note resp="GND">Beruf: Verleger; Charakteristischer Beruf: Drucker; Lebensdaten:
+                     1525-1551; Wirkungsort: Köln</note>
+               </person>
+               <person xml:id="Oporinus_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118736396"><reg>Oporinus,
+                        Johann</reg><surname>Oporinus</surname><forename>Johann</forename></persName>
+                  <idno type="GND">118736396</idno>
+                  <birth resp="GND"><date when-iso="1507"/></birth>
+                  <death resp="GND"><date when-iso="1568"/></death>
+                  <note resp="GND">Beruf: Drucker, Gräzist, Buchhändler, Gelehrter;
+                     Charakteristischer Beruf: Verleger; Exakte Lebensdaten: 25.01.1507-06.07.1568;
+                     Geburtsort: Basel; Lebensdaten: 1507-1568; Sterbeort: Basel; Wirkungsort:
+                     Basel</note>
+               </person>
+               <person xml:id="Oppaviensis_Martinus" role="author">
+                  <persName ref="http://d-nb.info/gnd/118782223"><reg>Oppaviensis,
+                        Martinus</reg><surname>Oppaviensis</surname><forename>Martinus</forename></persName>
+                  <idno type="GND">118782223</idno>
+                  <!--Wie mit unbekannten Daten umgehen?-->
+                  <birth resp="GND"><date when-custom="12XX-1278" cert="unknown"/></birth>
+                  <death resp="GND"><date when-custom="12XX-1278" cert="unknown"/></death>
+                  <note resp="GND">Beruf: Erzbischof; Charakteristischer Beruf: Chronist;
+                     Lebensdaten: 12XX-1278; Sterbeort: Bologna</note>
+               </person>
+               <person xml:id="Otmar_Silvan" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/129241172"><reg>Otmar,
+                        Silvan</reg><surname>Otmar</surname><forename>Silvan</forename></persName>
+                  <idno type="GND">129241172</idno>
+                  <birth resp="GND"><date when-iso="1481"/></birth>
+                  <death resp="GND"><date when-iso="1540"/></death>
+                  <note resp="GND">Beruf: Handwerker, Drucker; Charakteristischer Beruf:
+                     Buchdrucker; Geburtsort: Reutlingen; Lebensdaten: 1481-1540; Sterbeort:
+                     Reutlingen; Wirkungsort: Augsburg</note>
+               </person>
+               <person xml:id="Otmar_Valentin" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/138011745"><reg>Otmar,
+                        Valentin</reg><surname>Otmar</surname><forename>Valentin</forename></persName>
+                  <idno type="GND">138011745</idno>
+                  <death resp="GND"><date when-iso="1566"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Lebensdaten: -1566; Wirkungsort: Augsburg</note>
+               </person>
+               <person xml:id="Petri_Adam" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119784998"><reg>Petri,
+                        Adam</reg><surname>Petri</surname><forename>Adam</forename></persName>
+                  <idno type="GND">119784998</idno>
+                  <birth resp="GND"><date when-iso="1454"/></birth>
+                  <death resp="GND"><date when-iso="1527"/></death>
+                  <note resp="GND">Beruf: Drucker, Verleger, Buchhändler; Charakteristischer Beruf:
+                     Buchdrucker; Exakte Lebensdaten: XX.XX.1454-15.11.1527; Geburtsort: Langendorf;
+                     Lebensdaten: 1454-1527; Sterbeort: Basel; Wirkungsdaten: 1509-1528;
+                     Wirkungsort: Basel</note>
+               </person>
+               <person xml:id="Petri_Heinrich" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/124875130"><reg>Petri,
+                        Heinrich</reg><surname>Petri</surname><forename>Heinrich</forename></persName>
+                  <idno type="GND">124875130</idno>
+                  <birth resp="GND"><date when-iso="1508"/></birth>
+                  <death resp="GND"><date when-iso="1579"/></death>
+                  <note resp="GND">Beruf: Drucker, Verleger, Buchhändler, Politiker;
+                     Charakteristischer Beruf: Buchdrucker; Exakte Lebensdaten:
+                     XX.XX.1508-24.04.1579; Lebensdaten: 1508-1579; Wirkungsdaten: 1528-1579;
+                     Wirkungsort: Basel</note>
+               </person>
+               <person xml:id="Platter_Thomas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118594923"><reg>Platter,
+                        Thomas</reg><surname>Platter</surname><forename>Thomas</forename></persName>
+                  <idno type="GND">118594923</idno>
+                  <birth resp="GND"><date when-iso="1499"/></birth>
+                  <death resp="GND"><date when-iso="1582"/></death>
+                  <note resp="GND">Beruf: Drucker, Humanist; Charakteristischer Beruf: Gelehrter;
+                     Exakte Lebensdaten: 10.02.1499-26.01.1582; Geburtsort: Grächen; Lebensdaten:
+                     1499-1582; Sterbeort: Basel; Wirkungsort: Basel</note>
+               </person>
+               <person xml:id="Ramminger_Melchior" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/136735657"><reg>Ramminger,
+                     Melchior</reg></persName>
+               </person>
+               <person xml:id="Rhau_Georg" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/115690387"><reg>Rhau,
+                        Georg</reg><surname>Rhau</surname><forename>Georg</forename></persName>
+                  <idno type="GND">115690387</idno>
+                  <birth resp="GND"><date when-iso="1488"/></birth>
+                  <death resp="GND"><date when-iso="1548"/></death>
+                  <note resp="GND">Beruf: Kantor, Buchdrucker, Drucker, Verleger, Buchhändler,
+                     Herausgeber; Charakteristischer Beruf: Komponist; Exakte Lebensdaten:
+                     -06.08.1548; Geburtsort: Eisfeld; Lebensdaten: 1488-1548; Wirkungsort: Leipzig,
+                     Wittenberg</note>
+               </person>
+               <person xml:id="RhauGrunenberg_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1013553780"><reg>Rhau-Grunenberg,
+                        Johann</reg><surname>Rhau-Grunenberg</surname><forename>Johann</forename></persName>
+                  <idno type="GND">1013553780</idno>
+                  <note resp="GND">Beruf: Buchdrucker; Charakteristischer Beruf: Buchdrucker;
+                     Geburtsort: Grünberg; Wirkungsdaten: 1507-1527; Wirkungsort: Erfurt,
+                     Wittenberg</note>
+               </person>
+               <person xml:id="Richardus_Thomas" role="publisher">
+                  <!-- hier fehlt GND-ID -->
+                  <persName><reg>Richardus, Thomas</reg>
+                     <surname>Richardus</surname>
+                     <forename>Thomas</forename></persName>
+               </person>
+               <person xml:id="Rihel_Wendelin" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/102774307"><reg>Rihel,
+                        Wendelin</reg><surname>Rihel</surname><forename>Wendelin</forename></persName>
+                  <idno type="GND">102774307</idno>
+                  <death resp="GND"><date when-iso="1555"/></death>
+                  <note resp="GND">Beruf: Buchhändler, Drucker; Charakteristischer Beruf:
+                     Buchdrucker; Lebensdaten: -1555; Wirkungsdaten: 1535-1555; Wirkungsort:
+                     Straßburg</note>
+               </person>
+               <person xml:id="Roedinger_Christian" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119799162"><reg>Rödinger,
+                        Christian</reg><surname>Rödinger</surname><forename>Christian</forename></persName>
+                  <idno type="GND">119799162</idno>
+                  <death resp="GND"><date when-iso="1556"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Exakte Lebensdaten:
+                     -05.12.1556; Funktion: Drucker; Lebensdaten: -1556; Wirkungsort: Magdeburg,
+                     Jena</note>
+               </person>
+               <person xml:id="Roedinger_Christian_Erben" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/6145739-5"><reg>Christian Rödinger der Ältere
+                        Erben</reg></persName>
+                  <!-- Körperschaft -->
+               </person>
+               <person xml:id="Rynmann_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/12285487X"><reg>Rynmann,
+                     Johann</reg></persName>
+               </person>
+               <person xml:id="Sachse_Melchior" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/131635182"><reg>Sachse,
+                        Melchior</reg><surname>Sachse</surname><forename>Melchior</forename></persName>
+                  <idno type="GND">131635182</idno>
+                  <death resp="GND"><date when-iso="1551"/></death>
+                  <note resp="GND">Beruf: Buchhändler; Charakteristischer Beruf: Buchdrucker;
+                     Exakte Lebensdaten: -17.02.1551; Funktion: Drucker; Lebensdaten: -1551;
+                     Wirkungsort: Erfurt</note>
+               </person>
+               <person xml:id="Schneider_Andreas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037540964"><reg>Schneider,
+                     Andreas</reg></persName>
+               </person>
+               <person xml:id="Schott_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/138421315"><reg>Schott,
+                        Johann</reg><surname>Schott</surname><forename>Johann</forename></persName>
+                  <idno type="GND">138421315</idno>
+                  <death resp="GND"><date when-iso="1499"/></death>
+                  <note resp="GND">Beruf: Verleger, Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Exakte Lebensdaten: -22.11.1499; Geburtsort: Straßburg; Lebensdaten: -1499;
+                     Wirkungsdaten: 1481-1498; Wirkungsort: Straßburg</note>
+               </person>
+               <person xml:id="Seitz_Peter" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1012470210"><reg>Seitz, Peter der
+                     Ältere</reg></persName>
+               </person>
+               <person xml:id="Selfisch_Samuel" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/115849181"><reg>Selfisch,
+                     Samuel</reg></persName>
+               </person>
+               <person xml:id="Soter_Jakob" role="publisher">
+                  <!-- hier fehlt GND-ID -->
+                  <persName>
+                     <reg>Soter, Jakob</reg>
+                     <surname>Soter</surname>
+                     <forename>Jakob</forename>
+                  </persName>
+               </person>
+               <person xml:id="Soter_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119834731"><reg>Soter,
+                        Johann</reg><surname>Soter</surname><forename>Johann</forename></persName>
+                  <idno type="GND">119834731</idno>
+                  <death resp="GND"><date when-iso="1543"/></death>
+                  <note resp="GND">Beruf: Verleger, Papiermacher; Charakteristischer Beruf:
+                     Buchdrucker; Geburtsort: Bensheim; Lebensdaten: -1543; Wirkungsort: Köln,
+                     Solingen</note>
+               </person>
+               <person xml:id="Stuechs_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/13194553X"><reg>Stüchs,
+                        Johann</reg><surname>Stüchs</surname><forename>Johann</forename></persName>
+                  <idno type="GND">13194553X</idno>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Wirkungsdaten: 1509-1540; Wirkungsort: Nürnberg</note>
+               </person>
+               <person xml:id="Torrentino_Lorenzo" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037563697"><reg>Torrentino,
+                        Lorenzo</reg><surname>Torrentino</surname><forename>Lorenzo</forename></persName>
+                  <idno type="GND">1037563697</idno>
+                  <death resp="GND"><date when-iso="1563"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Geburtsort: Gemert;
+                     Lebensdaten: -1563; Wirkungsort: Florenz, Pescia</note>
+               </person>
+               <person xml:id="Tournes_Jean" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/100786227"><reg>Tournes de,
+                        Jean</reg><surname>Tournes de</surname><forename>Jean</forename></persName>
+                  <idno type="GND">100786227</idno>
+                  <birth resp="GND"><date when-iso="1504"/></birth>
+                  <death resp="GND"><date when-iso="1564"/></death>
+                  <note resp="GND">Beruf: Drucker, Verleger; Charakteristischer Beruf: Buchdrucker;
+                     Geburtsort: Lyon; Lebensdaten: 1504-1564; Wirkungsort: Lyon</note>
+               </person>
+               <person xml:id="Ulhart_Philipp_1" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/124461271"><reg>Ulhart,
+                        Philipp</reg><surname>Ulhart</surname><forename>Philipp</forename></persName>
+                  <idno type="GND">124461271</idno>
+                  <death resp="GND"><date when-iso="1567"/></death>
+                  <note resp="GND">Beruf: Drucker; Charakteristischer Beruf: Buchdrucker;
+                     Lebensdaten: -1567; Wirkungsort: Augsburg</note>
+               </person>
+               <person xml:id="Ulricher_Georg" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119854449"><reg>Ulricher,
+                        Georg</reg><surname>Ulricher</surname><forename>Georg</forename></persName>
+                  <idno type="GND">119854449</idno>
+                  <note resp="GND">Funktion: Drucker; Geburtsort: Andlau; Wirkungsdaten: 1529-1536;
+                     Wirkungsort: Straßburg</note>
+               </person>
+               <person xml:id="Vaclav_III_Boehmen" role="author">
+                  <persName ref="http://d-nb.info/gnd/133739961">
+                     <reg>Václav, III., Böhmen</reg>
+                  </persName>
+                  <idno type="GND">133739961</idno>
+                  <note resp="GND">Adelstitel: König; Exakte Lebensdaten: 06.10.1289-04.08.1306;
+                     Lebensdaten: 1289-1306</note>
+                  <birth resp="GND"><date when-iso="1289"/></birth>
+                  <death resp="GND"><date when-iso="1306"/></death>
+                  <note resp="GND">Adelstitel: König; Exakte Lebensdaten: 06.10.1289-04.08.1306;
+                     Lebensdaten: 1289-1306</note>
+               </person>
+               <person xml:id="Valgrisi_Vincenzo" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/103756751X"><reg>Valgrisi,
+                        Vincenzo</reg><surname>Valgrisi</surname><forename>Vincenzo</forename></persName>
+                  <idno type="GND">103756751X</idno>
+                  <birth resp="GND"><date when-iso="1495"/></birth>
+                  <death resp="GND"><date when-iso="1573"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Lebensdaten: 1495-1573;
+                     Wirkungsort: Rom, Venedig</note>
+               </person>
+               <person xml:id="Varisco_Giovanni" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037580079"><reg>Varisco,
+                        Giovanni</reg><surname>Varisco</surname><forename>Giovanni</forename></persName>
+                  <idno type="GND">1037580079</idno>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Wirkungsort: Venedig</note>
+               </person>
+               <person xml:id="Vegio_Leonardo" role="publisher">
+                  <!-- hier fehlt GND-Nummer -->
+                  <persName>
+                     <reg>Vegio, Leonardo</reg>
+                     <surname>Vegio</surname>
+                     <forename>Leonardo</forename>
+                  </persName>
+               </person>
+               <person xml:id="Vieillars_Nicolas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037641973"><reg>Vieillard,
+                     Nicolas</reg></persName>
+               </person>
+               <person xml:id="Vietor_Hieronmyus" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/128486554"><reg>Vietor,
+                     Hieronymus</reg></persName>
+               </person>
+               <person xml:id="Vitali_Bernardino" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/103623987X"><reg>Vitali,
+                        Bernardino</reg><surname>Vitali</surname><forename>Bernardino</forename></persName>
+                  <idno type="GND">103623987X</idno>
+                  <note resp="GND">Charakteristischer Beruf: Drucker; Wirkungsdaten: 1494-1539;
+                     Wirkungsort: Venedig, Rom, Neapel, Rimini</note>
+               </person>
+               <person xml:id="Voegelin_Ernst" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/128767561"><reg>Vögelin,
+                     Ernst</reg></persName>
+               </person>
+               <person xml:id="VomBerg_Johann" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/123255791"><reg>Vom Berg,
+                        Johann</reg><surname>Vom
+                     Berg</surname><forename>Johann</forename></persName>
+                  <idno type="GND">123255791</idno>
+                  <death resp="GND"><date when-iso="1563"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Exakte Lebensdaten:
+                     -07.08.1563; Funktion: Drucker; Geburtsort: Gent; Lebensdaten: -1563;
+                     Sterbeort: Nürnberg; Wirkungsdaten: 1541-1563; Wirkungsort: Paris,
+                     Nürnberg</note>
+               </person>
+               <person xml:id="Walther_Hans" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/1037498720"><reg>Walther,
+                        Hans</reg><surname>Walther</surname><forename>Hans</forename></persName>
+                  <idno type="GND">1037498720</idno>
+                  <birth resp="GND"><date when-iso="1500"/></birth>
+                  <note resp="GND">Funktion: Drucker; Lebensdaten: 1500-; Wirkungsort:
+                     Magdeburg</note>
+               </person>
+               <person xml:id="Weißenhorn_Alexander" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119865718"><reg>Weißenhorn,
+                     Alexander</reg></persName>
+               </person>
+               <person xml:id="Wirsung_Marx" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/120963507"><reg>Wirsung,
+                        Marx</reg><forename>Marx</forename></persName>
+                  <idno type="GND">120963507</idno>
+                  <death resp="GND"><date when-iso="1521"/></death>
+                  <note resp="GND">Beruf: Apotheker; Charakteristischer Beruf: Kaufmann; Funktion:
+                     Verleger; Lebensdaten: -1521</note>
+               </person>
+               <person xml:id="Wolff_Thomas" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119873915"><reg>Wolff,
+                        Thomas</reg><surname>Wolff</surname><forename>Thomas</forename></persName>
+                  <idno type="GND">119873915</idno>
+                  <birth resp="GND"><date when-iso="1485"/></birth>
+                  <death resp="GND"><date when-iso="1535"/></death>
+                  <note resp="GND">Beruf: Verleger; Charakteristischer Beruf: Drucker; Lebensdaten:
+                     1485-1535; Wirkungsdaten: 1503-1535; Wirkungsort: Basel</note>
+               </person>
+               <person xml:id="Wolrab_Nikolaus" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/119874571"><reg>Wolrab,
+                        Nikolaus</reg><surname>Wolrab</surname><forename>Nikolaus</forename></persName>
+                  <idno type="GND">119874571</idno>
+                  <death resp="GND"><date when-iso="1560"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Funktion: Drucker;
+                     Lebensdaten: -1560; Wirkungsort: Bautzen, Dresden, Frankfurt (Oder), Küstrin,
+                     Leipzig, Leipzig</note>
+               </person>
+               <person xml:id="Zaltieri_Bolognino" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/124797148"><reg>Zaltieri,
+                     Bolognino</reg></persName>
+               </person>
+               <person xml:id="Zimmermann_Michael" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/137834160"><reg>Zimmermann,
+                        Michael</reg><surname>Zimmermann</surname><forename>Michael</forename></persName>
+                  <idno type="GND">137834160</idno>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Wirkungsdaten: 1553-1565;
+                     Wirkungsort: Wien</note>
+               </person>
+               <person xml:id="Petrejus_Johannes" role="publisher">
+                  <persName ref="http://d-nb.info/gnd/118740334">
+                     <reg>Petrejus, Johannes</reg>
+                     <surname>Petrejus</surname>
+                     <forename>Johannes</forename>
+                  </persName>
+                  <idno type="GND">118740334</idno>
+                  <birth resp="GND"><date when-iso="1497"/></birth>
+                  <death resp="GND"><date when-iso="1550"/></death>
+                  <note resp="GND">Charakteristischer Beruf: Buchdrucker; Exakte Lebensdaten:
+                     XX.XX.1497-18.03.1550; Funktion: Drucker; Geburtsort: Elfershausen-Langendorf;
+                     Lebensdaten: 1497-1550; Sterbeort: Nürnberg; Wirkungsort: Nürnberg</note>
+               </person>
+               <person xml:id="Blotius_Hugo" role="author">
+                  <persName ref="http://d-nb.info/gnd/119310600">
+                     <reg>Blotius, Hugo</reg>
+                     <surname>Blotius</surname>
+                     <forename>Hugo</forename>
+                  </persName>
+                  <idno type="GND">119310600</idno>
+                  <birth resp="GND"><date when-iso="1533"/></birth>
+                  <death resp="GND"><date when-iso="1608"/></death>
+                  <note resp="GND">Beruf: Rechtsgelehrter, Hochschullehrer; Charakteristischer
+                     Beruf: Bibliothekar; Geburtsort: Delft; Lebensdaten: 1533-1608; Sterbeort:
+                     Wien; Wirkungsort: Wien</note>
+               </person>
+            </listPerson>
+         </div>
+      </body>
+   </text>
+</TEI>

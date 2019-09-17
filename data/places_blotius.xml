@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/tei_blotius.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="blo_REG_Places">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liste der Ortsnamen für die digitale Edition des Blotius Inventars</title>
+            <author>
+               <persName xml:id="MK" ref="https://orcid.org/0000-0002-8569-0340">
+                  <surname>Krickl</surname>
+                  <forename>Martin</forename>
+               </persName>
+               <persName xml:id="KK" ref="https://orcid.org/0000-0002-2993-5075">
+                  <surname>Kaska</surname>
+                  <forename>Katharina</forename>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>version 0.1</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref target="http://www.onb.ac.at">Austrian National Library</ref>
+               </orgName>
+               <address>
+                  <street>Josefsplatz 1</street>
+                  <postCode>1015</postCode>
+                  <settlement>Vienna</settlement>
+                  <country>Austria</country>
+               </address>
+            </publisher>
+            <pubPlace ref="http://www.geonames.org/2761369/">Vienna</pubPlace>
+            <date type="lastChanged">2019-04-24</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno type="PID">o:blo.reg-places</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+
+      <body>
+         <div>
+            <head>Ortsregister</head>
+
+            <p>Im Ortsregister werden sämtliche ermittelten Orte ausgegeben. Diese umfassen sowohl
+               sämtliche in der Transkription des Inventars ausgewiesenen Orte (meist Druckorte),
+               als auch sämtliche Orte der Bibliografie. Insbesondere in Bezug auf die geographische
+               Einschränkung der Entstehung von Handschriften können auch Regionen angegeben sein,
+               wenn eine nähere Einschränkung (vorerst) nicht zutreffend ist. Sämtliche Orte und
+               Regionen werden vermittels Identifikatoren aus <ref target="#http://www.geonames.org"
+                  >Geonames</ref> referenziert und in einer Kartenansicht lokalisiert. </p>
+            <listPlace xml:id="blo_places">
+               <place xml:id="Antwerpen">
+                  <placeName xml:lang="de">Antwerpen</placeName>
+                  <placeName xml:lang="fr">Anvers</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">51.21989 4.40346</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2803138</idno>
+               </place>
+               <place xml:id="Augsburg">
+                  <placeName xml:lang="de">Augsburg</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.37154 10.89851</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2954172</idno>
+               </place>
+               <place xml:id="Basel">
+                  <placeName xml:lang="de">Basel</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">47.55839 7.57327</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2661604</idno>
+               </place>
+               <place xml:id="Bayern">
+                  <placeName xml:lang="de">Bayern</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">49.0 11.5</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">2951839</idno>
+               </place>
+               <place xml:id="Berlin">
+                  <placeName xml:lang="de">Berlin</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">52.52437 13.41053</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2950159</idno>
+               </place>
+               <place xml:id="Boehmen" xml:lang="de">
+                  <placeName>Böhmen</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.0 14.5</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">3078198</idno>
+               </place>
+               <place xml:id="Brescia">
+                  <placeName xml:lang="de">Brescia</placeName>
+                  <placeName xml:lang="">Brixia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">45.53558 10.21472</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3181554</idno>
+               </place>
+               <place xml:id="Bestwina">
+                  <placeName xml:lang="de">Bestwina</placeName>
+                  <location>
+                     <geo decls="#WGS"/>
+                  </location>
+                  <idno type="geonames">3103656</idno>
+               </place>
+               <place xml:id="Deutschland">
+                  <placeName xml:lang="de">Deutschland</placeName>
+                  <idno cert="low" type="geonames">2921044</idno>
+               </place>
+               <place xml:id="Dillingen">
+                  <placeName xml:lang="de">Dillingen</placeName>
+                  <placeName xml:lang="">Dillingae</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.58153 10.49527</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2936974</idno>
+               </place>
+               <place xml:id="Erfurt">
+                  <placeName xml:lang="de">Erfurt</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.9787 11.03283</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2929670</idno>
+               </place>
+               <place xml:id="Florenz">
+                  <placeName xml:lang="de">Florenz</placeName>
+                  <placeName xml:lang="it">Firenze</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">43.77925 11.24626</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3176959</idno>
+               </place>
+               <place xml:id="Frankreich">
+                  <placeName xml:lang="de">Frankreich</placeName>
+                  <location>
+                     <geo decls="#WGS"/>
+                  </location>
+                  <idno type="geonames"/>
+               </place>
+               <place xml:id="Frankfurt_Main">
+                  <placeName xml:lang="de">Frankfurt am Main</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.11552 8.68417</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2925533</idno>
+               </place>
+               <place xml:id="St_Gallen">
+                  <placeName xml:lang="de">St. Gallen</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">4742391 9.37477</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2658822</idno>
+               </place>
+               <place xml:id="Genf">
+                  <placeName xml:lang="de">Genf</placeName>
+                  <placeName xml:lang="">Geneva</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">46.20222 6.14569</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2660646</idno>
+               </place>
+               <place xml:id="Goerlitz">
+                  <placeName xml:lang="de">Görlitz</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">51.15518 14.98853</geo>
+                  </location>
+                  <idno cert="high" type="geonames">2918987</idno>
+               </place>
+               <place xml:id="Hagenau">
+                  <placeName xml:lang="de">Hagenau</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">48.82 7.78</geo>
+                  </location>
+                  <idno cert="high" type="geonames">3014078</idno>
+               </place>
+               <place xml:id="Heidelberg">
+                  <placeName xml:lang="de">Heidelberg</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">49.95052 8.29032</geo>
+                  </location>
+                  <idno cert="high" type="geonames">2907930</idno>
+               </place>
+               <place xml:id="Heilsbronn">
+                  <placeName xml:lang="de">Heilsbronn</placeName>
+                  <location>
+                     <geo decls="#WGS">49.33572 10.78741</geo>
+                  </location>
+                  <idno type="geonames">2907488</idno>
+               </place>
+               <!-- TODO geonames -->
+               <place xml:id="Innsbruck">
+                  <placeName xml:lang="de">Innsbruck</placeName>
+                  <location>
+                     <geo decls="#WGS">47.26266 11.39454</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">Innsbruck</idno>
+               </place>
+               <place xml:id="Italien">
+                  <placeName xml:lang="de">Italien</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">42.83333 12.83333</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">3175395</idno>
+               </place>
+               <place xml:id="Jena">
+                  <placeName xml:lang="de">Jena</placeName>
+                  <placeName xml:lang="">Jhena</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.92878 11.5899</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2895044</idno>
+               </place>
+               <place xml:id="Krakau">
+                  <placeName xml:lang="de">Krakau</placeName>
+                  <placeName xml:lang="la">Cracovia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.06143 19.93658</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3094802</idno>
+               </place>
+               <place xml:id="Koeln">
+                  <placeName xml:lang="de">Köln</placeName>
+                  <placeName xml:lang="la">Colonia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.93333 6.95</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2886242</idno>
+               </place>
+               <place xml:id="Leipzig">
+                  <placeName xml:lang="de">Leipzig</placeName>
+                  <placeName xml:lang="la">Lipsia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">51.33962 12.37129</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2879139</idno>
+               </place>
+               <place xml:id="Logrono">
+                  <placeName xml:lang="de">Logrono</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">42.46667 -2.45</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3118150</idno>
+               </place>
+               <place xml:id="Loewen">
+                  <placeName xml:lang="de">Löwen</placeName>
+                  <placeName xml:lang="">Lovanii</placeName>
+                  <placeName xml:lang="">Lovanij</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.87959 4.70093</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2792482</idno>
+               </place>
+               <place xml:id="Lyon">
+                  <placeName xml:lang="de">Lyon</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">45.74846 4.84671</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2996944</idno>
+               </place>
+               <place xml:id="Magdeburg">
+                  <placeName xml:lang="de">Magdeburg</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">52.12773 11.62916</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2874545</idno>
+               </place>
+               <place xml:id="Mailand">
+                  <placeName xml:lang="de">Mailand</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">45.46427 9.18951</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3173435</idno>
+               </place>
+               <place xml:id="Mainz">
+                  <placeName xml:lang="de">Mainz</placeName>
+                  <placeName xml:lang="la">Moguntia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">49.98419 8.2791</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2874225</idno>
+               </place>
+               <place xml:id="Mantua">
+                  <placeName xml:lang="de">Mantua</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">45.16031 10.79784</geo>
+                  </location>
+                  <idno cert="high" type="geonames">3174051</idno>
+               </place>
+               <place xml:id="Marburg">
+                  <placeName xml:lang="de">Marburg</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.80904 8.77069</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2873759</idno>
+               </place>
+               <place xml:id="Neisse">
+                  <placeName xml:lang="de">Neisse</placeName>
+                  <placeName xml:lang="po">Nysa</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">50.47379 17.33437</geo>
+                  </location>
+                  <idno cert="high" type="geonames">3090436</idno>
+               </place>
+               <place xml:id="Neuburg">
+                  <placeName xml:lang="de">Neuburg an der Donau</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.73218 11.18709</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2866070</idno>
+               </place>
+               <place xml:id="Nijmegen">
+                  <placeName xml:lang="du">Nijmegen</placeName>
+                  <placeName xml:lang="la">Neomagium</placeName>
+                  <location>
+                     <geo cert="medium" decls="#WGS">51.83 5.87</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">2750053</idno>
+               </place>
+               <place xml:id="Nuernberg">
+                  <placeName xml:lang="de">Nürnberg</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">49.45421 11.07752</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2861650</idno>
+               </place>
+               <place xml:id="Oesterreich">
+                  <placeName xml:lang="de">Österreich</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">47.33333 13.33333</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">2782113</idno>
+               </place>
+               <place xml:id="Padua">
+                  <placeName xml:lang="de">Padua</placeName>
+                  <location>
+                     <geo decls="#WGS"/>
+                  </location>
+                  <idno type="geonames">3171728</idno>
+               </place>
+               <place xml:id="Paris">
+                  <placeName xml:lang="de">Paris</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.85341 2.3488</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2988507</idno>
+               </place>
+               <place xml:id="Pforzheim">
+                  <placeName xml:lang="de">Pforzheim</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.88436 8.69892</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2853969</idno>
+               </place>
+               <place xml:id="Prag">
+                  <placeName xml:lang="de">Prag</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">50.08804 14.42076</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3067696</idno>
+               </place>
+               <place xml:id="Regensburg">
+                  <placeName xml:lang="de">Regensburg</placeName>
+                  <placeName xml:lang="la">Ratisbona</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">49.01681 12.09536</geo>
+                  </location>
+                  <idno cert="low" type="geonames">6556611</idno>
+               </place>
+               <place xml:id="Rom">
+                  <placeName xml:lang="de">Rom</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">41.89193 12.51133</geo>
+                  </location>
+                  <idno cert="high" type="geonames">3169070</idno>
+               </place>
+               <place xml:id="Reichenau">
+                  <placeName xml:lang="de">Reichenau</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">47.69336 9.0675</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2849191</idno>
+               </place>
+               <place xml:id="Rouen">
+                  <placeName xml:lang="de">Rouen</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">49.44313 1.09932</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2982652</idno>
+               </place>
+               <place xml:id="Salamanca">
+                  <placeName xml:lang="de">Salamanca</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">40.96882 -5.66388</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3111108</idno>
+               </place>
+               <place xml:id="Solingen">
+                  <placeName xml:lang="de">Solingen</placeName>
+                  <placeName xml:lang="">Salingiaci</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">51.17343 7.0845</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2831580</idno>
+               </place>
+               <place xml:id="Straßburg">
+                  <placeName xml:lang="de">Straßburg</placeName>
+                  <placeName xml:lang="la">Argentorate</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.58392 7.74553</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2973783</idno>
+               </place>
+               <place xml:id="Steinbach">
+                  <placeName xml:lang="de">Steinbach</placeName>
+                  <!-- <location>-->
+                  <!--                     <geo decls="#WGS"></geo>
+                  </location> Welches Steinbach?
+                  <idno type="geonames"></idno>-->
+               </place>
+               <place xml:id="Sueditalien">
+                  <placeName xml:lang="de">Süditalien</placeName>
+                  <location>
+                     <geo decls="#WGS"/>
+                  </location>
+                  <idno type="geonames"/>
+               </place>
+               <place xml:id="Toulouse">
+                  <placeName xml:lang="de">Toulouse</placeName>
+                  <location>
+                     <geo cert="medium" decls="#WGS">43.60426 1.44367</geo>
+                  </location>
+                  <idno cert="medium" type="geonames">2972315</idno>
+               </place>
+               <place xml:id="Tuebingen">
+                  <placeName xml:lang="de">Tübingen</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.52266 9.05222</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2820860</idno>
+               </place>
+               <place xml:id="Valencia">
+                  <placeName xml:lang="de">Valencia</placeName>
+                  <location>
+                     <geo cert="high" decls="#WGS">39.46975 -0.37739</geo>
+                  </location>
+                  <idno cert="high" type="geonames">2509954</idno>
+               </place>
+               <place xml:id="Venedig">
+                  <placeName xml:lang="de">Venedig</placeName>
+                  <placeName xml:lang="">Venetijs</placeName>
+                  <placeName xml:lang="">Venezia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">45.43713 12.33265</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3164603</idno>
+               </place>
+               <place xml:id="Wesel">
+                  <placeName xml:lang="de">Wesel</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">51.6669 6.62037</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2810678</idno>
+               </place>
+               <place xml:id="Wien">
+                  <placeName xml:lang="de">Wien</placeName>
+                  <placeName xml:lang="">Vienna</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">48.20849 16.37208</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2761369</idno>
+               </place>
+               <place xml:id="Wittenberg">
+                  <placeName xml:lang="de">Wittenberg</placeName>
+                  <placeName xml:lang="">Vitebergae</placeName>
+                  <placeName xml:lang="">Witebergae</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">51.8661 12.64973</geo>
+                  </location>
+                  <idno cert="low" type="geonames">7303020</idno>
+               </place>
+               <place xml:id="Bern">
+                  <placeName xml:lang="de">Bern</placeName>
+                  <placeName xml:lang="">Berna</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">46.94809 7.44744</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2661552</idno>
+               </place>
+               <place xml:id="Perugia">
+                  <placeName xml:lang="de">Perugia</placeName>
+                  <placeName xml:lang="">Perusia</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">43.1122 12.38878</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3171180</idno>
+               </place>
+               <place xml:id="Vercelli">
+                  <placeName xml:lang="de">Vercelli</placeName>
+                  <placeName xml:lang="">Vercellis</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">45.32163 8.41989</geo>
+                  </location>
+                  <idno cert="low" type="geonames">3164565</idno>
+               </place>
+               <place xml:id="Zuerich">
+                  <placeName xml:lang="de">Zürich</placeName>
+                  <location>
+                     <geo cert="low" decls="#WGS">47.36667 8.55</geo>
+                  </location>
+                  <idno cert="low" type="geonames">2657896</idno>
+               </place>
+            </listPlace>
+         </div>
+      </body>
+   </text>
+</TEI>
