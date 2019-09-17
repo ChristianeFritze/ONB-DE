@@ -11,14 +11,14 @@
    <div id="TEI"></div>
    <!-- <script>
      var CETEIcean = new CETEI()
-     CETEIcean.getHTML5("data/TB_1950.02.13-1950.02.28.xml", function(data) {
+     CETEIcean.getHTML5("data/TB_1950.02.13-1950.02.28.xmlBlotius_Inventar_1576.xml", function(data) {
       document.getElementById("TEI").appendChild(data)
      })
    </script> -->
    <script>
      var CETEIcean = new CETEI()
      CETEIcean.addBehaviors({
-     handlers: {
+     "tei": {
        "teiHeader": null,
        /* kompliziertre Lösung */
        "head": function(e) {
@@ -31,7 +31,7 @@
      }
    })
 
-     CETEIcean.getHTML5("data/Blotius_Inventar_1576.xml", function(data) {
+     CETEIcean.getHTML5("data/TB_1950.02.13-1950.02.28.xml", function(data) {
       document.getElementById("TEI").appendChild(data)
      })
    </script>
